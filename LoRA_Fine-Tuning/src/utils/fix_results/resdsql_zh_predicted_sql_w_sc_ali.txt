@@ -1,0 +1,1000 @@
+select b.fundtype , count(*) from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode where a.indexcycle = '一个月' and a.fundreturn > 0 group by b.fundtype
+select b.secuabbr ,b.investorientation from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.benchgrforthisweek>0;
+select shname from lc_largeshsubscription where strftime('%Y' , initialinfopubldate)= '2017' order by actualshares desc limit 1;
+select shname from lc_largeshsubscription where actualshares>500000 and oughtshares>500000;
+select a.chinameabbr , b.leadername , b.positiondescription from lc_sharetransfer as a join lc_executivesholdings as b on a.companycode = b.companycode order by a.pctbeforetran desc limit 5
+select proportiongrhalfayear from lc_shnumber where chinameabbr= '兴业证券';
+select grossprofit from lc_mainoperincome where chinameabbr = '西藏发展' and strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-2 year'));
+select a.chinameabbr , a.fpshname , a.accupctofpled from lc_sharefpsta as a join lc_exgindustry as b on a.companycode = b.companycode where b.firstindustryname = '房地产业'
+select b.chinesename , b.investadvisorname from mf_managerexperience as a join mf_managerexperience as b on a.personalcode = b.personalcode where a.education = '本科'
+select b.chinesename ,b.education from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode=b.personalcode where a.qdiinv>200;
+select chinameabbr from lc_stockarchives where generalmanager= '孙健';
+select fundmanager , fund from mf_awards where appraisalorg = '证券时报';
+select b.secuabbr ,b.manager from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '兴业转债';
+select a.chinameabbr , b.controllername from lc_stockarchives as a join lc_actualcontroller as b on a.companycode = b.companycode where b.secucode like '00%';
+select a.chinesename , a.maxret from mf_fmperfanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where b.education = '博士' and a.indexcycle = '一年';
+select b.secuabbr ,b.manager from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode order by a.bondabbr desc limit 10;
+select a.totalrdinput from lc_intassetsdetail as a join lc_stockarchives as b on a.companycode=b.companycode where strftime('%Y' , a.enddate)= '2018' and b.state= '浙江省';
+select b.type , count(*) from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode where a.indexcycle = '成立以来' and a.fundreturnmean > 0 group by b.type
+select a.fullname ,b.shname from lc_issueandlistagent as a join lc_largeshsubscription as b on a.companycode=b.companycode where a.chinameabbr= '天健集团';
+select count(*) from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode where a.mainopercost < 100000000;
+select a.secucode , b.secretarybd , b.secretarybdtel from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where a.conceptname = '东数西算' ;
+select investmenttype , avg(foundedsize) from mf_fundarchives group by investmenttype;
+select controllername from lc_actualcontroller where controllername = '赵马克';
+select tradingday , turnovervolume from qt_dailyquote where secucode = '601908';
+select a.secuabbr , b.secretarybd , b.secretarybdtel from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where a.conceptname = '3D玻璃' ;
+select accumulatedunitnv , nvdailygrowthrate from mf_netvalue ;
+select a.chinameabbr from lc_dividend as a join lc_stockarchives as b on a.companycode = b.companycode where strftime('%Y' , a.dividendimplementdate)>'2010';
+select count(*) from mf_fundreturnrank where fundreturn < 0 and fundannreturn < 0
+select a.name from mf_fundmanagernew as a join mf_fundrisklevel as b on a.innercode = b.innercode where b.risklevel = '中低' group by a.name having count(*) > 5
+select secuabbr from mf_benchmarkgrowthrate where benchgrfor3year>0;
+select chinameabbr , enddate from qt_monthdata where pb < 5 and pettm > 200;
+select count(*) from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.totalfundnv > 100 and b.education = '本科'
+select count(*) from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode where strftime('%Y' , a.enddate)= '2020' and grossprofit > 1
+select investadvisorabbrname from mf_investadvisoroutline where strftime('%Y' , establishmentdate)>'2010';
+select a.secuabbr , b.secretarybd from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where a.conceptname = '大飞机' ;
+select b.education from mf_fmperfanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.annalphacoef > 0.2 group by b.education having count(*) > 5
+select investadvisorabbrname from mf_investadvisoroutline where legalrepr like '周%';
+select a.secuabbr from mf_fundrisklevel as a join mf_fundarchives as b on a.innercode = b.innercode where a.risklevel = '中低' and b.type = '开放式'
+select a.chinesename ,b.briefintro from mf_fmscaleanalysisn as a join mf_fundarchives as b on a.personalcode=b.personalcode where a.numberoffunds>5;
+select a.mainoperincome , a.mainincomegrowrateyoy from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode where a.mainincomegrowrateyoy > 0 and a.chinameabbr = '古井贡酒';
+select a.chinesename , b.education from mf_fmretscaleanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.timeinterval = '今年以来' order by a.avgaum desc limit 3
+select a.chinameabbr from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode where strftime('%Y' , a.enddate)= '2020' and b.grossprofit > 1
+select bonusshareratio from lc_dividend where chinameabbr = '京基智农' or chinameabbr = '天健集团';
+select shname from lc_largeshsubscription where oughtshares>2000000;
+select shname , actualshares from lc_largeshsubscription where chinameabbr= '同济科技';
+select a.organizationform , count(*) from mf_investadvisoroutline as a join mf_fundarchives as b on a.innercode = b.innercode group by a.organizationform order by count(*) desc;
+select shname ,actualshares from lc_largeshsubscription where chinameabbr= '杉杉集团';
+select investadvisorabbrname from mf_investadvisoroutline order by regcapital desc limit 1;
+select a.secuabbr from mf_fundrisklevel as a join mf_fundarchives as b on a.innercode = b.innercode where a.risklevel = '中低' and b.investmenttype= '成长型—稳健成长型'
+select shname , shinvestsum from lc_relatedsh where chinameabbr = '航天发展' and strftime('%Y' , enddate)= '2019' and strftime('%m' , enddate)= '5'
+select a.fullname ,b.legalrepr ,b.shname ,b.actualshares from lc_issueandlistagent as a join lc_stockarchives as b on a.companycode=b.companycode where a.chinameabbr= '东阿阿胶';
+select avgholdsumgrhalfayear from lc_shnumber where chinameabbr= '工商银行';
+select count(*) from mf_fundrisklevel as a join mf_fundarchives as b on a.innercode = b.innercode where a.risklevel = '中' and b.investmenttype= '综合型'
+select b.secuabbr ,b.manager from mf_fcretscaleanalysis as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '21国债01' order by a.numberoffunds desc limit 1;
+select state ,city ,astockcode from lc_stockarchives where chinameabbr= '天娱数科';
+select b.secuabbr ,b.manager ,b.type from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode order by a.benchgrforthisweek desc limit 10;
+select b.secuabbr from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where b.type= '股票型' and a.benchgrfor2year<0;
+select mainoperprofit , mainopercost from lc_mainoperincome where secucode = '000822' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) ;
+select investadvisorname from mf_fundarchives where trusteename= '中信银行股份有限公司' order by trusteename desc limit 1;
+select mainincomegrowrateyoy from lc_mainoperincome where mainincomegrowrateyoy < 0 and strftime('%Y' , enddate)>'2020';
+select a.chinameabbr , a.generalmanager from lc_stockarchives as a join lc_freefloat as b on a.companycode = b.companycode where b.totalashare > 10000000000
+select unitnv , nvweeklygrowthrate from mf_netvalue ;
+select b.risklevel , count(b.secuabbr) from mf_fundmanagernew as a join mf_fundrisklevel as b on a.innercode = b.innercode where a.performance > 0 group by b.risklevel
+select bondfundn , bondfundnv from mf_fmscaleanalysisn where chinesename = '陈龙';
+select secuabbr from mf_benchmarkgrowthrate where benchgrforthisweek>5;
+select proportiongrquarter from lc_shnumber where strftime('%Y' , enddate)= '2020' and chinameabbr= '金禾实业';
+select a.secuabbr , b.riskreturncharacter from mf_fundrisklevel as a join mf_fundarchives as b on a.innercode = b.innercode where a.risklevel = '中'
+select secucode from lc_mainoperincome where grossprofit >1 and strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-3 year'));
+select secuabbr from mf_benchmarkgrowthrate where benchgrfor10year>200;
+select investadvisorname ,hybridfundn from mf_fmscaleanalysisn order by hybridfundn desc limit 1;
+select investadvisorabbrname from mf_investadvisoroutline where regcapital > 2000000000 and strftime('%Y' , establishmentdate)>'2015';
+select count(*) from lc_sharefp where receivername = '中国进出口银行';
+select legalrepr from mf_investadvisoroutline where investadvisorabbrname = '中银基金';
+select a.mainbusiness from lc_business as a join lc_business as b on a.mainbusiness = b.mainbusiness where b.chinameabbr = '深科技'
+select a.secucode , b.legalrepr , b.officeaddr from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where a.conceptname = '边缘计算' ;
+select chinameabbr ,astockcode from lc_stockarchives where state= '新疆';
+select a.fullname ,a.fullname from lc_issueandlistagent as a join lc_stockarchives as b on a.companycode=b.companycode where b.chinameabbr= '武汉控股';
+select_, count(secuabbr) from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode and b.indexcycle = '六个月' and a.fundreturnmean < 0 group by b.type
+select a.secuabbr from mf_fundrisklevel as a join mf_fundarchives as b on a.innercode = b.innercode where a.risklevel = '中高' and b.type= '开放式'
+select issuevolfloor , issuevolceiling from lc_ashareseasonednewissue where secucode = '002305';
+select secuabbr from mf_fundreturnrank where indexcycle = '六个月' order by fundreturn desc limit 1
+select netinterestexpense from lc_financialexpense where chinameabbr = '八方股份' and strftime('%Y' , enddate) < '2017'
+select chinameabbr , bonusshareratio from lc_dividend order by bonusshareratio desc limit 1;
+select chinameabbr from lc_dividend order by bonusshareratio desc limit 1;
+select shname from lc_largeshsubscription where chinameabbr= '广州浪奇';
+select a.name , a.performance from mf_fundmanagernew as a join mf_fundarchives as b on a.innercode = b.innercode where b.secumarket = '上海期货交易所'
+select b.chinameabbr , b.controllername from lc_stockarchives as a join lc_actualcontroller as b on a.companycode like '6%';
+select shname , holdingsum from lc_relatedsh where chinameabbr = '农发种业' and strftime('%Y' , enddate)<'2019';
+select count(*) from lc_mainoperincome where grossprofit >1 and strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-3 year'));
+select b.background from mf_fundmanagernew as a join mf_personalinfo as b on a.personalcode = b.personalcode where performance < 0 and managementtime > 200
+select a.chinesename , b.education , b.experiencetime from mf_fmretscaleanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.weightedavgmonreturn > 0
+select risklevel from mf_fundrisklevel where secuabbr = '国金50'
+select investadvisorabbrname , establishmentdate from mf_investadvisoroutline where investadvisorabbrname = '大成基金' or investadvisorabbrname = '兴银基金';
+select state ,city ,establishmentdate from lc_stockarchives where chinameabbr= '同仁堂';
+select b.manager ,a.marketvalue from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '博世转债';
+select_from_where strftime(_) =_and round(strftime(%m' ,enddate)/3.0 + 0.495) = 2 and chinameabbr = '京基智农'
+select secucode from qt_monthdata where pb < 1 and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) and strftime('%m' , enddate)= '1';
+select benchgrfor6month from mf_benchmarkgrowthrate where secuabbr= '易方达中盘ETF';
+select a.chinesename , b.birthdate from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode=b.personalcode order by a.bondfundnv desc limit 10;
+select a.chinameabbr from lc_intassetsdetail as a join lc_stockarchives as b on a.companycode=b.companycode where strftime('%Y' , a.enddate)=strftime('%Y' , date('now' , '-1 year')) and totalrdinput>100000000;
+select investadvisorname from mf_fundarchives where trusteename= '北京银行股份有限公司';
+select secuabbr ,manager from mf_fmscaleanalysisn where investadvisorname= '合煦智远基金管理有限公司';
+select b.secuabbr ,b.manager from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode order by a.benchgrfor1year desc limit 10;
+select chiname ,astockcode from lc_stockarchives where chinameabbr= '德美化工';
+select b.secuabbr ,b.investfield from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.dailybenchgr>0;
+select count(*) from lc_sharesfloatingschedule where proportion1 < 20
+select secuabbr from mf_benchmarkgrowthrate order by benchgrfor3month desc limit 10;
+select a.chinesename , b.education from mf_fmretscaleanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.avgaum < 20 and a.fundtypename = '股票型'
+select_from_where strftime(_) =_and round(strftime(%m' ,enddate)/3.0 + 0.495) = 4 and chinameabbr = '京基智农'
+select education , gender , count(*) from mf_personalinfo group by education , gender;
+select b.investadvisorname , count(*) from mf_investindustry as a join mf_fundarchives as b on a.innercode = b.innercode where a.industryname = '行业股票-金融地产' group by b.investadvisorname ;
+select shname , secucode from lc_relatedsh where shinvestsum > 10000000 and strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-2 year'));
+select b.secuabbr ,a.dailybenchgr from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where b.type= 'LOF';
+select a.chinameabbr from lc_relatedsh as a join lc_stockarchives as b on a.companycode = b.companycode where strftime('%Y' , a.enddate)= '2010' and strftime('%m' , a.shinvestsum)= '100000000' and strftime('%m' , a.enddate)= '5' and b.shinvestsum > 100000000
+select shname from lc_largeshsubscription where secucode= '000686';
+select b.secuabbr ,b.manager from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '百润转债' order by a.marketvalue desc limit 1;
+select b.education from mf_fmperfanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.annsortinor > 2 group by b.education having count(*) > 10
+select a.totalaumtypeavg from mf_fmretandscalerank as a join mf_personalinfo as b on a.personalcode = b.personalcode where b.education = '本科'
+select chinameabbr from lc_shnumber where avgholdsumgrquarter>5;
+select a.businessmajor , a.industryname from lc_business as a join lc_business as b on a.companycode = b.companycode where b.chinameabbr = '浙大网新'
+select shname from lc_largeshsubscription where secucode= '600165';
+select a.name , a.performance from mf_fundmanagernew as a join mf_fundrisklevel as b on a.innercode = b.innercode where b.risklevel = '中高' and a.incumbent = '任职期间'
+select bonusshareratio , cashdivirmb from lc_dividend where secucode = '000552';
+select b.type , count(*) from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode where a.rrinsingleyear > 20 group by b.type;
+select a.fullname ,b.shname from lc_issueandlistagent as a join lc_largeshsubscription as b on a.companycode=b.companycode where a.chinameabbr= '天健集团';
+select secuabbr from mf_benchmarkgrowthrate where benchgrfor7year>200;
+select b.secuabbr ,b.manager ,a.benchgrfor6month from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.benchgrfor6month>0;
+select enddate , mainoperincome from lc_mainoperincome where chinameabbr = '中国石化' and mainoperincome > 200000000000;
+select count(*) from lc_relatedsh as a join lc_stockarchives as b on a.companycode = b.companycode where strftime('%Y' , a.enddate)= '2020' and strftime('%m' , a.shinvestsum)= '100000000' and strftime('%m' , enddate)= '3' and b.shinvestsum > 100000000
+select count(*) from mf_fundarchives where secuabbr= '基础设施证券投资基金' and strftime('%Y' , startdate)= '2021' and strftime('%m' , startdate)= '5'
+select b.manager ,b.investadvisorname ,a.totalfundnv from mf_fmscaleanalysisn as a join mf_fundarchives as b on a.chinesename=b.manager where a.equityfundnv>50;
+select b.secuabbr ,b.manager ,b.performance from mf_benchmarkgrowthrate as a join mf_fundmanagernew as b on a.innercode=b.innercode order by a.weeklybenchgr desc limit 10;
+select b.investadvisorname ,a.qdiin from mf_advisorscalerank as a join mf_fundarchives as b on a.innercode=b.innercode group by b.investadvisorname;
+select b.secuabbr ,b.investtarget from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode order by a.benchgrforthisweek desc limit 10;
+select a.chinameabbr from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode where strftime('%Y' , a.enddate)= '2020' and b.state = '浙江省' order by a.mainopercost desc limit 1;
+select secuabbr from mf_benchmarkgrowthrate order by benchgrforthisquarter desc limit 10;
+select b.chinesename ,b.gender ,b.education from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode=b.personalcode where a.equityfundnv>100;
+select chinameabbr , mainbusiness from lc_business where chinameabbr = '南华生物' or chinameabbr = '浙大网新'
+select rrinselectedmonth , rrinsinglemonth from mf_netvalueperformancehis where secuabbr = '天弘恒享';
+select legalrepr ,generalmanager from lc_stockarchives where astockcode= '600135';
+select a.chinameabbr , a.city , a.generalmanager from lc_stockarchives as a join lc_exgindustry as b on a.companycode = b.companycode where b.firstindustryname = '制造业'
+select_from_where strftime(advancedate) > strftime('%Y' , advancedate) > strftime('%Y' , date('now' , '-2 year'));
+select b.manager ,b.investadvisorname from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '20国开08' order by a.marketvalue desc limit 1;
+select chinameabbr from lc_stockarchives where generalmanager like '刘%';
+select mainoperincome , mainoperprofit from lc_mainoperincome where secucode = '000752' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year'));
+select b.secuabbr ,b.manager from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.dailybenchgr<0;
+select legalrepr ,generalmanager from lc_stockarchives where chinameabbr= '维宏股份';
+select secuabbr ,benchgrfor1year from mf_benchmarkgrowthrate;
+select secucode ,investadvisorname from mf_fundarchives where manager like '张坤%';
+select a.chinameabbr , b.controllername from lc_stockarchives as a join lc_actualcontroller as b on a.companycode like '300%' order by a.secucode desc
+select b.education , count(*) from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode=b.personalcode where a.totalfundnv>100 group by b.education;
+select shname , secucode , shinvestsum from lc_relatedsh where shinvestsum > 10000000 and strftime('%Y' , enddate) >= strftime('%Y' , date('now' , '-2 year'));
+select chinameabbr from lc_shnumber where holdproportionpaccount<10;
+select b.secuabbr ,b.fundtype from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.monthlybenchgr<0;
+select b.education , count(*) from mf_fmperfanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.annabnreturn > 0.5 group by b.education
+select b.secuabbr ,b.investadvisorname from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.monthlybenchgr>8;
+select serviceline from mf_investadvisoroutline where investadvisorabbrname = '方正富邦基金';
+select chinesename ,investadvisorname from mf_fmscaleanalysisn order by numberoffunds desc limit 1;
+select shname , holdingsum from lc_relatedsh where secucode = '000948' and strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-3 year'));
+select a.secucode , b.legalrepr , b.secretarybd from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where a.conceptname = '工业互联网' ;
+select chinesename from mf_personalinfo where nationality = '缅甸' and strftime('%Y' , practicedate)>'2015';
+select chinameabbr from lc_mainoperincome where strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) order by mainoperincome desc limit 1 ;
+select a.chinesename , a.totalfundnv , a.equityfundnv , a.hybridfundnv from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode = b.personalcode where b.nationality != '关岛';
+select shname ,oughtshares ,actualshares from lc_largeshsubscription where chinameabbr= '双节电气';
+select b.secuabbr ,b.investtarget from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode order by a.monthlybenchgr desc limit 10;
+select secuabbr from mf_fundarchives where fundtype= '其他型' and investstyle= '配置型';
+select investadvisorabbrname from mf_investadvisoroutline where regcapital < 1000000000;
+select controllername from lc_actualcontroller where secucode = '600881' or secucode = '601158';
+select secuabbr from mf_benchmarkgrowthrate where dailybenchgr>0 order by dailybenchgr desc;
+select b.controllername from lc_stockarchives as a join lc_actualcontroller as b on a.companycode = b.companycode where a.state = '杭州市';
+select count(distinct secuabbr) from mf_fundarchives where secumarket= '上海黄金交易所' and type= '开放式' and strftime('%Y' , listeddate)= '2021';
+select b.manager ,a.bondabbr from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.secuabbr= '富国天丰';
+select businessmajor , businessminor from lc_business where chinameabbr = '深科技'
+select secucode from mf_fundarchives where secuabbr= '易方达人工智能ETF';
+select b.type , count(*) from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode where a.indexcycle = '一年' and a.fundreturn < 0 group by b.type
+select a.fpshname , a.accufpshares from lc_sharefpsta as a join lc_stockarchives as b on a.companycode = b.companycode where b.chinameabbr = '新天然气' and a.accupctofpled > 0.8
+select count(*) from lc_stockarchives as a join lc_freefloat as b on a.companycode = b.companycode where a.state = '江苏省' and b.adjfreefloatratio = 100
+select shname , holdingpct from lc_relatedsh where chinameabbr = '诺德股份' ;
+select chinameabbr from lc_financialexpense order by netinterestexpense desc
+select shname ,oughtshares from lc_largeshsubscription where chinameabbr= '天山股份';
+select shname from lc_largeshsubscription where secucode= '600797';
+select mainoperincome , mainopercost , mainoperprofit from lc_mainoperincome where secucode = '000822' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year'));
+select ashareabbr , astockcode from lc_stockarchives where secucode= '600190';
+select businessmajor , industryname from lc_business where chinameabbr = '精研科技'
+select b.chinameabbr from lc_intassetsdetail as a join lc_stockarchives as b on a.companycode=b.companycode where b.state= '广东省' order by rdstaffnum desc limit 50;
+select b.secuabbr ,a.benchgrforthisweek from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode order by a.benchgrforthisweek desc;
+select a.secuabbr from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode where b.fundtype = '债券型' and a.fundreturnmean > 0
+select b.secuabbr ,b.manager from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode order by a.bondabbr desc limit 1;
+select b.manager ,a.bondabbr ,a.marketvalue from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.secuabbr= '富国天丰';
+select b.secuabbr ,b.manager from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '南银转债';
+select underwritingsum from lc_issueandlistagent where chinameabbr= '天健集团';
+select chinameabbr from lc_shnumber where avgholdsumgrquarter<5;
+select b.secuabbr ,b.manager from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '杭银转债';
+select a.secuabbr from mf_fundrisklevel as a join mf_fundarchives as b on a.innercode = b.innercode where a.risklevel = '中' and b.fundtype= '债券型'
+select chinameabbr ,regarea from lc_stockarchives where city= '长春市';
+select name , education from mf_fundmanagernew order by managementtime desc limit 1
+select a.chinameabbr , a.generalmanager , a.legalrepr from lc_stockarchives as a join lc_actualcontroller as b on a.companycode = b.companycode where b.nationalitydesc = '美国';
+select shname ,actualshares ,oughtshares from lc_largeshsubscription where secucode= '600110';
+select organizationform , count(*) from mf_investadvisoroutline group by organizationform;
+select a.fullname ,a.underwritingsum ,b.shname ,b.actualshares from lc_issueandlistagent as a join lc_largeshsubscription as b on a.companycode=b.companycode where a.chinameabbr= '天健集团';
+select shname from lc_relatedsh where holdingsum > 10000000 and strftime('%Y' , enddate)= '2020' ;
+select secuabbr from mf_fundreturnrank where indexcycle = '今年以来' and fundreturn < 0
+select depositswithcentralbank from ed_otherdepositorycorpbs ;
+select fpshname from lc_sharefp where chinameabbr = '哈尔斯' or chinameabbr = '京运通'
+select claimsongovernment , claimsoncentralbank from ed_otherdepositorycorpbs where strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) and round(strftime('%m' ,enddate)/3.0 + 0.495)=4 ;
+select count(*) from mf_fundreturnrank where secucode like '16%' and fundreturn > 0
+select chinesename from mf_fmscaleanalysisn where equityfundnv > 200;
+select investadvisorname from mf_fundarchives where fundtype= '指数型' group by investadvisorname order by count(*) desc limit 1;
+select turnovervolume , turnovervalue from qt_dailyquote where chinameabbr = '科思股份';
+select chinesename from mf_personalinfo where chinesename like '王%' and experiencetime > 10
+select secucode , chinameabbr from lc_dividend where bonusshareratio is not null;
+select playear , plaprice , plaproceeds from lc_ashareplacement where chinameabbr = '四川美丰';
+select fund , awardname from mf_awards where appraisalorg = '鹏华基金管理有限公司';
+select count(*) from mf_chargeratenew as a join mf_fundarchives as b on a.innercode = b.innercode where b.type = '养老金客户';
+select_from_as a join_as b group by_order by avg(nvdailygrowthrate) asc limit 1;
+select_from_where strftime(enddate) = strftime('%Y' , date('now' , '-1 year')) ;
+select sponsorname from lc_ipodeclaration where chinameabbr= '红塔证券';
+select_from_where strftime(enddate) > '2017' group by csrcindustryname order by enddate desc limit 1;
+select indexvalue from ed_producerpiformp where indexname = '金属制品业' and reportperiod = '上年同期' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) ;
+select rrinfiveyear from mf_netvalueperformancehis ;
+select ratioceiling from ed_taxrate where typename = '农村信用社' and itemname = '超额存款准备金率';
+select a.chinameabbr , b.firstindustryname from lc_sharestru as a join lc_exgindustry as b on a.companycode = b.companycode where a.totalshares > 10000000000
+select primaryindustrygdp , secondindustrygdp , thirdindustrygdp from ed_grossdomesticproduct ;
+select practicedate from mf_personalinfo where chinesename = '柳军'
+select b.leadername , a.chinameabbr from lc_stockarchives as a join lc_executivesholdings as b on a.companycode = b.companycode where a.state = '浙江省' and b.positiondescription = '副总经理'
+select a.conceptname from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where a.secucode = '002354' ;
+select a.chinameabbr , b.state , b.city from lc_business as a join lc_stockarchives as b on a.companycode = b.companycode where a.industryname = '资本市场服务' ;
+select b.nationalitydesc , count(*) from lc_stockarchives as a join lc_actualcontroller as b on a.companycode = b.companycode group by b.nationalitydesc ;
+select b.secuabbr ,a.secucode ,a.secucode from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondcode= '128125';
+select chinameabbr from lc_stockholdingst where strftime('%Y' , enddate)= '2021' order by trustcompaniesholdpropa desc limit 10;
+select bonds , centralbankbonds from ed_chinamoneyandbanking where strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-2 year')) ;
+select a.chinameabbr from lc_stockarchives as a join lc_exgindustry as b on a.companycode = b.companycode where a.state = '广东省' and b.secondindustryname = '房地产业'
+select a.chinameabbr ,a.shname from lc_largeshsubscription as a join lc_stockarchives as b on a.companycode=b.companycode where b.city= '广州市';
+select a.leadername , a.chinameabbr from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode where a.positiondescription = '董事长' or a.副董事长'
+select a.chinameabbr , ashares from lc_sharestru as a join lc_exgindustry as b on a.companycode = b.companycode where b.firstindustryname = '制造业' order by a.totalshares desc
+select secumarket , ratioceiling , ratiofloor from ed_taxrate where typename = '国债买断式回购' and itemname = '经手费' ;
+select localgovrevenue , localgovexpenditure from ed_financialbalance where strftime('%Y' , enddate)<'2010';
+select count(*) from mf_awards where awardname = '三年持续回报明星基金公司奖';
+select enddate , totalassets , totalliabilities from ed_otherdepositorycorpbs where totalassets > 5000 and totalliabilities < 5;
+select a.chinesename , b.education from mf_fmretandscalerank as a join mf_personalinfo as b on a.personalcode = b.personalcode order by a.returntyperank desc limit 5
+select a.chinameabbr from lc_stockarchives as a join lc_freefloat as b on a.companycode = b.companycode where a.state = '广东省' and b.totalashare > 100000000
+select fundcompany from mf_awards where appraisalorg = '14561';
+select gdp , gdppercapita from ed_grossdomesticproduct where province = '浙江';
+select secuabbr , secucode from mf_netvalueperformancehis where annualizedrrsincestart > 30;
+select secuabbr from mf_benchmarkgrowthrate where dailybenchgr>0 order by dailybenchgr desc;
+select stateownedunits , collectiveunits , jointventures from ed_retailvalueofscgoods ;
+select a.secucode , a.mainoperprofit from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode where a.mainoperprofit > 100000000;
+select fullname from lc_issueandlistagent where chinameabbr= '天健集团';
+select_from_where strftime(enddate) > strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-5 year')) ;
+select a.state , count(*) from lc_stockarchives as a join lc_business as b on a.companycode = b.companycode where b.industryname = '医药制造业' group by a.state ;
+select fullname ,underwritingsum from lc_issueandlistagent where secucode= '000401';
+select plaabbrname , secucode from lc_legaldistribution where strftime('%Y' , playear) = strftime('%Y' , date('now' , '-1 year')) ;
+select imvalueofgoods , exvalueofgoods from ed_exportimport where gyoyofexvaluegoods > 0 and gyoyofimvaluegoods < 0 and strftime('%Y' , enddate)<'2000';
+select cashdivirmb from lc_dividend where secucode = '000021';
+select rrintwoyear from mf_netvalueperformancehis ;
+select count(secuabbr) from lc_ashareseasonednewissue where strftime('%Y' , advancedate)= '2020';
+select shname ,actualshares from lc_largeshsubscription where secucode= '600110';
+select secuabbr from mf_fundarchives order by establishmentdate desc limit 1;
+select b.secuabbr ,a.marketvalue from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '128125';
+select chinesename from mf_managerexperience order by employmentcompany desc limit 1;
+select annualizedrrintenyear from mf_netvalueperformancehis ;
+select chiname from mf_fundarchives where secucode= '160215';
+select a.city , count(*) from lc_stockarchives as a join lc_coconcept as b on a.companycode = b.companycode where b.conceptname = '国产软件' group by a.city ;
+select b.type , count(*) from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode where a.rrinsingleyear > 20 group by b.type;
+select cashdivirmb from lc_dividend where secucode = '000040';
+select divintervaldes , chargeratedes from mf_chargeratenew where secuabbr = '富国创新药ETF';
+select count(*) from lc_ashareplacement where plaproceeds > 10000000000;
+select otherforeignassets , abroadliability from ed_moneyauthoritybs ;
+select a.leadername , a.chinameabbr from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode where a.positiondescription = '董事长' and b.generalmanager = '总经理';
+select a.industryname from lc_business as a join lc_stockarchives as b on a.companycode = b.companycode where b.chinameabbr = '精研科技'
+select rrinthreeyear from mf_netvalueperformancehis ;
+select accountingfirm ,signatureaccountant from lc_ipodeclaration where chinameabbr= '大业股份';
+select actualshares from lc_largeshsubscription where chinameabbr= '深科技';
+select a.chinameabbr from lc_exgindustry as a join lc_stockarchives as b on a.companycode = b.companycode where a.secondindustryname = '资本市场服务'
+select rdinputratio from lc_intassetsdetail where sponsorname= '广发证券' and strftime('%Y' , enddate)>'2018';
+select thirdindustrygdp from ed_grossdomesticproduct ;
+select state ,legalrepr from lc_stockarchives where chinameabbr= '五粮液';
+select_from_where strftime(enddate) =_and round(strftime('%m' ,enddate)/3.0 + 0.495) = 1 and round(strftime('%m' ,enddate)/3.0 + 0.495) = 1 and otherinstiholdpropa > 0;
+select totalassets from ed_moneyauthoritybs ;
+select authorizer from lc_sharetrustee where chinameabbr= '新日恒力股份' and strftime('%Y' , infopubldate)= '2018' order by pctofauthorizer desc limit 1;
+select eximvalueofgoods , imvalueofgoods , exvalueofgoods from ed_exportimport ;
+select_, max(totalfundnv) from mf_personalinfo , max(totalfundnv) from mf_fmscaleanalysisn;
+select secucode from lc_mainoperincome where mainincomegrowrateyoy < 0 and strftime('%Y' , enddate)<'2019';
+select a.leadername , a.positiondescription , a.chinameabbr from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode order by a.shareamount desc limit 5
+select avg(ratioinnv) from mf_keystockportfolio where secuabbr = '富国天惠A'
+select enddate , subjectsum from ed_newincreasingloan where reportperiod = '期末累计';
+select b.manager ,a.bondabbr from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.secucode= '160615';
+select a.fullname ,a.address from lc_issueandlistagent as a join lc_stockarchives as b on a.companycode=b.companycode where b.chinameabbr= '湖北宜化';
+select totalsavings , totalloans from ed_chinafibalancesheetrmb;
+select qfiiholdpropa from lc_stockholdingst where strftime('%Y' , enddate)= '2020';
+select b.chinesename from mf_managerexperience as a join mf_personalinfo as b on a.personalcode = b.personalcode order by a.employmentcompany limit 1
+select floatshare , totalshare from qt_monthdata where chinameabbr = '东方电子';
+select retailvalueofscgoods from ed_retailvalueofscgoods where province= '北京' and reportperiod = '期末累计' and strftime('%Y' , enddate)>= '2000';
+select closeprice , floatshare from qt_monthdata where secucode = '000822';
+select chinesename from mf_fmscaleanalysisn order by numberoffunds desc limit 1;
+select b.secuabbr from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode and b.fundtype = '股票型' where a.rrinsingleweek > 5;
+select_from_where strftime(_) = strftime(_, date(_) ) and round(strftime(%m' ,establishmentdate)/3.0 + 0.495) = 1 and round(strftime('%m' ,establishmentdate)/3.0 + 0.495)=1 and round(strftime('%m' ,establishmentdate)/3.0 + 0.495)=1;
+select city from lc_stockarchives where state= '广东省' group by city order by count(*) desc limit 1;
+select controllername from lc_actualcontroller where nationalitydesc = '美国';
+select shname , secucode , holdingsum from lc_relatedsh where holdingsum > 10000000 and strftime('%Y' , enddate) >= strftime('%Y' , date('now' , '-2 year'));
+select fund from mf_awards where strftime('%Y' , `year`) >=2010 and appraisalorg = '中国证券报';
+select mainoperincome , mainopercost , mainoperprofit from lc_mainoperincome where chinameabbr = '古井贡酒' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-2 year')) ;
+select shname , holdingpct from lc_relatedsh where chinameabbr = '诺德股份' ;
+select a.chinameabbr , b.firstindustryname from qt_tradingcapitalflow as a join lc_exgindustry as b on a.companycode = b.companycode where a.sellvolume > 0.5
+select a.secuabbr from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode and b.fundtype = '股票型' where a.annualizedrrsincestart > 50;
+select b.secuabbr from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where b.type= '指数型' and a.benchgrfor6month>5;
+select secucode , secuabbr from mf_netvalueperformancehis where rrsincestart < 30;
+select b.secuabbr , b.investfield , b.fundtype from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode order by a.nvdailygrowthrate desc limit 3;
+select mainbusiness from lc_business where chinameabbr = '深科技'
+select enddate , stateownedcontrolledcomap , collectivecomap from ed_industryproduction where province = '上海' and statstandard = '全部工业企业' and reportperiod = '期末累计' ;
+select secucode , unitnv from mf_netvalue ;
+select count(involvedtrustsum) from lc_sharetrustee where chinameabbr= '澳柯玛';
+select a.secucode , a.secuabbr from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode and b.fundtype = '混合型' where a.annualizedrrsincestart > 30;
+select cashdivirmb , actualcashdivirmb from lc_dividend where chinameabbr = '古井贡酒' and strftime('%Y' , dividendimplementdate) > strftime('%Y' , date('now' , '-2 year'));
+select b.secuabbr , a.nvdailygrowthrate , a.rrinsingleweek from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode where a.rrinsinglemonth > 5;
+select b.secuabbr , b.risklevel from mf_fundmanagernew as a join mf_fundrisklevel as b on a.innercode = b.innercode where strftime('%Y' , accessiondate)>'2021';
+select mainbusiness from lc_business where chinameabbr = '浙大网新'
+select monthlybenchgr from mf_benchmarkgrowthrate where secuabbr= '华夏行业';
+select count(*) from lc_stockarchives where city= '厦门市';
+select b.secuabbr ,b.manager ,b.investtarget from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.benchgrfor5year>20;
+select b.secuabbr ,b.manager from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '海亮转债';
+select avgaum from mf_fmscaleanalysisn where chinesename = '贾成东';
+select a.city , count(*) from lc_stockarchives as a join lc_coconcept as b on a.companycode = b.companycode where b.conceptname = '云计算' group by a.city order by count(*) desc limit 1 ;
+select stateownedunits , retailvalueofscgoods from ed_retailvalueofscgoods ;
+select buybacksum , buybackmoney from lc_buyback where secucode = '300011';
+select rrsincestart from mf_netvalueperformancehis ;
+select rrinthreemonth , rrintwoyear , rrinsingleyear from mf_netvalueperformancehis where secuabbr = '博时策略';
+select fpshname , accufpshares from lc_sharefpsta where chinameabbr = '完美世界' group by fpshname
+select buybacksum , percentage from lc_buyback where chinameabbr = '南都电源' order by advancedate desc limit 1
+select count(*) from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode where strftime('%Y' , a.enddate) = strftime('%Y' , date('now' , '-1 year')) and a.mainoperincome > 100000000;
+select a.shname ,a.state from lc_stockarchives as a join lc_issueandstate as b on a.companycode=b.companycode where a.chinameabbr= '东旭蓝天';
+select otherassets , otherliabilities from ed_otherdepositorycorpbs ;
+select chinesename from mf_fmscaleanalysisn order by equityfundn desc limit 1;
+select b.firstindustryname , count(*) from lc_sharesfloatingschedule as a join lc_exgindustry as b on a.companycode = b.companycode where a.newmarketableashares > 100 group by b.firstindustryname
+select a.conceptname , count(*) from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where b.state = '海南省' group by a.conceptname ;
+select bondabbr from mf_bondportifoliodetail where secuabbr= '鹏华价值' order by marketvalue desc limit 1;
+select city ,regarea from lc_stockarchives where astockcode= '600165';
+select secuabbr from mf_fundmanagernew where manager = '王帅'
+select_from_where_and strftime (_) =_and round(strftime(%m' ,enddate)/3.0 + 0.495) = 3 and secucode = '600649' ;
+select buybacksum , percentage from lc_buyback where chinameabbr = '江苏租赁' and strftime('%Y' , advancedate)= '2019' ;
+select openprice , closeprice from qt_dailyquote where chinameabbr = '山煤国际' and strftime('%Y' , tradingday)>= '2018';
+select a.leadername from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode where a.secucode = '000430'
+select chinameabbr from lc_stockarchives where strftime('%Y' , establishmentdate)>'2001';
+select sumbeforetran , pctbeforetran from lc_sharetransfer where secucode = '300707'
+select bonusshareratio , cashdivirmb from lc_dividend where chinameabbr = '东北证券';
+select annualizedrrinthreeyear from mf_netvalueperformancehis ;
+select b.type , avg(a.rrinsingleyear) from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode group by b.type;
+select issuepurpose from lc_ashareseasonednewissue where secucode = '300391';
+select subjectsum from ed_newincreasingloan where reportperiod = '月份' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-2 year')) ;
+select count(*) from lc_stockarchives where city= '北京市';
+select mainoperincome , mainoperprofit from lc_mainoperincome where secucode = '000752' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year'));
+select proportiongrhalfayear from lc_shnumber where chinameabbr= '京基智农' and strftime('%Y' , enddate)= '2020';
+select b.secuabbr from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondcode= '128125' order by a.holdvolume desc limit 1;
+select accumulatedunitnv , nvweeklygrowthrate , nvweeklygrowthrate from mf_netvalue where secuabbr = '华安180ETF';
+select count(*) from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where a.conceptname = '互联网金融' and b.city = '杭州市';
+select website from mf_investadvisoroutline where investadvisorabbrname = '浦银安盛基金';
+select fund from mf_awards where strftime('%Y' , `year`) = strftime('%Y' , date('now' , '-2 year'));
+select bonusshareratio , cashdivirmb from lc_dividend where chinameabbr = '古井贡酒';
+select chinameabbr from lc_issueandlistagent where underwritingvol>500000;
+select chinameabbr from lc_stockarchives where astockcode like '600%';
+select annualizedrrintwoyear from mf_netvalueperformancehis ;
+select netabroadassets , domesticloans from ed_chinamoneyandbanking where strftime('%Y' , enddate)<'2000';
+select chargeratedes , divintervaldes from mf_chargeratenew where secucode = '159748';
+select shname from lc_largeshsubscription where chinameabbr= '恒生电子' order by actualshares desc limit 1;
+select rrintenyear , annualizedrrintenyear from mf_netvalueperformancehis ;
+select indexname , indexvalue from ed_producerpiformp where indextype = '工业结构分类指数' and reportperiod = '上年同月' and strftime('%Y' , enddate)>= '2010';
+select shname , secucode , shinvestsum from lc_relatedsh where shinvestsum > 10000000 and strftime('%Y' , enddate) >= strftime('%Y' , date('now' , '-2 year'));
+select b.fundtype , count(*) from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode where a.indexcycle = '成立以来' and a.fundreturnmean > 0 group by b.fundtype
+select sponsorname from lc_ipodeclaration where accountingfirm= '立信会计事务所' order by sponsorname desc limit 1;
+select indexvalue from ed_producerpiformp where reportperiod = '上年同期' and indextype = '工业结构分类指数' and indexname = '生产资料-加工';
+select issuevolfloor , issuevolceiling from lc_ashareseasonednewissue where chinameabbr = '吉峰科技';
+select aquiredsum , aquireramount from lc_legaldistribution where aquirername = '邱丕云' and strftime('%Y' , infopubldate) > strftime('%Y' , date('now' , '-3 year')) order by aquireramount desc ;
+select distributionsum , aquirername , aquiredsum from lc_legaldistribution where secucode = '600517';
+select secuabbr from mf_netvalueperformancehis order by rrsincestart desc limit 1;
+select investadvisorabbrname from mf_investadvisoroutline order by establishmentdate desc limit 1;
+select indexvalue from ed_producerpiformp where indexname = '医药制造业' and reportperiod = '上年同月' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) and round(strftime('%m' ,enddate)/3.0 + 0.495) = 1 ;
+select shname ,actualshares ,oughtshares from lc_largeshsubscription where secucode= '000423';
+select shname from lc_largeshsubscription where oughtshares>200000;
+select max(pb) from qt_monthdata where secucode = '600352';
+select totalliabilities from ed_otherdepositorycorpbs ;
+select a.chinesename , b.background from mf_fmperfanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.maxret > 2
+select divstand1 , stdivstand1 , endivstand1 from mf_chargeratenew where secucode = '501065';
+select buybackmoney , secucode from lc_buyback where strftime('%Y' , advancedate)>= '2019';
+select claimsonotherdepositcorp , claimsonotherresidentsec from ed_otherdepositorycorpbs where totalassets > 50000000;
+select b.chinesename from mf_fmretscaleanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode order by a.numberoffunds desc limit 1
+select secuabbr ,manager from mf_fundarchives where investstyle= '大盘价值股票';
+select a.secuabbr , b.riskreturncharacter from mf_fundrisklevel as a join mf_fundarchives as b on a.innercode = b.innercode where a.risklevel = '中'
+select organizationform , count(*) from mf_investadvisoroutline group by organizationform;
+select a.leadername , a.positiondescription from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode where b.state = '浙江省' and b.astockcode like '300%'
+select localgovrevenue , localgovexpenditure from ed_financialbalance where province = '上海';
+select_from_where_and strftime (_) =_and round(strftime(%m' ,enddate)/3.0 + 0.495) = 4 and netassetsvalue > 1000000
+select count(*) from lc_stockarchives where state= '山西省';
+select_from_where strftime(advancedate) >= '2022'
+select a.chinameabbr from lc_exgindustry as a join lc_stockarchives as b on a.companycode = b.companycode where a.firstindustryname = '建筑业'
+select secucode from mf_fundrisklevel where risklevel = '中高'
+select_from_where_and strftime (_) =_and round(strftime(%m' ,enddate)/3.0 + 0.495) = 1 and secuabbr = '华夏50ETF' and round(strftime('%m' ,enddate)/3.0 + 0.495) = 1 and round(strftime('%m' ,enddate)/3.0 + 0.495) = 1 and round(strftime('%m' ,enddate)/3.0 + 0.495) = 1
+select a.businessmajor from lc_business as a join lc_business as b on a.companycode = b.companycode where b.chinameabbr = '南华生物'
+select rrintenyear from mf_netvalueperformancehis ;
+select shname from lc_largeshsubscription where chinameabbr= '亚泰集团' order by actualshares desc limit 1;
+select count(*) from lc_stockarchives where state= '湖南省' and city= '长沙市';
+select chinameabbr , avg(actualshares) from lc_largeshsubscription group by chinameabbr;
+select chinesename from mf_fmscaleanalysisn where totalfundnv < 1;
+select chinameabbr from lc_sharesfloatingschedule where secucode like '6%' order by totalashares desc limit 1
+select mainoperincome from lc_mainoperincome where chinameabbr = '冰山冷热' and strftime('%Y' , enddate)= '2020'
+select chinesename from mf_fmscaleanalysisn order by numberoffunds desc limit 1;
+select shname ,oughtshares from lc_largeshsubscription where chinameabbr= '天山股份';
+select b.manager from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode order by a.benchgrforthismonth desc limit 10;
+select shname , holdingpct from lc_relatedsh where chinameabbr = '力源信息' ;
+select count(*) from lc_stockarchives where city= '武汉市';
+select province , collectiveunits , selfemployed from ed_retailvalueofscgoods where reportarea = '省市' and reportperiod = '期末累计' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) ;
+select bondabbr from mf_bondportifoliodetail where secuabbr= '鹏华价值' and holdvolume>50000000;
+select retailvalueofscgoods from ed_retailvalueofscgoods where province = '北京';
+select retailvalueofscgoods from ed_retailvalueofscgoods where province = '北京' and reportperiod = '期末累计';
+select interestexpense , exchangeproloss from lc_financialexpense where chinameabbr = '万达信息' and strftime('%Y' , enddate)>'2016'
+select enddate , subjectsum from ed_newincreasingloan where reportperiod = '月份' and subjectsum > 15000;
+select shname , shinvestsum from lc_relatedsh where chinameabbr = '常山北明' and strftime('%Y' , enddate)= '2020' and strftime('%m' , enddate)= '3'
+select agriculturaldeposits , savingsdeposits from ed_chinafibalancesheetrmb;
+select a.chinameabbr , a.fpshname from lc_sharefpsta as a join lc_exgindustry as b on a.companycode = b.companycode where b.firstindustryname = '建筑业' order by a.accupctofpled desc
+select secuabbr ,benchgrforthismonth from mf_benchmarkgrowthrate where benchgrforthismonth>5;
+select count(*) from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode where strftime('%Y' , a.enddate)= '2020' and grossprofit > 1
+select rrinselectedmonth from mf_netvalueperformancehis ;
+select b.secuabbr from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '华海转债' and a.holdvolume>1000000;
+select a.chinameabbr from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode where strftime('%Y' , a.enddate)= '2020' and b.state = '浙江省' order by a.mainoperincome desc limit 1;
+select count ( distinct_) from_where_and strftime (_) =_and round(strftime(%m' ,enddate)/3.0 + 0.495) = 1 and round(strftime('%m' ,enddate)/3.0 + 0.495) = 1 and closeprice < 2;
+select fpshname , count(*) from lc_sharefpsta where strftime('%Y' , enddate)= '2020' and strftime('%m' , enddate)= '3' group by fpshname
+select underwritingsum from lc_issueandlistagent where chinameabbr= '常山北明';
+select officeaddr from mf_investadvisoroutline where investadvisorabbrname = '建信基金';
+select max(retailvalueofscgoods) from ed_retailvalueofscgoods where province= '上海' and reportperiod = '期末累计';
+select b.secuabbr , a.rrinsinglemonth , a.rrinsingleweek from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode where b.type = 'SIRI' and a.rrinsinglemonth > 5;
+select a.totalaumrank from mf_fmretandscalerank as a join mf_fundarchives as b on a.innercode = b.innercode where b.secuabbr = '中信证券';
+select authorizer , authorizedreceiver from lc_sharetrustee where chinameabbr= '诺德股份' and strftime('%Y' , infopubldate)= '2019';
+select reserveassets from ed_otherdepositorycorpbs ;
+select netassetsvalue from mf_mainfinancialindexq where secuabbr = '南方积配' order by enddate desc limit 1
+select gender , gender , education from mf_personalinfo where chinesename like '李%' and education = '博士' and chinesename like '李%';
+select bondfundn ,bondfundnv from mf_fmscaleanalysisn where chinesename= '陈龙';
+select enddate , primaryindustrygdp , secondindustrygdp , thirdindustrygdp from ed_grossdomesticproduct ;
+select b.secuabbr ,a.avgaumtypeavg from mf_fcretscalerank as a join mf_fundarchives as b on a.innercode=b.innercode order by a.avgaumrank desc limit 1;
+select max(closeprice) from qt_monthdata ;
+select expenditurecitymc from ed_financialbalance where province = '北京' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-2 year')) ;
+select fundsholdpropa from lc_stockholdingst where strftime('%Y' , enddate)= '2020' and strftime('%m' , enddate)= '6' and chinameabbr= '中航重机';
+select astockcode from lc_stockarchives where chinameabbr= '康盛股份';
+select secuabbr from mf_benchmarkgrowthrate where benchgrfor10year>200;
+select aquiredsum , aquireramount from lc_legaldistribution where aquirername like '林泗华%';
+select_from_where strftime(_) =_and round(strftime(%m' ,enddate)/3.0 + 0.495) = 1 and chinameabbr = '东旭蓝天'
+select avg(annualizedrrsincestart) from mf_netvalueperformancehis where secuabbr = '股票型';
+select linkman from mf_investadvisoroutline where investadvisorabbrname = '南方基金';
+select businessminor from lc_business where chinameabbr = '深科技'
+select a.name from mf_fundmanagernew as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.performance > 0 and b.experiencetime < 2
+select maturity , ratiofloor , ratioceiling from ed_taxrate where typename = '企债质押式回购' and itemname = '经手费' ;
+select a.state from lc_stockarchives as a join lc_business as b on a.companycode = b.companycode where b.industryname = '专业技术服务业' group by a.state order by count(*) desc limit 1 ;
+select socialsecufundholdpropa from lc_stockholdingst where strftime('%Y' , enddate)= '2020' and strftime('%m' , enddate)= '5' and chinameabbr= '奥普光电';
+select sponsorname ,lawfirm ,accountingfirm from lc_ipodeclaration where secucode= '300278';
+select a.leadername from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode where a.shareamountbeginning > 10000000 and a.chinameabbr = '越剑智能'
+select evalagent from lc_ipodeclaration where chinameabbr= '福斯特';
+select count(*) from mf_fundmanagernew as a join mf_fundarchives as b on a.innercode = b.innercode where a.performance < 0 and a.incumbent != 0
+select a.chinameabbr , b.legalrepr from lc_sharesfloatingschedule as a join lc_stockarchives as b on a.companycode = b.companycode where a.proportion2 > 20
+select chinesename , qdiin , qdiinv from mf_fmscaleanalysisn where chinesename = '徐猛' or chinesename = '范冰';
+select max(indexvalue) from ed_producerpiformp where indexname = '纺织业' and reportperiod = '上年同期';
+select shname ,actualshares from lc_largeshsubscription where shname= '杉杉集团';
+select a.fullname ,a.legalpersonrepr from lc_issueandlistagent as a join lc_stockarchives as b on a.companycode=b.companycode where a.chinameabbr= '东阿阿胶';
+select a.rrinsingleyear , a.rrintwoyear from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode where b.fundtype = '债券型';
+select financedeposits from ed_chinafibalancesheetrmb;
+select secuabbr from mf_fundreturnrank where indexcycle = '六个月' order by fundreturn desc limit 1
+select a.fundannreturnmean from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode where b.type = 'LOF'
+select a.chinameabbr from lc_exgindustry as a join lc_sharestru as b on a.companycode = b.companycode order by a.firstindustryname desc limit 20
+select bondabbr from mf_bondportifoliodetail where secucode= '166001';
+select count(*) from lc_buyback where strftime('%Y' , advancedate)= '2021';
+select investadvisorabbrname from mf_investadvisoroutline where legalrepr like '周%';
+select education , gender , count(*) from mf_personalinfo group by education , gender;
+select max(actualshares) from lc_largeshsubscription ;
+select fcdeposits , netabroadassets from ed_chinamoneyandbanking where strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-2 year')) ;
+select annualizedrrintwoyear , annualizedrrintenyear from mf_netvalueperformancehis ;
+select authorizer from lc_sharetrustee where strftime('%Y' , infopubldate)= '2014' order by involvedtrustsum desc limit 1;
+select chargeratetydes , chargeratedes from mf_chargeratenew where secucode = '501065';
+select max(totalassets) , min(totalliabilities) , max(totalliabilities) from ed_otherdepositorycorpbs ;
+select b.firstindustryname , count(*) from lc_sharesfloatingschedule as a join lc_exgindustry as b on a.companycode = b.companycode where a.proportion2 > 60 group by b.firstindustryname
+select aquirername from lc_legaldistribution where distributionsum > 10000 and strftime('%Y' , infopubldate) = strftime('%Y' , date('now' , '-1 year'));
+select maturity , ratioceiling , ratiofloor from ed_taxrate where typename = '国债买断式回购' and itemname = '经手费' ;
+select enddate , hivalueap from ed_industryproduction where reportarea = '全国' and statstandard = '国有及规模以上工业企业' and reportperiod = '月度';
+select insurancecorpsholdpropa from lc_stockholdingst where chinameabbr= '恒生电子';
+select turnoverdeals , tradingday from qt_dailyquote where secucode = '601908';
+select a.name from mf_fundmanagernew as a join mf_fundarchives as b on a.innercode = b.innercode where b.fundtype = '股票型' and a.incumbent = '在任'
+select rrsincethisyear from mf_netvalueperformancehis ;
+select count(*) from lc_legaldistribution where aquiredsum > 10000 and strftime('%Y' , infopubldate) = strftime('%Y' , date('now' , '-1 year'));
+select a.city , count(*) from lc_stockarchives as a join lc_coconcept as b on a.companycode = b.companycode where b.conceptname = 'OLED' group by a.city ;
+select secucode , chinameabbr from lc_buyback where buybacksum > 100000 and strftime('%Y' , advancedate) > strftime('%Y' , date('now' , '-2 year'));
+select nvdailygrowthrate , rrinselectedweek , rrinsingleweek from mf_netvalueperformancehis where secuabbr = '华宝宝盛';
+select enddate , retailvalueofscgoods from ed_retailvalueofscgoods where province = '上海' and reportperiod = '年度' and strftime('%Y' , enddate)<'2010';
+select b.secuabbr ,b.fundtype from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '海亮转债';
+select enddate , stateownedcontrolledcomap , industrialvalueadded from ed_industryproduction where reportarea = '全国' and statstandard = '国有及规模以上工业企业' and reportperiod = '期末累计';
+select count(*) from lc_ashareseasonednewissue where strftime('%Y' , advancedate) > strftime('%Y' , date('now' , '-5 year'));
+select chiname from mf_fundarchives where secuabbr= '博时主题';
+select wholesaleretailtrade , foodbeverage from ed_retailvalueofscgoods ;
+select moneyreserves , selfownedmoney from ed_moneyauthoritybs where strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-2 year')) ;
+select shname , holdingsum from lc_relatedsh where chinameabbr = '航天发展' and strftime('%Y' , enddate)= '2020' and strftime('%m' , enddate)= '3'
+select authorizer from lc_sharetrustee where chinameabbr= '新北洋' and strftime('%Y' , infopubldate)= '2018';
+select a.state , count(*) from lc_stockarchives as a join lc_sharestru as b on a.companycode = b.companycode where b.nonlistedshares > 200000000 group by a.state
+select a.industryname , count(*) from lc_business as a join lc_stockarchives as b on a.companycode = b.companycode where strftime('%Y' , a.establishmentdate)= '2010' group by a.industryname ;
+select avg(a.performance) from mf_fundmanagernew as a join mf_personalinfo as b on a.personalcode = b.personalcode where b.experiencetime < 5 and b.experiencetime < 5
+select flochargerate , divintervaldes from mf_chargeratenew where secuabbr = '富国创新药ETF';
+select ratioceiling from ed_taxrate where typename = 'A股' and itemname = '证券交易印花税' and secumarket = '深圳证券交易所' ;
+select nationality from mf_personalinfo ;
+select count(*) from lc_legaldistribution where strftime('%Y' , infopubldate)= '2021';
+select b.nationality from mf_fmperfanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.annsharper > 2 group by b.nationality having count(*) > 20
+select count(*) from lc_freefloat where totalashare > 10000000000 and strftime('%Y' , changedate)= '2021';
+select fundmanager , fund from mf_awards where appraisalorg = '40981';
+select secucode from lc_relatedsh where shname = '顾瑜' and shinvestsum > 1000000 and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year'));
+select a.state , count(*) from lc_stockarchives as a join lc_business as b on a.companycode = b.companycode where a.state = '东北' group by a.state ;
+select count(*) from mf_bondportifoliodetail where secuabbr= '博时主题';
+select a.chinameabbr , a.conceptname from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where b.city = '西安市' and a.conceptname = '集成电路' ;
+select socialsecufundholdpropa from lc_stockholdingst where strftime('%Y' , enddate)= '2019' and strftime('%m' , enddate)= '2' and chinameabbr= '中航重机';
+select chinesename from mf_personalinfo where birthdate > 1990 and strftime('%Y' , birthdate)>'1990';
+select numberoffunds from mf_fmscaleanalysisn where chinesename= '付浩';
+select max(indexvalue) , min(indexvalue) from ed_producerpiformp where indextype = '上年同期' and indexname = '食品制造业';
+select buybacksum , percentage , buybackmoney from lc_buyback where chinameabbr = '浙江龙盛' ;
+select rrinfiveyear from mf_netvalueperformancehis ;
+select claimstogovernment , claimstononfinancialinst , claimstospecificsavingorg from ed_chinamoneyandbanking ;
+select indexname , indexvalue from ed_producerpiformp where reportperiod = '上年同月' and indextype = '工业结构分类指数' and reportperiod = '上年同月';
+select firstindustryname from lc_exgindustry where chinameabbr = '普路通'
+select secuabbr from mf_bondportifoliodetail where bondcode= '200203';
+select province , primaryindustrygdp , secondindustrygdp , thirdindustrygdp from ed_grossdomesticproduct where strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-2 year')) ;
+select nvdailygrowthrate from mf_netvalue where secuabbr = '华安石油A';
+select secucode from lc_sharefp where strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-2 year'));
+select enddate , claimsongovernment , claimsoncentralbank from ed_otherdepositorycorpbs where totalassets > 30000000;
+select a.bondabbr ,a.marketvalue ,a.ratioinnv from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where b.secucode= '161010';
+select aquirername from lc_legaldistribution where secucode = '0028981';
+select chinesename from mf_fmscaleanalysisn where bondfundn>3;
+select chinameabbr from lc_legaldistribution where strftime('%Y' , infopubldate) = strftime('%Y' , date('now' , '-1 year')) ;
+select secondindustryname from lc_exgindustry where firstindustryname = '信息传输、软件和信息技术服务业' group by secondindustryname order by count(*) desc limit 2
+select state ,city from lc_stockarchives where chinameabbr= '华昌达';
+select aquirername from lc_legaldistribution where chinameabbr = '国网英大' and strftime('%Y' , infopubldate)= '2020';
+select_from_where strftime(enddate) > strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-2 year'));
+select_from_as a join_as b group by_order by avg(rrinsinglemonth) asc limit 1;
+select annualizedrrintwoyear from mf_netvalueperformancehis ;
+select a.bondabbr ,a.marketvalue ,b.manager from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.secucode= '510130';
+select b.secuabbr from mf_fcretscalerank as a join mf_fundarchives as b on a.innercode=b.innercode where a.fundtypename= '债券型' order by a.totalaumtypeavg desc limit 10;
+select a.secuabbr , a.briefintro from mf_fundarchives as a join mf_fundrisklevel as b on a.innercode = b.innercode where b.risklevel = '中高'
+select b.secuabbr ,b.manager ,a.benchgrfor6month from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.benchgrfor6month>0;
+select b.state from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode where a.mainoperincome > 100000000000 ;
+select a.industryname , count(*) from lc_business as a join lc_stockarchives as b on a.companycode=b.companycode where strftime('%Y' , enddate)= '2012' group by a.industryname;
+select a.name , b.education from mf_fundmanagernew as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.performance < 0.1
+select enddate , province , stateownedcontrolledcomap , industrialvalueadded from ed_industryproduction where reportarea = '省市' and statstandard = '国有及规模以上工业企业' and reportperiod = '年度';
+select sponsorname , lawfirm from lc_ipodeclaration where chinameabbr= '红塔证券' order by sponsorname desc limit 1;
+select fpshname from lc_sharefp where chinameabbr = '瑞茂通' and involvedsum > 1000000
+select stockabbr from mf_keystockportfolio group by stockabbr order by count(*) desc limit 1;
+select rrsincestart from mf_netvalueperformancehis ;
+select secuabbr ,riskreturncharacter from mf_fundarchives where investstyle= '行业股票-医药风格';
+select enterpriseincome , enterpriseincometax from ed_financialbalance where province = '北京' and gtaxs >5 and strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-5 year')) ;
+select annualizedrrintenyear , annualizedrrsincestart from mf_netvalueperformancehis ;
+select b.education , avg(a.totalfundnv) from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode = b.personalcode group by b.education;
+select b.education , count(*) from mf_fmperfanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.alphacoef > 0.5 group by b.education
+select province from ed_grossdomesticproduct where gdpgrowthyoy > 0.5 and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) ;
+select_from_where_and strftime(_) = strftime(_, date(_) ) and round(strftime(%m' ,enddate)/3.0 + 0.495) = 1 and chinameabbr = '中石化' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) and round(strftime('%m' ,enddate)/3.0 + 0.495) = 1 ;
+select enddate , livalueap , industrialoutputvalueap from ed_industryproduction where reportarea = '全国' and statstandard = '全部工业企业' and reportperiod = '期末累计';
+select unitnv , nvweeklygrowthrate from mf_netvalue ;
+select chinesename from mf_fmscaleanalysisn order by qdiinv desc limit 1;
+select count(*) from lc_buyback where strftime('%Y' , advancedate)= '2021';
+select chinameabbr from qt_monthdata where strftime('%Y' , enddate)= '2020' order by totalshare desc limit 10;
+select chinesename , numberoffunds , equityfundnv from mf_fmscaleanalysisn where equityfundn > 5;
+select nvdailygrowthrate from mf_netvalueperformancehis ;
+select controllername from lc_actualcontroller where nationalitydesc != '中国';
+select proportiongrhalfayear from lc_shnumber where chinameabbr= '兴业证券';
+select mainopercost , mainoperprofit from lc_mainoperincome where chinameabbr = '古井贡酒' and strftime('%Y' , enddate)>'2018';
+select count(tradingday) from qt_dailyquote where turnovervalue > 100000000;
+select a.rrsincestart from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode where b.fundtype = '债券型' ;
+select divibase , cashdivirmb from lc_dividend where chinameabbr = '深科技' and strftime('%Y' , dividendimplementdate) > strftime('%Y' , date('now' , '-3 year')) ;
+select b.secuabbr from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '海康卫视';
+select enddate , subjectsum from ed_newincreasingloan where reportperiod = '期末累计' and subjectsum > 150000 and strftime('%Y' , enddate)>= '2000';
+select secucode from lc_dividend where bonusshareratio > 0.5 and strftime('%Y' , dividendimplementdate) = strftime('%Y' , date('now' , '-1 year'));
+select chinameabbr from lc_financialexpense order by commission desc limit 1
+select max(totalassets) from ed_otherdepositorycorpbs ;
+select benchgrforthisweek from mf_benchmarkgrowthrate where secuabbr= 'LOF';
+select ratiofloor from ed_taxrate where typename = '中资大型银行' and itemname = '超额存款准备金率' ;
+select corporatesavings , totalsavings from ed_chinafibalancesheetrmb;
+select secuabbr from mf_benchmarkgrowthrate where benchgrforthismonth>0;
+select exvalueofgoods , imvalueofgoods from ed_exportimport where imvalueofgoods > 4000 and imvalueofgoods < 20 and strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-3 year')) ;
+select b.chinameabbr from lc_largeshsubscription as a join lc_stockarchives as b on a.companycode=b.companycode where b.state= '福建省' and a.oughtshares>1000000;
+select domesticloans , fcdeposits from ed_chinamoneyandbanking where strftime('%Y' , enddate)>'2005';
+select shname from lc_largeshsubscription where chinameabbr= '浙大网新' order by actualshares desc limit 1;
+select a.avgaumtyperank from mf_fmretandscalerank as a join mf_personalinfo as b on a.personalcode = b.personalcode where b.education = '本科'
+select chargeratetydes , chargeratedes from mf_chargeratenew where secuabbr = '南方天元';
+select rightregdate , cashdivirmb from lc_dividend where cashdivirmb > 5 ;
+select a.name from mf_fundmanagernew as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.managementtime > 200 and b.education = '博士'
+select a.chinameabbr , b.leadername , b.positiondescription from lc_sharetransfer as a join lc_executivesholdings as b on a.companycode = b.companycode order by a.pctbeforetran desc limit 5
+select a.chinesename , b.practicedate from mf_fmperfanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.indexcycle = '三年' order by a.calmarr desc limit 10
+select a.firstindustryname , a.secondindustryname from lc_exgindustry as a join lc_stockarchives as b on a.companycode = b.companycode where b.state = '西藏发展'
+select b.type , count(*) from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode where a.fundreturnmean < 0 and a.indexcycle = '六个月' group by b.type
+select avg(turnovervalue) from qt_dailyquote where strftime('%Y' , tradingday)= '2021' and round(strftime('%m' ,tradingday)/3.0 + 0.495) = 4;
+select benchgrforthismonth from mf_benchmarkgrowthrate where secuabbr= '交银治理ETF';
+select unitnv , accumulatedunitnv , discountratio from mf_netvalue where secuabbr = '华安180ETF';
+select_from_where strftime(enddate) > strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-2 year')) ;
+select a.chinesename , b.birthdate from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode=b.personalcode order by a.bondfundnv desc limit 10;
+select_from_where_and strftime (_) =_and round(strftime(%m' ,enddate)/3.0 + 0.495) = 1 and round(strftime('%m' ,enddate)/3.0 + 0.495) = 1 and netassetsvalue > 1000000
+select a.secondindustryname , count(*) from lc_exgindustry as a join lc_freefloat as b on a.companycode = b.companycode where b.afloats > 10000000000 and strftime('%Y' , changedate)= '2019' group by a.secondindustryname
+select b.nationality , count(*) from mf_fmretscaleanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.avgaum > 500 group by b.nationality
+select moneyandquasimoney , quasimoney from ed_chinamoneyandbanking where strftime('%Y' , enddate)<'1995' ;
+select chinameabbr , tradingday from qt_dailyquote where turnovervalue > 1000000000;
+select chinameabbr from lc_stockarchives where legalrepr= '张利忠';
+select otherforeignassets , otherliability from ed_moneyauthoritybs ;
+select_from_where round(strftime(%m' ,enddate)/3.0 + 0.495) = round(strftime('%m' ,enddate)/3.0 + 0.495) = round(strftime('%m' ,enddate)/3.0 + 0.495) = round(strftime('%m' ,enddate)/3.0 + 0.495) = round(strftime('%m' ,enddate)/3.0 + 0.495) ;
+select city ,count(*) from lc_stockarchives where state= '陕西省' group by city order by count(*) desc limit 1;
+select secuabbr ,holdvolume from mf_bondportifoliodetail where bondabbr= '温氏转债';
+select leadername , positiondescription from lc_executivesholdings where chinameabbr = '依米康'
+select shname from lc_relatedsh where chinameabbr = '航天发展' and strftime('%Y' , enddate)= '2020' and strftime('%m' , enddate)= '8'
+select prconfirmationdate from mf_fundarchives where secuabbr = '招商成长'
+select a.returntyperank from mf_fmretandscalerank as a join mf_personalinfo as b on a.personalcode = b.personalcode where b.experiencetime > 10 and a.returntyperank > 0
+select enddate , netabroadassets from ed_chinamoneyandbanking where netabroadassets > 1000000;
+select chinesename ,totalfundnvrank from mf_fmscaleanalysisn;
+select sponsorname from lc_ipodeclaration where accountingfirm= '立信会计事务所';
+select avg(rrinsingleyear) from mf_netvalueperformancehis ;
+select forex , moneyandgold , otherforeignassets from ed_moneyauthoritybs where totalassets > 10000 ;
+select a.leaderchiname , a.positiondescription from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode where b.chichinameabbr = '福星股份' and b.chiname like '谭%'
+select_from_where strftime(enddate) > strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-2 year')) ;
+select a.secuabbr , b.risklevel from mf_fundmanagernew as a join mf_fundrisklevel as b on a.innercode = b.innercode where strftime('%Y' , a.dimissiondate)<'2020'
+select a.secucode , b.state , b.city from lc_business as a join lc_stockarchives as b on a.companycode = b.companycode where a.industryname = '专业技术服务业' ;
+select shnum ,averageholdsum from lc_shnumber where strftime('%Y' , enddate)= '2016' and chinameabbr= '新天然气';
+select enddate , subjectsum , yoy from ed_newincreasingloan where reportperiod = '月份' and subjectsum > 100000 and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-2 year'));
+select b.chinameabbr from lc_stockarchives as a join lc_freefloat as b on a.companycode = b.companycode where a.state = '上海市' and b.afloats > 10000000
+select aquirername , aquireramount from lc_legaldistribution where aquirername = '广发估值优势混合型证券投资基金' and strftime('%Y' , infopubldate) = strftime('%Y' , date('now' , '-1 year')) ;
+select nationalitydesc from lc_stockarchives group by nationalitydesc order by count(*) desc limit 3;
+select b.secuabbr from mf_fcretscalerank as a join mf_fundarchives as b on a.innercode=b.innercode order by a.totalaumrank desc limit 10;
+select a.chinesename , b.practicedate from mf_fmretandscalerank as a join mf_personalinfo as b on a.personalcode = b.personalcode order by a.avgaumtypeavg desc limit 1
+select chinesename , bondfundn , totalfundnv from mf_fmscaleanalysisn order by bondfundnv desc limit 1;
+select nvweeklygrowthrate from mf_netvalue where secucode = '510210';
+select unitnv from mf_netvalue where secuabbr = '泰达效率';
+select b.fundtypename , count(*) from mf_netvalueperformancehis as a join mf_fundreturnrank as b on a.innercode = b.innercode where a.annualizedrrsincestart > 10 group by b.fundtypename;
+select a.leadername , a.chinameabbr from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode where a.positiondescription like '%总裁%' and a.leadername like '%董事长%'
+select_from_where strftime(infopubldate) > strftime('%Y' , date('now' , '-1 year'));
+select chinameabbr from lc_sharesfloatingschedule where newmarketableashares < 1000
+select count(distinct fundcompany) from mf_awards ;
+select enddate , industrialvalueadded from ed_industryproduction where reportarea = '全国' and statstandard = '全部工业企业' and reportperiod = '月度' ;
+select enddate , industrialoutputvalueap from ed_industryproduction where reportarea = '全国' and statstandard = '全部工业企业' and reportperiod = '月度';
+select count(*) from lc_stockarchives as a join lc_business as b on a.companycode = b.companycode where a.state = '江苏省' and b.industryname = '农副食品加工业' ;
+select enddate , forex , moneyandgold , otherforeignassets from ed_moneyauthoritybs where totalassets < 10000000;
+select wholesaleretailtrade , foodbeverage from ed_retailvalueofscgoods where province = '上海' and reportperiod = '年度' and strftime('%Y' , enddate)= '2004';
+select b.firstindustryname , count(*) from lc_sharestru as a join lc_exgindustry as b on a.companycode = b.companycode where a.nonrestrictedshares > 10000000000 group by b.firstindustryname
+select a.city , count(*) from lc_stockarchives as a join lc_coconcept as b on a.companycode = b.companycode where b.conceptname = '大数据' group by a.city ;
+select_from_where strftime(_) =_group by_order by count(establishmentdate) desc limit 1;
+select a.industryname , count(*) from lc_business as a join lc_stockarchives as b on a.companycode = b.companycode where b.state = '江苏省' group by a.industryname ;
+select secuabbr from mf_bondportifoliodetail where secucode= '200203' order by holdvolume limit 1;
+select chinameabbr from lc_stockarchives where state= '山东省';
+select chinameabbr from lc_shnumber where strftime('%Y' , enddate)= '2016' order by shnum desc limit 1;
+select rrinselectedmonth , rrinsinglemonth from mf_netvalueperformancehis where secuabbr = '天弘恒享';
+select reportperiod , indexvalue from ed_producerpiformp where indextype = '国民经济行业指数' and indexname = '金属制品业';
+select industrialvalueadded from ed_industryproduction where province = '上海' and statstandard = '全部工业企业' and reportperiod = '年度' and strftime('%Y' , enddate)= '2000';
+select count(*) from lc_buyback where buybackmoney > 100000000 and strftime('%Y' , advancedate) = strftime('%Y' , date('now' , '-1 year'));
+select count(*) from lc_sharetransfer where pctbeforetran > 0.2
+select b.controllername from lc_stockarchives as a join lc_actualcontroller as b on a.companycode = b.companycode where a.state = '杭州市';
+select rrinsixmonth from mf_netvalueperformancehis ;
+select paidincapital from ed_otherdepositorycorpbs ;
+select chinameabbr from lc_sharesfloatingschedule where proportion2 > 50
+select bondabbr from mf_bondportifoliodetail where secuabbr= '中银中国A';
+select a.chinameabbr from lc_sharesfloatingschedule as a join lc_exgindustry as b on a.companycode = b.companycode order by a.proportion1 desc limit 1
+select count(*) from mf_awards ;
+select chinameabbr , issuepurpose from lc_ashareseasonednewissue where strftime('%Y' , advancedate)= '2021';
+select gdp from ed_grossdomesticproduct ;
+select count(*) from mf_fmscaleanalysisn where totalfundnv > 500;
+select count(*) from lc_legaldistribution where strftime('%Y' , infopubldate) = strftime('%Y' , date('now' , '-1 year')) ;
+select fund from mf_awards where appraisalorg = '晨星资讯' and awardname = '中国股票型对冲基金奖提名';
+select csrcindustryname from lc_ipodeclaration where chinameabbr= '红塔证券';
+select b.type , count(*) from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode where a.indexcycle = '一年' and a.fundreturn < 0 group by b.type
+select enddate , retailvalueofscgoods from ed_retailvalueofscgoods where reportperiod = '年度' and strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-3 year')) ;
+select a.conceptname , count(*) from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where b.state = '广东省' group by a.conceptname having count(*) > 4 ;
+select bondabbr from mf_bondportifoliodetail where secucode= '160611';
+select investstyle ,count(*) from mf_fundarchives group by investstyle;
+select shname , holdingpct from lc_relatedsh where chinameabbr = '农发种业' and strftime('%Y' , enddate)>= '2019' ;
+select count(distinct shname) from lc_relatedsh where shname = '万安集团有限公司' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year'));
+select b.secuabbr ,b.investadvisorname from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '21国债06' order by a.ratioinnv desc limit 1;
+select investadvisorabbrname from mf_investadvisoroutline order by regcapital desc limit 3;
+select a.state , count(*) from lc_stockarchives as a join lc_coconcept as b on a.companycode = b.companycode where b.conceptname = '芯片概念' group by a.state having count(*) > 5 ;
+select count(*) from lc_business as a join lc_stockarchives as b on a.companycode = b.companycode where a.industryname = '通信行业' or a.industryname = '计算机';
+select b.investmenttype ,count(*) from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.benchgrforthisyear<0; group by b.investmenttype;
+select count(*) from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode=b.personalcode where b.education = '本科' and a.totalfundnv > 100;
+select avg(totalfundnv) from mf_personalinfo as a join mf_fmscaleanalysisn as b on a.personalcode = b.personalcode where a.experiencetime > 15;
+select enddate , industrialoutputvalueap from ed_industryproduction where reportperiod = '期末累计' and statstandard = '全部工业企业' and reportperiod = '期末累计';
+select maxchargerate , minchargerate from mf_chargeratenew where secuabbr = '南方天元';
+select b.type , count(*) from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode where a.indexcycle = '一个月' and a.fundreturn > 0 group by b.type
+select distributionsum from lc_legaldistribution where chinameabbr = '国网英大' and strftime('%Y' , infopubldate)= '2020' and strftime('%m' , infopubldate)= '3'
+select thirdindustrygdp from ed_grossdomesticproduct ;
+select expensedrdinput , capitalizedrdinput from lc_intassetsdetail where strftime('%Y' , enddate)=strftime('%Y' , date('now' , '-1 year')) and chinameabbr= '深科技';
+select count(*) from lc_stockarchives where chinameabbr= '拓维信息';
+select b.chinesename , a.investadvisorname from mf_managerexperience as a join mf_personalinfo as b on a.personalcode = b.personalcode where b.education = '本科'
+select count(*) from lc_sharesfloatingschedule where accumarketableashares > 1000
+select a.issueobject , b.generalmanager , b.legalpersonrepr from lc_ashareseasonednewissue as a join lc_issueandlistagent as b on a.companycode = b.companycode where a.chinameabbr = '晶盛机电';
+select b.chinesename ,b.birthdate from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode=b.personalcode where a.bondfundn>3;
+select count(*) from lc_mainoperincome where strftime('%Y' , enddate)>= '2019' and mainoperprofit > 100000000;
+select risklevel from mf_fundrisklevel where secuabbr = '国金50'
+select controllername from lc_stockarchives where controllername= '中国烟草总公司';
+select a.leadername from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode where b.chinameabbr = '恒宝股份' and a.positiondescription = '副总裁'
+select a.industryname , count(*) from lc_business as a join lc_stockarchives as b on a.companycode = b.companycode group by a.industryname ;
+select chinameabbr from lc_stockarchives group by chinameabbr order by count(*) desc limit 5;
+select b.secuabbr ,b.secucode from mf_mainfinancialindexq as a join mf_fundarchives as b on a.innercode = b.innercode order by a.totalprofit desc limit 10
+select csrcindustryname from lc_ipodeclaration group by csrcindustryname order by count(*) limit 10;
+select a.state from lc_stockarchives as a join lc_sharestru as b on a.companycode = b.companycode where b.nonlistedshares > 200000000 group by a.state having count(*) > 10
+select b.city , count(*) from lc_sharesfloatingschedule as a join lc_stockarchives as b on a.companycode = b.companycode where a.newmarketableashares > 100 group by b.city
+select secuabbr from mf_benchmarkgrowthrate where benchgrforthisweek<0;
+select a.name from mf_fundmanagernew as a join mf_fundrisklevel as b on a.innercode = b.innercode where b.risklevel = '中低' group by a.name having count(*) > 5
+select rrinsingleweek from mf_netvalueperformancehis ;
+select gyoyofimvaluegoods , gyoyofexvaluegoods from ed_exportimport ;
+select securitiescorpsholdpropa from lc_stockholdingst where strftime('%Y' , enddate)= '2020' and strftime('%m' , enddate)= '2' and chinameabbr= '重庆建工';
+select_from_where strftime(enddate) > strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-2 year'));
+select chinameabbr from lc_freefloat where totalashare > 1000000000 order by adjfreefloatratio desc
+select avg(numberoffunds) from mf_fmscaleanalysisn;
+select a.state from lc_stockarchives as a join lc_exgindustry as b on a.companycode = b.companycode where b.firstindustryname = '批发和零售业' group by a.state having count(*) > 3 ;
+select chinameabbr from lc_stockarchives where secretarybd= '冯莉';
+select accumarketableashares , nonmarketableashares from lc_sharesfloatingschedule where chinameabbr = '通富微电' or chinameabbr = '海亮股份'
+select issuepurpose from lc_ashareseasonednewissue where chinameabbr = '京能置业';
+select secuabbr ,dailybenchgr from mf_benchmarkgrowthrate;
+select experiencetime from mf_personalinfo where chinesename = '蒋一茜';
+select gdp , gdppercapita from ed_grossdomesticproduct ;
+select bondabbr ,marketvalue ,ratioinnv from mf_bondportifoliodetail where secucode= '159901';
+select grossprofit from lc_mainoperincome where chinameabbr = '冰山冷热' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) ;
+select b.education , count(*) from mf_managerexperience as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.investadvisorname = '富国基金' group by b.education
+select rrinsingleyear from mf_netvalueperformancehis ;
+select rrinselectedweek , rrinsingleweek from mf_netvalueperformancehis where secuabbr = '银华纯债';
+select count(*) from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where b.type= 'ETF' and a.benchgrforthismonth>3;
+select fullname ,underwritingsum from lc_issueandlistagent where chinameabbr= '南华生物';
+select enddate , subjectsum from ed_newincreasingloan;
+select bonusshareratio , cashdivirmb from lc_dividend where secucode = '000752' and strftime('%Y' , dividendimplementdate) = strftime('%Y' , date('now' , '-1 year')) ;
+select_from_where strftime(enddate) = strftime('%Y' , date('now' , '-1 year'));
+select dailybenchgr from mf_benchmarkgrowthrate where secucode= '512500';
+select rrsincestart , annualizedrrsincestart from mf_netvalueperformancehis ;
+select rrsincethisyear from mf_netvalueperformancehis ;
+select max(plannedproceeds) from lc_ashareseasonednewissue ;
+select a.chinameabbr from lc_issueandlistagent as a join lc_stockarchives as b on a.companycode=b.companycode where b.state= '辽宁省' and a.underwritingvol>1000000 and a.underwritingsum>10000000;
+select leadername from lc_executivesholdings where chinameabbr = '科拓生物' and positiondescription = '在职' and strftime('%Y' , enddate)= '2020'
+select_from_where_and strftime (_) = strftime (_, date (_) ) and strftime(infopubldate) = strftime('%Y' , date('now' , '-1 year')) and strftime('%m' , infopubldate) = strftime('%Y' , date('now' , '-1 year')) and secucode = '603059';
+select a.conceptname , count(*) from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where b.state = '南京市' group by a.conceptname ;
+select expenditurecitymc , localgovexpenditure from ed_financialbalance where province = '四川';
+select enddate , imvalueofgoods , gyoyofexvaluegoods from ed_exportimport where exvalueofgoods > 4000 and gyoyofexvaluegoods > strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-10 year')) ;
+select province from ed_grossdomesticproduct where strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-2 year')) order by primaryindustrygdp desc limit 10;
+select shname from lc_relatedsh where holdingsum > 10000000 and secucode = '600110' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year'));
+select secucode , holdingsum , shinvestsum from lc_relatedsh where shname = '顾瑜';
+select annualizedrrinthreeyear from mf_netvalueperformancehis ;
+select b.secuabbr from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.bondabbr= '20国债10';
+select secuabbr from mf_fundarchives where investadvisorname= '易方达基金管理有限公司' and fundtype= '股票型' and strftime('%Y' , establishmentdate)= '2021';
+select enddate , totalliability from ed_moneyauthoritybs order by totalliability desc ;
+select investadvisorname , manager from mf_fundarchives order by establishmentdate desc limit 1;
+select cashdivirmb , actualcashdivirmb from lc_dividend where chinameabbr = '古井贡酒' and strftime('%Y' , dividendimplementdate) = strftime('%Y' , date('now' , '-1 year')) ;
+select b.city , count(*) from lc_sharestru as a join lc_stockarchives as b on a.companycode = b.companycode where a.nonrestrictedshares > 10000000000 group by b.city
+select annualizedrrinthreeyear from mf_netvalueperformancehis ;
+select a.chinameabbr ,a.oughtshares ,a.actualshares from lc_largeshsubscription as a join lc_stockarchives as b on a.companycode=b.companycode where b.state= '广西省';
+select financialbonds , equityandotherinvestment from ed_chinafibalancesheetrmb;
+select enddate , gdp , gdppercapita from ed_grossdomesticproduct where province = '山东';
+select b.chinameabbr from lc_intassetsdetail as a join lc_stockarchives as b on a.companycode=b.companycode where b.state= '广东省' order by rdstaffnumratio desc limit 10;
+select interestexpense from lc_financialexpense where chinameabbr = '再升科技' or chinameabbr = '蓝思科技' and strftime('%Y' , enddate)= '2017'
+select a.bondabbr from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode where a.secuabbr= '易方达中盘ETF' order by ratioinnv desc limit 1;
+select a.state , count(*) from lc_stockarchives as a join lc_coconcept as b on a.companycode = b.companycode where b.conceptname = '大飞机' group by a.state ;
+select rrinthreemonth from mf_netvalueperformancehis where secuabbr = '诺德债券';
+select establishmentdate from lc_stockarchives where chinameabbr= '华昌达';
+select shname , shinvestsum from lc_relatedsh where aquirername = '万安集团有限公司' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-2 year'));
+select chinameabbr from lc_ashareseasonednewissue where strftime('%Y' , advancedate)= '2022';
+select totalshares , ashares from lc_sharestru where secucode = '600371'
+select enddate , livalueap from ed_industryproduction where reportarea = '全国' and statstandard = '国有及规模以上工业企业' and reportperiod = '期末累计';
+select count(a.name) from mf_fundmanagernew as a join mf_personalinfo as b on a.personalcode = b.personalcode where b.education = '博士' and b.gender = '男'
+select advancedate , issuepurpose , issueobject from lc_ashareseasonednewissue where chinameabbr = '大业股份';
+select a.secuabbr from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode where b.fundtype = '股票型' and a.fundannreturn > 0
+select signatureaccountant ,signaturelaw from lc_ipodeclaration where chinameabbr= '华纳百录';
+select chinameabbr , buybackmoney from lc_buyback where buybackmoney = '宝钢股份' and strftime('%Y' , advancedate)= '2020' ;
+select chinameabbr from lc_financialexpense order by exchangeproloss desc limit 20
+select a.fundtypename from mf_fcretscalerank as a join mf_fundarchives as b on a.innercode=b.innercode where b.secuabbr= '中信证券' order by a.totalaumrank limit 1;
+select b.secuabbr ,b.manager from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode order by a.marketvalue desc limit 1;
+select count(*) from lc_legaldistribution where aquiredsum < 10000 and strftime('%Y' , infopubldate) = strftime('%Y' , date('now' , '-1 year'));
+select secuabbr from mf_benchmarkgrowthrate where benchgrfor7year>200;
+select stdivstand1 , endivstand1 from mf_chargeratenew where chargeratetydes = '指数许可费' ;
+select count(*) from mf_keystockportfolio as a join mf_fundarchives as b on a.innercode = b.innercode where b.secuabbr = '贵州茅台' or b.bondabbr = '宁德时代';
+select b.secuabbr , b.risklevel from mf_fundmanagernew as a join mf_fundrisklevel as b on a.innercode = b.innercode where a.managementtime > 1000
+select jointventures , selfemployed from ed_retailvalueofscgoods where province = '浙江' and reportperiod = '年度';
+select b.secuabbr ,b.type ,b.manager from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.benchgrfor10year>50;
+select chinameabbr from lc_sharefp where strftime('%Y' , enddate)= '2018' and strftime('%m' , enddate)= '5' order by involvedsum desc limit 10
+select bondabbr from mf_bondportifoliodetail where secuabbr= '华夏50ETF';
+select fpshname from lc_sharefp where strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-3 year'));
+select count(*) from mf_fundmanagernew as a join mf_fundarchives as b on a.innercode = b.innercode where a.incumbent = '在任'
+select a.chinesename , a.totalfundnv , a.equityfundnv , a.hybridfundnv from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode = b.personalcode where b.nationality != '中国';
+select issuepurpose from lc_ashareseasonednewissue where chinameabbr = '京能置业';
+select b.fundtype , a.rrinsinglemonth from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode where b.fundtype = '股票类型' and a.rrinsinglemonth > 1;
+select floatshare , secucode from qt_monthdata where secucode = '600168' or secucode = '800422';
+select website from lc_stockarchives where chinameabbr= '万科';
+select fundmanager , awardname from mf_awards where appraisalorg = '证券时报';
+select b.manager ,b.investadvisorname from mf_fmscaleanalysisn as a join mf_fundarchives as b on a.chinesename=b.manager order by a.numberoffunds desc limit 1;
+select buybackprice , buybacksum from lc_buyback where chinameabbr = '南都电源' and strftime('%Y' , advancedate)= '2021' ;
+select totalshare , pb , pettm from qt_monthdata where secucode = '000935';
+select a.chinesename , b.background from mf_fmretscaleanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where a.weightedavgreturn > 0 and a.timeinterval = '近10年'
+select fund from mf_awards where winnertype = '投资基金' and strftime('%Y' , `year`) >=2015 ;
+select a.clienttype from mf_chargeratenew as a join mf_fundarchives as b on a.innercode = b.innercode where b.secucode = '160133';
+select exvalueofgoods , gyoyofexvaluegoods from ed_exportimport where strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) ;
+select chinameabbr from lc_sharestru where restrictasharep > 100000000
+select secucode from mf_benchmarkgrowthrate where benchgrfor5year>50;
+select gdppercapita from ed_grossdomesticproduct ;
+select fpshname , involvedsum from lc_sharefp where chinameabbr = '瑞茂通' ;
+select chinesename ,hybridfundnv from mf_fmscaleanalysisn order by hybridfundnv desc limit 10;
+select depositswithcentralbank , cashinvault from ed_otherdepositorycorpbs where strftime('%Y' , enddate)>= '2008';
+select chinameabbr from lc_stockarchives where state= '湖北省' and city= '武汉市';
+select a.chinameabbr from lc_stockarchives as a join lc_exgindustry as b on a.companycode = b.companycode where a.state = '浙江省' and b.firstindustryname = '科学研究和技术服务业'
+select avgholdsumgrhalfayear from lc_shnumber where strftime('%Y' , enddate)= '2020' and chinameabbr= '京基智农';
+select wholesaleretailtrade from ed_retailvalueofscgoods ;
+select businessmajor from lc_business where chinameabbr = '天齐锂业'
+select legalrepr from lc_stockarchives where chinameabbr= '药明康德';
+select chargeratetydes , divstand1 from mf_chargeratenew where secuabbr = '汇添富经典';
+select a.chinameabbr , b.controllername from lc_stockarchives as a join lc_actualcontroller as b on a.companycode like '0%';
+select count(*) from lc_sharefp as a join lc_ashareseasonednewissue as b on a.companycode = b.companycode where a.involvedsum > 10000000 and b.subscribemethod = 'Siri';
+select secuabbr from mf_benchmarkgrowthrate order by benchgrfor3year desc limit 1;
+select secuabbr from mf_benchmarkgrowthrate where benchgrfor3year>0;
+select secuabbr ,annualizedbrforsince from mf_benchmarkgrowthrate order by annualizedbrforsince desc limit 10;
+select rrinfiveyear from mf_netvalueperformancehis ;
+select secucode , chinameabbr from lc_coconcept where conceptname like '%新能源%';
+select chinameabbr from lc_financialexpense order by commission desc limit 5
+select chinameabbr ,astockcode from lc_stockarchives where state= '新疆';
+select a.secuabbr , a.rrinsingleyear , a.rrinthreeyear , a.rrinfiveyear from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode ;
+select count(*) from mf_fundarchives where secumarket= '上海证券交易所' and fundtype= 'LOF' and strftime('%Y' , listeddate)= '2021';
+select chinesename from mf_personalinfo where strftime('%Y' , practicedate) = strftime('%Y' , date('now' , '-1 year'));
+select a.state from lc_stockarchives as a join lc_sharestru as b on a.companycode = b.companycode where b.nonrestrictedshares > 10000000000 group by a.state having count(*) > 10
+select_from_where_and strftime (_) =_and round(strftime(%m' ,enddate)/3.0 + 0.495) = 3 and secuabbr = '招商成长'
+select b.secuabbr , b.listedsector from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode where a.rrinsingleyear > 50 and a.rrintwoyear > 50;
+select count(*) from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where b.state = '杭州市' and a.conceptname = '电商概念' ;
+select a.secucode , b.secretarybdtel from lc_business as a join lc_stockarchives as b on a.companycode = b.companycode where a.industryname = '零售业' ;
+select secucode , chinameabbr from lc_coconcept where conceptname like '%百度概念%' and conceptname like '%阿里概念%';
+select gdp , gdppercapita from ed_grossdomesticproduct where province = '山东' and strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-5 year')) ;
+select education , avg(experiencetime) from mf_personalinfo group by education having avg(experiencetime) > 10;
+select depositsincludedinm from ed_otherdepositorycorpbs ;
+select count(*) from mf_fmscaleanalysisn where qdiinv > 200;
+select a.industryname , count(*) from lc_business as a join lc_stockarchives as b on a.companycode = b.companycode group by a.industryname ;
+select count(*) from lc_ashareseasonednewissue as a join lc_stockarchives as b on a.companycode = b.companycode where strftime('%Y' , a.enddate)>= '2022';
+select leadername , shareamountbeginning , shareamount from lc_executivesholdings where chinameabbr = '顺网科技' and positiondescription like '%董事长%'
+select enddate , livalueap , industrialoutputvalueap from ed_industryproduction where reportarea = '全国' and statstandard = '国有及规模以上工业企业' and reportperiod = '年度';
+select b.secuabbr ,b.manager from mf_fcretscaleanalysis as a join mf_fundarchives as b on a.innercode=b.innercode order by a.numberoffunds desc limit 10;
+select a.secuabbr from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode order by fundannreturn desc limit 10
+select indexvalue from ed_producerpiformp where reportperiod = '上年同期' and indextype = '工业结构分类指数' and indexname = '生活资料-耐用消费品';
+select a.returnsd , a.anndsrisk from mf_fmperfanalysis as a join mf_personalinfo as b on a.personalcode = b.personalcode where b.experiencetime < 5 and b.experiencetime < 5
+select count(*) from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode where a.rrinsingleyear , a.rrintwoyear , a.rrinthreeyear > 30;
+select count(*) from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode where b.chinameabbr = '002104' and a.positiondescription like '%副总裁%'
+select b.secuabbr ,b.manager from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.benchgrforthismonth>5;
+select province , retailvalueofscgoods from ed_retailvalueofscgoods where reportperiod = '期末累计' and strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-3 year')) ;
+select gender , count(*) from mf_personalinfo group by gender
+select fundmanager from mf_awards where appraisalorg = '中国基金报社';
+select closeprice from qt_dailyquote where secucode = '002153' and strftime('%Y' , tradingday)= '2021' and strftime('%m' , tradingday)= '21';
+select aquirername , aquireramount from lc_legaldistribution where secucode = '603059' and strftime('%Y' , infopubldate)= '2020' order by aquireramount desc ;
+select chinameabbr from lc_dividend where strftime('%Y' , dividendimplementdate) > strftime('%Y' , date('now' , '-10 year')) order by dividendimplementdate desc limit 10;
+select pctbeforetran , pctaftertran from lc_sharetransfer where chinameabbr = '朗新科技' and strftime('%Y' , trandate)= '2019'
+select a.chinameabbr , b.firstindustryname from lc_sharestru as a join lc_exgindustry as b on a.companycode = b.companycode order by a.nonlistedshares desc
+select count(distinct awardname) from mf_awards ;
+select secretarybdtel from lc_stockarchives where chinameabbr= '万科';
+select chinameabbr from lc_sharesfloatingschedule order by totalashares desc limit 10
+select a.secucode , a.chinameabbr from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where b.state = '安徽省' and a.conceptname = '无人驾驶' ;
+select count(*) from lc_mainoperincome where chinameabbr = '中国石化' and mainoperincome > 200000000000;
+select shname , holdingpct from lc_relatedsh where chinameabbr = '航天发展' and strftime('%Y' , enddate)= '2020' and strftime('%m' , enddate)= '3'
+select secuabbr from mf_mainfinancialindexq where totalprofit > 1000000000 and strftime('%Y' , enddate)= '2020'
+select ratioceiling from ed_taxrate where typename = '中资大型银行' and itemname = '超额存款准备金率' ;
+select astockcode ,ashareabbr from lc_stockarchives where chinameabbr= '科大讯飞';
+select a.secucode , b.secretarybd , b.officeaddr from lc_coconcept as a join lc_stockarchives as b on a.companycode = b.companycode where a.conceptname = '共享经济' ;
+select plaabbrname , playear , plaproceeds from lc_ashareplacement where plaproceeds < 100000000 and plaproceeds < 100000000;
+select chinameabbr , regaddr from lc_stockarchives where city= '银川';
+select a.chinameabbr from lc_stockarchives as a join lc_actualcontroller as b on a.companycode = b.companycode where a.state = '福建省' and b.controllername = '福建省财政厅';
+select nvdailygrowthrate from mf_netvalueperformancehis ;
+select a.state , b.chinameabbr from lc_stockarchives as a join lc_coconcept as b on a.companycode = b.companycode where b.conceptname = '元宇宙' ;
+select a.chinesename from mf_fmscaleanalysisn as a join mf_fundarchives as b on a.chinesename=b.chinesename and b.hybridfundnv>100 and a.hybridfundnv>50;
+select chinameabbr from lc_financialexpense order by interestexpense desc limit 10
+select reportperiod , indexvalue , indextype from ed_producerpiformp where indexname = '冶金工业';
+select secuabbr from mf_fundreturnrank where fundreturn > 0 and fundannreturn > 0
+select rrintwoyear from mf_netvalueperformancehis ;
+select b.chinameabbr from lc_issueandlistagent as a join lc_stockarchives as b on a.companycode=b.companycode where b.state= '上海市' and a.underwritingvol>1000000;
+select chinameabbr from lc_financialexpense order by commission desc
+select chargeratedes from mf_chargeratenew where secuabbr = '富国300ESGETF';
+select fpshname , involvedsum from lc_sharefp where secucode = '600180' and pctoftotalshares > 0.05
+select fullname from lc_issueandlistagent order by underwritingvol desc limit 100;
+select chinameabbr from lc_stockarchives where adjfreefloatratio=100;
+select aquirername from lc_legaldistribution where strftime('%Y' , infopubldate) = strftime('%Y' , date('now' , '-2 year')) ;
+select a.transferername , sumbeforetran , pctbeforetran from lc_sharetransfer as a join lc_stockarchives as b on a.companycode = b.companycode where b.state = '江苏省'
+select count(*) from lc_business as a join lc_stockarchives as b on a.companycode = b.companycode where a.industryname = '计算机';
+select enddate , industrialoutputvalueap from ed_industryproduction where reportarea = '全国' and statstandard = '全部工业企业' and reportperiod = '期末累计';
+select b.chinameabbr from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode order by a.mainoperincome desc limit 5
+select b.secuabbr , a.name from mf_fundmanagernew as a join mf_fundarchives as b on a.innercode = b.innercode order by a.performance desc limit 5
+select unitnv ,accumulatedunitnv from mf_netvalue where secuabbr = '国泰融信';
+select chinesename ,totalfundnv from mf_fmscaleanalysisn order by totalfundnv desc limit 1;
+select b.secuabbr ,b.manager from mf_bondportifoliodetail as a join mf_fundarchives as b on a.innercode=b.innercode order by a.marketvalue desc limit 1;
+select secucode from lc_ashareseasonednewissue where issuevolvolume>1;
+select rrsincethisyear from mf_netvalueperformancehis ;
+select bonusshareratio from lc_dividend where secucode = '000021';
+select imvalueofgoods , gyoyofimvaluegoods from ed_exportimport where strftime('%Y' , enddate)<'10';
+select secuabbr ,benchgrforsince from mf_benchmarkgrowthrate order by benchgrforsince limit 20;
+select_from_where_and strftime(enddate) = strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) and secucode = '300184' ;
+select leadername , shareamount from lc_executivesholdings where positiondescription like '%副总裁%'
+select_from_where_and strftime( dividendimplementdate) = strftime('%Y' , dividendimplementdate) = strftime('%Y' , date('now' , '-1 year')) ;
+select domesticloans from ed_chinamoneyandbanking order by enddate desc limit 1 ;
+select rrinsinglemonth from mf_netvalueperformancehis ;
+select secucode , chinameabbr from lc_dividend where actualcashdivirmb > 10 and strftime('%Y' , dividendimplementdate) = strftime('%Y' , date('now' , '-2 year'));
+select rrsincestart , annualizedrrsincestart from mf_netvalueperformancehis ;
+select leadername from lc_executivesholdings where chinameabbr = '石化油服' order by shareamount desc limit 1
+select fpshname , accufpshares from lc_sharefpsta where secucode like '300%'
+select secuabbr from mf_mainfinancialindexq where strftime('%Y' , enddate)= '2020' order by totalprofit desc limit 1
+select rrinsingleyear , rrintwoyear , rrinthreeyear from mf_netvalueperformancehis where secuabbr = '易方达中小企业A';
+select annualizedrrsincestart from mf_netvalueperformancehis ;
+select b.fundtype , count(*) from mf_fundreturnrank as a join mf_fundarchives as b on a.innercode = b.innercode where a.indexcycle = '一年' and a.fundreturn < 0 group by b.fundtype
+select rrinthreeyear , rrinfiveyear , rrintenyear , rrsincestart from mf_netvalueperformancehis ;
+select chinameabbr , totalshares from lc_sharestru where chinameabbr = '东北证券' or chinameabbr = '国元证券'
+select secuabbr from mf_fundarchives order by lowestsumpurll limit 1;
+select a.chinameabbr , b.generalmanager , b.legalpersonrepr from lc_dividend as a join lc_stockarchives as b on a.companycode=b.companycode where strftime('%Y' , a.dividendimplementdate)= '2021';
+select selfemployed from ed_retailvalueofscgoods ;
+select annualizedrrinfiveyear from mf_netvalueperformancehis ;
+select b.fundnature , count(*) from mf_investadvisoroutline as a join mf_fundarchives as b on a.innercode = b.innercode group by b.fundnature order by count(*) desc;
+select domesticloans , overseasloans from ed_chinafibalancesheetrmb where totalloans > 1000000 and strftime('%Y' , enddate)<'2000';
+select profitdistributionrule from mf_fundarchives where secuabbr = '招商成长'
+select conceptname , count(*) from lc_coconcept group by conceptname ;
+select rrinthreeyear , rrinfiveyear , rrintenyear from mf_netvalueperformancehis ;
+select b.secuabbr ,b.investfield from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.benchgrforthismonth<0;
+select a.mainbusiness from lc_business as a join lc_stockarchives as b on a.companycode = b.companycode where b.chinameabbr = '富临精工';
+select establishmentdate from mf_fundarchives where secuabbr = '晚到早' order by establishmentdate desc
+select fpshname from lc_sharefp where pctofpledger > 0.3 and strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-2 year'));
+select secucode , nvweeklygrowthrate from mf_netvalue ;
+select_from_where strftime(_) =_and round(strftime(%m' ,enddate)/3.0 + 0.495) = 2 and chinameabbr = '京基智农'
+select evalagent ,signatureevaluator from lc_ipodeclaration where secucode= '300278';
+select retailvalueofscgoods from ed_retailvalueofscgoods where province = '江苏';
+select corporatesavings , financedeposits from ed_chinafibalancesheetrmb where strftime('%Y' , enddate)= '2004';
+select enddate , localgovrevenue , localgovexpenditure from ed_financialbalance where province = '江苏' and localgovrevenue > 10000 and localgovexpenditure < 1000;
+select b.industryname from lc_coconcept as a join lc_business as b on a.companycode = b.companycode where a.conceptname = '半导体' ;
+select_from_where_and strftime(_) = strftime(_, date(_) ) and round(strftime(%m' ,enddate)/3.0 + 0.495) = 1 and chinameabbr = '中石化' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) and round(strftime('%m' ,enddate)/3.0 + 0.495) = 1 and round(strftime('%m' ,enddate)/3.0 + 0.495) = 1 ;
+select indexcycle , fundreturn from mf_fundreturnrank where secuabbr = '华夏创蓝筹ETF' or secuabbr = '建信深证60ETF'
+select totalfundnv from mf_fmscaleanalysisn where chinesename= '张坤';
+select b.chinesename , a.totalfundnv , a.qdiinv from mf_fmscaleanalysisn as a join mf_personalinfo as b on a.personalcode=b.personalcode where b.nationality = '美国';
+select controllername from lc_actualcontroller group by controllername order by count(*) desc limit 1;
+select secucode from mf_fundarchives where secuabbr= '广发小盘A';
+select a.chinameabbr , a.secretarybd from lc_stockarchives as a join lc_freefloat as b on a.companycode = b.companycode where a.city = '深圳市' and b.adjfreefloatratio > 10000000
+select claimtosavingsinst , claimtootherfinnonfininst from ed_moneyauthoritybs ;
+select secuabbr from mf_keystockportfolio order by marketvalue desc limit 1
+select count(*) from lc_ipodeclaration as a join lc_business as b on a.companycode=b.companycode where b.industryname= '银行业';
+select chinesename from mf_personalinfo group by chinesename order by experiencetime asc limit 1;
+select a.chinameabbr from lc_intassetsdetail as a join lc_stockarchives as b on a.companycode=b.companycode where strftime('%Y' , a.enddate)=strftime('%Y' , date('now' , '-1 year')) and totalrdinput>100000000;
+select_from_where strftime(_) = strftime (_, date(_) ) and round(strftime(%m' ,advancedate)/3.0 + 0.495) = 3 and round(strftime('%m' ,advancedate)/3.0 + 0.495) = 3 and round(strftime('%m' ,advancedate)/3.0 + 0.495) = 3 and round(strftime('%m' ,advancedate)/3.0 + 0.495) = 3 and round(strftime('%m' ,advancedate)/3.0 + 0.495) = 3 and round(strftime('%m' ,advancedate)/3.0 + 0.495) = 3 ;
+select a.chinameabbr , b.controllername from lc_stockarchives as a join lc_actualcontroller as b on a.companycode = b.companycode where a.state = '浙江省';
+select secuabbr ,manager from mf_fundarchives where investadvisorname= '出国泰基金管理有限公司' and type= 'ETF';
+select count(*) from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where b.manager= '朱少醒' and a.monthlybenchgr>0;
+select indexvalue from ed_producerpiformp where reportperiod = '上年同期' and indextype = '工业结构分类指数' and indexname = '生活资料-食品';
+select mainoperincome , mainopercost , mainoperprofit from lc_mainoperincome where secucode = '000822' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year'));
+select_from_where_and strftime(_) =_and round(strftime(%m' ,tradingday)/3.0 + 0.495) = 1 and secucode = '300278' ;
+select chinameabbr from lc_sharetransfer where involvedsum desc limit 10
+select b.firstindustryname from lc_sharestru as a join lc_exgindustry as b on a.companycode = b.companycode where a.nonlistedshares > 200000000 group by b.firstindustryname having count(*) > 50
+select fundcompany from mf_awards where strftime('%Y' , `year`) >=2010 and awardname = '三年期股票型金基金奖' and appraisalorg = '投资基金';
+select a.name from mf_fundmanagernew as a join mf_fundarchives as b on a.innercode = b.innercode where a.performance > 0.7 and b.secucode like '15%'
+select enddate , totalassets , foreignassets , foreignliabilities from ed_otherdepositorycorpbs where totalassets > 5000 and strftime('%Y' , enddate) > date('now' , '-1 year'));
+select avgholdsumgrquarter from lc_shnumber where chinameabbr= '古井贡酒';
+select closeprice from qt_monthdata where chinameabbr = '华昌达' and strftime('%Y' , enddate)= '2021' and strftime('%m' , enddate)= '5';
+select fund , appraisalorg from mf_awards ;
+select ratiofloor from ed_taxrate where typename = '农村信用社' and itemname = '超额存款准备金率';
+select a.chinameabbr , b.secondindustryname from lc_stockarchives as a join lc_exgindustry as b on a.companycode = b.companycode where a.state = '浙江省' and b.firstindustryname = '制造业'
+select a.chinameabbr from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode where a.leadername like '刘明强'
+select b.secuabbr ,b.investtarget from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode order by a.monthlybenchgr desc limit 10;
+select a.leadername , a.chinameabbr from lc_executivesholdings as a join lc_stockarchives as b on a.companycode = b.companycode where a.positiondescription like '%董事长%' and a.positiondescription like '%总裁%'
+select secretarybd ,secretarybdtel from lc_stockarchives where astockcode= '600234';
+select collectiveunits , retailvalueofscgoods from ed_retailvalueofscgoods ;
+select b.manager from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode where a.dailybenchgr>0;
+select a.state , count(*) from lc_stockarchives as a join lc_coconcept as b on a.companycode = b.companycode where b.conceptname = '石墨烯' group by a.state having count(*) > 1 ;
+select a.firstindustryname , count(*) from lc_exgindustry as a join lc_freefloat as b on a.companycode = b.companycode where b.adjfreefloatratio = 100 group by a.firstindustryname
+select a.chinameabbr , a.fpshname , a.accufpshares from lc_sharefpsta as a join lc_stockarchives as b on a.companycode = b.companycode where b.state = '河北省'
+select imvalueofgoods , gyoyofimvaluegoods from ed_exportimport where gyoyofexvaluegoods > 0 and exvalueofgoods > 20 and gyoyofimvaluegoods > 0 and strftime('%Y' , enddate)<'2000';
+select unitnv from mf_netvalue where secuabbr = '华安180ETF' and strftime('%Y' , enddate)>= '2021' and strftime('%m' , enddate)>= '4'
+select education , experiencetime from mf_personalinfo where chinesename = '刘伟琳';
+select chinesename from mf_personalinfo where experiencetime > 20 and gender = '女';
+select a.chinameabbr from lc_sharestru as a join lc_exgindustry as b on a.companycode = b.companycode where b.firstindustryname = '建筑业' and a.totalshares > 10000000000
+select chinesename from mf_fmscaleanalysisn order by totalfundnv desc limit 1;
+select chinameabbr from lc_issueandlistagent where underwritingsum<1;
+select retailvalueofscgoods from ed_retailvalueofscgoods where province = '天津' and reportperiod = '年度';
+select indexvalue from ed_producerpiformp where indexname = '饮料制造业' and reportperiod = '上年同期' and strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) ;
+select chinesename ,hybridfundn from mf_fmscaleanalysisn where chinesename= '朱少醒' or chinesename= '刘格菘';
+select enddate , claimsonothernfinstitute , liabilitiestonfinst from ed_otherdepositorycorpbs where strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-1 year')) ;
+select secondindustryname from lc_exgindustry where firstindustryname = '制造业' group by secondindustryname order by count(*) desc limit 1 ;
+select count(*) from lc_legaldistribution ;
+select count(secuabbr) from mf_netvalueperformancehis where nvdailygrowthrate > 100;
+select indextype from ed_producerpiformp ;
+select b.secuabbr from mf_netvalueperformancehis as a join mf_fundarchives as b on a.innercode = b.innercode where b.type = '稳健' order by a.nvdailygrowthrate desc limit 1;
+select b.secondindustryname , count(*) from lc_sharesfloatingschedule as a join lc_exgindustry as b on a.companycode = b.companycode where a.accumarketableashares > 5000 group by b.secondindustryname
+select closeprice from qt_dailyquote where secucode = '300278' and strftime('%Y' , tradingday)= '2021' and strftime('%m' , tradingday)= '5';
+select shname , holdingsum from lc_relatedsh where chinameabbr = '农发种业' and strftime('%Y' , enddate)<'2019';
+select playear , plaproceeds from lc_ashareplacement where secucode = '600859';
+select shname from lc_largeshsubscription where chinameabbr= '博瑞传媒' order by actualshares desc limit 3;
+select b.secuabbr ,a.benchgrforthisweek from mf_benchmarkgrowthrate as a join mf_fundarchives as b on a.innercode=b.innercode order by a.benchgrforthisweek desc;
+select mainbusiness from lc_business where chinameabbr = '精研科技'
+select chinameabbr from lc_shnumber where proportiongrquarter>10;
+select chinameabbr from lc_shnumber where strftime('%Y' , enddate)= '2019' order by shnum desc limit 5;
+select chinameabbr from lc_shnumber where avgholdsumgrhalfayear>20;
+select claimstogov from ed_chinamoneyandbanking ;
+select fpshname from lc_sharefp where chinameabbr = '瑞茂通' and pctoftotalshares > 0.05
+select savingsdeposits , agriculturaldeposits from ed_chinafibalancesheetrmb;
+select imvalueofgoods , exvalueofgoods from ed_exportimport ;
+select chinesename from mf_personalinfo where education = '博士' order by experiencetime desc limit 1
+select transferername , receivername from lc_sharetransfer where chinameabbr = '宝钢股份' and strftime('%Y' , trandate)= '2018'
+select_from_where strftime(enddate) > strftime('%Y' , enddate) > strftime('%Y' , date('now' , '-2 year')) ;
+select b.secuabbr , a.regaddr , a.regcapital from mf_investadvisoroutline as a join mf_fundarchives as b on a.innercode = b.innercode where a.regcapital > 10000000000;
+select transferername , sumaftertran , pctaftertran from lc_sharetransfer where chinameabbr = '盛天网络' and strftime('%Y' , trandate)= '2018'
+select fullname from lc_issueandlistagent;
+select a.grossprofit from lc_mainoperincome as a join lc_stockarchives as b on a.companycode = b.companycode where b.chinameabbr = '西藏发展' ;
+select imvalueofgoods , gyoyofimvaluegoods from ed_exportimport where strftime('%Y' , enddate) = strftime('%Y' , date('now' , '-2 year')) ;
+select a.chinesename from mf_personalinfo as a join mf_fundarchives as b on a.personalcode = b.personalcode where a.nationality != '中国';
+select claimsonotherfinstitute from ed_otherdepositorycorpbs ;
+select closeprice from qt_dailyquote where chinameabbr = '石基信息' and strftime('%Y' , tradingday)= '2021' and strftime('%m' , tradingday)= '14';
+select issuepurpose from lc_ashareseasonednewissue where secucode = '300022';
+select a.chinameabbr , a.fpshname , a.accufpshares from lc_sharefpsta as a join lc_stockarchives as b on a.companycode = b.companycode where b.state = '浙江省'
+select chinesename from mf_fmscaleanalysisn where numberoffunds>15;
+select hybridfundn , hybridfundnv from mf_fmscaleanalysisn where chinesename = '郑希';
+select dailybenchgr from mf_benchmarkgrowthrate where secuabbr= '富国天丰';
+select region , count(*) from mf_investadvisoroutline where strftime('%Y' , establishmentdate)>'2015' group by region;
