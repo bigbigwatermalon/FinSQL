@@ -1,0 +1,5002 @@
+[
+  {
+    "q_id": 0,
+    "question": "Display the number of funds with positive returns for the indicator period of \"one month\" grouped by fund category.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 1,
+    "question": "List the funds with positive benchmark growth rate since this week and their investment direction. Thank you. ",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 2,
+    "question": "The largest shareholder with the most rights issues in 2017.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 3,
+    "question": "Which shareholder names have both actual and ought shares exceeding 500,000?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 4,
+    "question": "Company names, executive names, and positions of the top 5 companies in terms of pre-transfer shareholding percentage.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 5,
+    "question": "What is the half-year growth rate of the average holdings proportion of Xingye Securities? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 6,
+    "question": "Can Tibet Development continue to hold? Please help me check the gross profit of Tibet Development in recent years.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 7,
+    "question": "List the company abbreviation, frozen pledge shareholder name, and the cumulative proportion of frozen pledged shares held by the company in the primary industry of \"Real Estate Industry\". Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 8,
+    "question": "Please find out the funds managed by fund managers with a highest education level of undergraduate.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 9,
+    "question": "Which fund managers have a QDII management scale exceeding 20 billion? What is their respective highest education level?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 10,
+    "question": "I would like to understand the data situation. Who is the CEO of Sun Jian's company?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 11,
+    "question": "Which funds managed by which managers were awarded by \"Securities Times\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 12,
+    "question": "Please check which fund and manager are holding Everbright Convertible Bonds. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 13,
+    "question": "Please find the abbreviations and corresponding actual controllers of all listed companies with ticker codes starting with \"00\". Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 14,
+    "question": "What are the names of fund managers with a doctoral degree and their corresponding maximum one-year return rate?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 15,
+    "question": "Find the top ten funds and managers with the highest number of holdings in bond categories.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 16,
+    "question": "Help me find the data on the research and development expenses of each company in Zhejiang Province listed in 2018.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 17,
+    "question": "Hello classmate! Please displays the number of funds with a positive average return rate of similar funds with an indicator period of \"Inception to Date\", and displays them in groups according to the fund's operation mode.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 18,
+    "question": "What is the intermediary structure and name of the allotment shareholders during the listing of Tianjian Group stock?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 19,
+    "question": "Siri, are there many companies in history whose operating costs have been less than 100 million yuan? How many are there?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 20,
+    "question": "I want to know the stock situation of the \"East Calculation West Calculation\" popular sector, and list the stock codes, chairman's secretary name, and secretary's phone number.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 21,
+    "question": "Hello classmate! What is the average size of the establishment for different types of fund investments?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 22,
+    "question": "What is the actual controller name of the company Zhao Mark belongs to?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 23,
+    "question": "Help me check these data. Show the trading volume data for each trading day of 601908.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 24,
+    "question": "Please help me check which stocks are in the \"3D Glass\" sector, and list their stock names, company secretary names, and contact information for the company secretary.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 25,
+    "question": "List the unit accumulated net value and daily growth rate of open-end fund units for each fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 26,
+    "question": "Which listed companies (unique) established after 2010 have implemented dividend distribution?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 27,
+    "question": "Please help me check how many funds have both fund return and annualized fund return less than 0. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 28,
+    "question": "Find the names of fund managers who hold more than 5 funds with a risk rating of \"medium-low.\"",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 29,
+    "question": "Find the funds whose benchmark growth rate for the past three years is positive.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 30,
+    "question": "Which stocks and monthly time periods meet the criteria of a price-to-earnings ratio greater than 200 and a price-to-book ratio less than 5? Please list the stock names. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 31,
+    "question": "How many fund managers with a highest education level of \"undergraduate\" manage funds with a total scale exceeding 10 billion yuan?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 32,
+    "question": "How many companies had a gross profit margin greater than 1 for their main business sales in 2020?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 33,
+    "question": "What are the abbreviations of newly established fund managers after 2010?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 34,
+    "question": "Do you know who are the secretaries of the board of directors of the stocks in the \"Aircraft Manufacturing\" sector? List the stock names and the names of the secretaries.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 35,
+    "question": "What are the highest degrees of education for fund managers whose annualized alpha exceeds 0.2 and the number of fund managers exceeds 5?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 36,
+    "question": "Find the abbreviation of fund managers with legal representatives surnamed Zhou.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 37,
+    "question": "Hello, what are the funds with a risk level of \"medium-low\" and an operating form of \"open-end\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 38,
+    "question": "Quickly find the data. Provide the fund managers with a number of equity funds exceeding 5 and their profiles.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 39,
+    "question": "List the records of GuJingGongJiu's operating income since listing, which have a year-on-year growth rate greater than 0, including main operating income and the year-on-year growth rate of operating income.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 40,
+    "question": "What are the names and highest education levels of the top 3 fund managers in terms of average fund size for the period \"YTD\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 41,
+    "question": "Please help me look up these data. Which companies in 2020 have a gross profit margin greater than 1 in their main operating business?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 42,
+    "question": "What is the bonus share ratio of Jing Ji Zhi Nong and Tian Jian Group respectively?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 43,
+    "question": "Hey, which major shareholders' names in the rights issue have an allocation of more than 2 million shares?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 44,
+    "question": "Hello classmate! What are the names of the major shareholders of Tongji Technology in the rights issue, and how many shares have been actually allocated to each of them?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 45,
+    "question": "Hey, help me count the number of fund managers with different organizational attributes and display them in ascending order.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 46,
+    "question": "Actual allotment records with Shanshan Group as the name of the allotment shareholder",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 47,
+    "question": "Help me check these data. Find the abbreviation of the fund manager with the largest registered capital.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 48,
+    "question": "Which funds have an investment style of \"Growth-Steady Growth\" and a fund risk rating of \"Medium-Low\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 49,
+    "question": "What are the shareholders and the amount of their investments in Aerospace Development in May 2019?\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 50,
+    "question": "Query the institutions and their legal representatives participating in the stock issuance of Donge Ejiao, as well as the name of the major shareholder in the rights offering and the actual allocated shares.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 51,
+    "question": "What is the half-year growth rate of average shareholding per household in Industrial and Commercial Bank of China (ICBC)?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 52,
+    "question": "Please count the number of funds with an investment style of \"Mixed\" and a risk level of \"Medium\". Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 53,
+    "question": "What is the fund and manager with the highest number of holdings for 21国债01?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 54,
+    "question": "Help me find the data, find the province, city, and code of Tianyu Shuke.\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 55,
+    "question": "Do you have information on the top ten funds, fund managers, and risk-return types in terms of fund benchmark growth rate since this week?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 56,
+    "question": "List the funds with negative benchmark growth rate for two years.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 57,
+    "question": "Please help me check the main operating profit and total operating cost of 000822 in the previous year.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 58,
+    "question": "Please display the data. Which company is the fund manager with the most funds entrusted by China CITIC Bank Corporation Limited?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 59,
+    "question": "Hey, were there any negative year-on-year changes in operating income for 000822 after 2020? List the fields for year-on-year changes in operating income.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 60,
+    "question": "What are the names of the companies and their CEOs with a total share capital exceeding 10 billion in A-shares?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 61,
+    "question": "Please briefly introduce the unit net value and the weekly growth rate of the unit fund value for each fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 62,
+    "question": "How many funds managed by fund managers have positive net value growth during their tenure, categorized by fund risk level?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 63,
+    "question": "List the number and scale of bond funds managed by Chen Long. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 64,
+    "question": "Which funds have a benchmark growth rate of over 5% for this week? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 65,
+    "question": "What is the quarterly growth rate of per capita shareholding proportion for Jinhe Industrial in 2020?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 66,
+    "question": "Quickly find the data. The names of funds with a risk level of \"Medium\" and their risk return types.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 67,
+    "question": "Which companies have had an annual profit contribution of over 1 in the past three years that my friend might consider investing in? Please list their stock codes.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 68,
+    "question": "Which funds have a ten-year benchmark growth rate exceeding 200%?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 69,
+    "question": "Which fund manager manages the most balanced equity funds? What is the quantity?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 70,
+    "question": "What are the abbreviations of fund managers whose establishment date is after 2015 and registered capital is greater than 2 billion?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 71,
+    "question": "As the pledgor of equity, how many companies' frozen pledged shares are managed by China Exim Bank?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 72,
+    "question": "Who is the legal representative of China Bank Fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 73,
+    "question": "Hey, what is the core business of Shenzhen Tech?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 74,
+    "question": "The stock market had a black swan event. Where are the legal representatives and office addresses of the listed companies in the \"Edge Computing\" sector, and also provide the stock codes of these listed companies?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 75,
+    "question": "What are the names and stock codes of listed companies in Xinjiang?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 76,
+    "question": "What is the full name of Wuhan Holdings? And what is the underwriting institution for its stock issuance and listing?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 77,
+    "question": "What is the number of funds with negative average returns among funds of the same type with a \"six month\" indicator cycle, displayed in groups according to the operating form of the funds?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 78,
+    "question": "Which funds with an operating form of \"open-ended\" have a risk level of \"medium-high\"?\n",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 79,
+    "question": "What are the minimum and maximum issuance volumes corresponding to the additional issuance of stock 002305?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 80,
+    "question": "Find the name of the fund with the highest returns among funds with a performance period of \"six months\".",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 81,
+    "question": "What is the net interest payment of Ba Fang Corporation before 2017?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 82,
+    "question": "Help me check the company with the highest proportion of bonus shares in history, as well as the bonus share ratio at that time.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 83,
+    "question": "Which stock has the highest bonus share ratio?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 84,
+    "question": "Hello, what is the name of the allotment shareholder of Guangzhou Rongqi?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 85,
+    "question": "What are the fund manager names and fund growth rates for funds with the securities market as \"Shanghai Futures Exchange\"? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 86,
+    "question": "Look at the stock symbol and abbreviated name of listed companies whose stock codes start with 6, as well as their actual controllers' names.\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 87,
+    "question": "Hey, help me check the major shareholders of NongFa ZhongYe before 2019 and their respective shareholdings.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 88,
+    "question": "How many companies have a gross profit exceeding 1 in the past three years?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 89,
+    "question": "Return the introduction of fund managers who have served for more than 200 days and have negative fund growth rates during their tenure.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 90,
+    "question": "May I ask for the names of fund managers whose monthly average return rate is positive, along with their highest education level and years of experience in securities industry? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 91,
+    "question": "What is the risk level of Guojin 50?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 92,
+    "question": "When were Da Cheng Fund and Xing Yin Fund established? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 93,
+    "question": "I want to know the data of Tongrentang, including its province, city, and establishment date.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 94,
+    "question": "Please check the manager and market value of the holding of Bosch Convertible Bonds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 95,
+    "question": "The quarterly growth rate of per capita shareholding ratio for Jing Ji Zhi Nong in the second quarter of 2020. ",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 96,
+    "question": "Which stocks had a price-to-book ratio (PB) lower than 1 in January this year? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 97,
+    "question": "Please check the six-month benchmark growth rate of E Fund Mid-cap ETF.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 98,
+    "question": "Please look up the top ten bond fund managers and their birthdate information. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 99,
+    "question": "Last year, which companies in Zhejiang Province had R&D expenses exceeding 100 million yuan? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 100,
+    "question": "Which fund management companies' funds are entrusted to Bank of Beijing Limited?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 101,
+    "question": "Find the bond-type funds managed by Hexu Zhiyuan Fund Management Co., Ltd. and the information of the managers.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 102,
+    "question": "What are the top ten funds and fund managers in terms of one-year fund benchmark growth rate?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 103,
+    "question": "Please find the full name and security code of Demei Chemical. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 104,
+    "question": "What are the funds and fund investment scopes with benchmark growth rate greater than 0 on the current day?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 105,
+    "question": "Hey, how many companies have less than 20% of newly added tradable A shares compared to the total tradable A shares at the end of the previous period?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 106,
+    "question": "Hello classmates! Select the top 10 funds with the highest benchmark growth rate for three months.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 107,
+    "question": "Find the data. Name and highest education of fund managers with fund category \"Stock type\" and average fund size less than 2 billion yuan.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 108,
+    "question": "I would like to understand the data situation. What is the quarterly growth rate of the per capita shareholding ratio in the fourth quarter of 2020 for Jing Ji Zhi Nong?\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 109,
+    "question": "Calculate the number of fund managers corresponding to different highest education levels and genders.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 110,
+    "question": "How many \"Industry Stock-Financial Real Estate\" funds does each fund manager manage?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 111,
+    "question": "In the past two years, which shareholders' total investment amount exceeded 10 million yuan in the capital market? List these major shareholders and their stock codes.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 112,
+    "question": "What is the benchmark growth rate of LOF funds today? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 113,
+    "question": "What are the companies in which the total shareholder investment reached 100,000,000 in May 2010?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 114,
+    "question": "Find the data. Please list the name of the major shareholder in the rights offering of 000686.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 115,
+    "question": "Display the data, which fund has the highest market value of holding Bairun convertible bonds, and who is the manager?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 116,
+    "question": "What are the highest educational qualifications of fund managers who have an annualized Sortino ratio over 2 and a number of fund managers exceeding 10?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 117,
+    "question": "Siri, help me check the total management scale of fund managers with a bachelor's degree compared to the average of the same type.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 118,
+    "question": "Find the data. Companies with quarterly growth rate of average per capita shareholding exceeding 5%.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 119,
+    "question": "I want to understand the main business composition and industry of Zhejiang University Netcom.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 120,
+    "question": "I would like to know the data situation. What is the name information of the major shareholder of the allotment for 600165?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 121,
+    "question": "Find the data. The names of fund managers and the net asset value growth rate during their tenure corresponding to funds with a risk level of \"Medium-High.\"",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 122,
+    "question": "I bought 000552 a long time ago, can you help me check the proportion of bonus shares and the amount of cash dividends?\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 123,
+    "question": "Siri, could you please help me count how many funds in different operating forms have an annual return rate exceeding 20%?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 124,
+    "question": "Which institutions participated in the stock issuance of Tianjian Group, and who are the shareholders of its rights offering?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 125,
+    "question": "Hello, what are the funds whose benchmark growth rate exceeds 200% over the past seven years?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 126,
+    "question": "List the funds, fund managers, and specific values where the benchmark growth rate for the past six months is positive.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 127,
+    "question": "Calculate the total number of years in which Sinopec's revenue exceeds 200 billion.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 128,
+    "question": "I want to know how many companies had a shareholder's investment total of 100,000,000 in March 2020.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 129,
+    "question": "List the total number of Infrastructure Securities Investment Fund funds whose duration start date is in May 2021.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 130,
+    "question": "Provide the information of managers, fund managers, and market value for equity funds with an AUM (Assets Under Management) of more than 5 billion.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 131,
+    "question": "Hello classmate! Show me the information of the top ten funds, fund managers, and profit distribution principles based on the weekly fund benchmark growth rate.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 132,
+    "question": "How many optimized index funds are managed by different fund managers in QDII funds?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 133,
+    "question": "The ten funds with the highest benchmark growth rate and their investment targets since this week",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 134,
+    "question": "Which company has the highest cost and expenses in Zhejiang Province in 2020? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 135,
+    "question": "Which funds have the highest benchmark growth rate in the past quarter? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 136,
+    "question": "What are the names of the fund managers whose equity fund management scale exceeds 10 billion, along with their gender and highest education information?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 137,
+    "question": "What are the main businesses of Nanhua Biology and Zhejiang University Netcom?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 138,
+    "question": "Help me find the data, the return rate since this month and the return rate in one month for the fund product named Tianhong Hengxiang.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 139,
+    "question": "Is there any information about the legal representative and the general manager of 600135?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 140,
+    "question": "Display the abbreviated name, city, and general manager of companies with the first industry as \"Manufacturing\".\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 141,
+    "question": "Please provide a list of companies' full names and stock names that have conducted share repurchases in the past two years.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 142,
+    "question": "Find the manager and fund manager with the highest market value for holding 20 China Development Bank 08 bonds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 143,
+    "question": "Which listed companies have a president with the surname Liu?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 144,
+    "question": "What is the main operating income and main operating profit of 000752 last year? Please have a look. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 145,
+    "question": "What are the funds and managers with negative benchmark growth rate today?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 146,
+    "question": "Do you have information about the legal representative and general manager of Weihong Corporation?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 147,
+    "question": "Look at the annual fund benchmark growth rate for each fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 148,
+    "question": "List the funds with manager Zhang Kun, including their codes and fund management companies.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 149,
+    "question": "Please list the abbreviations of the listed companies with stock codes starting with 300, along with their corresponding actual controllers, and sort them in ascending order by stock code. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 150,
+    "question": "What is the distribution of the highest education level among fund managers with assets under management exceeding 10 billion?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 151,
+    "question": "Hello classmate! Since two years ago, what are the names of shareholders whose total investment in shares exceeded 10 million? List the shareholders, stock codes, and their total investment in shares.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 152,
+    "question": "List the companies with an average shareholding proportion less than 10%.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 153,
+    "question": "List the funds with negative benchmark growth rate in one month and their fund types. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 154,
+    "question": "Hello, how many fund managers have an annualized alpha coefficient greater than 0.5, grouped by the highest education level of the fund manager?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 155,
+    "question": "Find the funds and fund managers with a monthly benchmark growth rate higher than 8%.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 156,
+    "question": "I want to consult business with Fangzheng Fubon Fund. Can you please give me the customer service telephone number? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 157,
+    "question": "Find the manager with the highest total number of funds under their management, and the name of the fund manager is?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 158,
+    "question": "Could you please help me check the shareholders and the number of shares held by shareholders for 000948 in the past three years?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 159,
+    "question": "Hi, can you check the stocks in the \"Industrial Internet\" sector? List the stock codes, legal representatives, and names of the chairman's secretary.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 160,
+    "question": "Which Burmese fund managers started their careers after 2015?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 161,
+    "question": "Help me find the data, which company had the highest revenue last year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 162,
+    "question": "What are the non-'Guam' fund managers? What is the total fund size, equity fund size, and hybrid fund size?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 163,
+    "question": "Inquire about the name of the major shareholder, the allotted shares, and the actual distributed shares of Shuangjie Electric through rights issue.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 164,
+    "question": "Help me check these data. Find the top ten funds in terms of monthly benchmark growth rate and their investment targets.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 165,
+    "question": "Which funds in the other type of fund have a value style investment style? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 166,
+    "question": "Which fund managers have registered capital less than 1 billion?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 167,
+    "question": "List the actual controllers of my holdings in stocks 600881 and 601158.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 168,
+    "question": "Ranking of funds with positive benchmark growth rate from high to low today",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 169,
+    "question": "Hello, information about the actual controller names of listed companies in Hangzhou City.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 170,
+    "question": "Hey, how many open-ended funds were listed on the Shanghai Gold Exchange in 2021?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 171,
+    "question": "Provide the manager and bond information of FuguoTianfeng.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 172,
+    "question": "What is the business scope of Shenzhen Tech? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 173,
+    "question": "List the codes of E Fund Artificial Intelligence ETF Fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 174,
+    "question": "The number of funds with negative returns in the \"One Year\" index period, displayed and grouped by fund operating form.\n",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 175,
+    "question": "Help me find the data on the names of frozen pledged shareholders and the number of frozen pledged shares where the cumulative proportion of New Natural Gas to frozen pledged shareholder's holding exceeds 0.8.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 176,
+    "question": "How many companies in Jiangsu Province have a free float ratio of 100%?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 177,
+    "question": "Is it worth buying the stock of Norde Share? What are the names of its affiliated shareholders and their respective shareholding ratios? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 178,
+    "question": "Help me find the data! Sort company names in ascending order by net interest payment.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 179,
+    "question": "What are the names of the shareholders and their respective allocated shares in Tianshan Stock?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 180,
+    "question": "Provide the information of the allotment shareholders for 600797.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 181,
+    "question": "Find the data. How was the business performance of 000822 in the previous year? Display the operating revenue, total operating cost, and main business profit.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 182,
+    "question": "Hello classmate! Please check the stock abbreviation and security code for 600190.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 183,
+    "question": "Look at the main business and industry of Jingyan Technology.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 184,
+    "question": "What are the top 50 companies in Guangdong Province with the highest number of research and development personnel?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 185,
+    "question": "Hello, list the ranked funds with negative benchmark growth rate in ascending order since this week, and what are their growth rates respectively?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 186,
+    "question": "List the names of funds with a fund category of \"Bond\" and an average return greater than 0.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 187,
+    "question": "I would like to know the data situation. The fund and manager with the most types of bond holdings.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 188,
+    "question": "Who is the manager of Fuguo Tianfeng, what bonds do they hold, and what is the respective market value?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 189,
+    "question": "Give me the funds and managers with heavy positions in Nanyin Convertible Bonds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 190,
+    "question": "What is the underwriting volume of Tianjian Group's stock during its issuance by institutions?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 191,
+    "question": "Help me find the data for companies with a quarterly growth rate of average shareholding per household below 5%.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 192,
+    "question": "Hello classmate! List the funds and managers holding Hang Yin Convertible Bonds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 193,
+    "question": "Help me find the data. What are the funds with \"Medium\" risk rating and \"Bond\" fund category?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 194,
+    "question": "Find the information of listed companies and their respective districts in Changchun City.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 195,
+    "question": "Please help me check the name of the fund manager with the longest tenure and their highest education. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 196,
+    "question": "Display the listed companies controlled by American companies, including their abbreviations, presidents, and legal representatives.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 197,
+    "question": "Hey, please provide the name of the major shareholder and the information of actual and allotted shares for the rights issue of 600110.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 198,
+    "question": "How many fund companies are there for different types of organizations?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 199,
+    "question": "List the institutions and underwriting amount hired by Tiantian Group for stock issuance, as well as the name of the major shareholder for the rights issue and the actual number of allotted shares.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 200,
+    "question": "Which shareholders had a holding quantity of over 10 million in the year 2020? List the names of these shareholders.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 201,
+    "question": "Find the names of funds with a return rate less than 0 for the index cycle \"Year-to-date\".",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 202,
+    "question": "List the data records of reserve deposits in the balance sheets of other deposit-taking companies.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 203,
+    "question": "Help me check the names of frozen pledged shareholders for Hars and Jingyuntong. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 204,
+    "question": "Siri, in the fourth quarter of last year, how much did China have in government claims and central bank claims in the balance sheet of other deposit-taking financial institutions?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 205,
+    "question": "How many funds with a fund code starting with 16 have a fund return greater than 0?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 206,
+    "question": "Filter out the names of all fund managers whose total assets under management in equity funds exceed 20 billion.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 207,
+    "question": "Hello, which fund manager has the most index funds under management?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 208,
+    "question": "Hey, what is the total trading volume and total trading value of Kesi Corporation every day?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 209,
+    "question": "Which fund managers with the surname Wang have more than 10 years of work experience?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 210,
+    "question": "Please check the company codes and stock names with dividend records.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 211,
+    "question": "Find the data. List all the distribution years, distribution price, and total amount raised by Sichuan Meifeng in history.\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 212,
+    "question": "Hello, Xiaoli, I heard that the funds of \"Penghua Fund Management Co., Ltd.\" are good. Which of its funds have won awards? List them.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 213,
+    "question": "Calculate the number of funds targeting \"pension clients.\" Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 214,
+    "question": "Hey, calculate which type of fund has the highest average daily return rate corresponding to its operating form.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 215,
+    "question": "Display the accumulated net value data of Guotou Ruiying fund product for this year.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 216,
+    "question": "hello, who is the sponsor for Red Tower Securities IPO?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 217,
+    "question": "Which industry has had the most IPO companies after 2017?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 218,
+    "question": "I want to see the index value of \"Metal Products Industry\" for the \"same period last year.\"",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 219,
+    "question": "Please query the numerical value of the five-year return rate of the fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 220,
+    "question": "Please help me check the highest ratio of \"excess deposit reserve ratio\" for \"rural credit cooperatives.\" Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 221,
+    "question": "Display the company name and its primary industry of listed companies with a total share capital exceeding 10 billion.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 222,
+    "question": "Let me have a look at the gross domestic product in our country. What are the respective gross domestic products of the primary, secondary, and tertiary industries?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 223,
+    "question": "When did fund manager Liu Jun start working?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 224,
+    "question": "Find the names of executives who hold the position of \"deputy general manager\" in Zhejiang Province, along with the names of their respective companies.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 225,
+    "question": "Hey, I want to buy stock 002354. Can you help me check which sector it belongs to?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 226,
+    "question": "Please help me check the names of the listed companies in the \"Capital Market Services\" industry, and their respective provinces and cities.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 227,
+    "question": "Distribution of nationalities of actual controllers of A-share listed companies in various countries and regions",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 228,
+    "question": "Quickly find the data. Look at which funds hold 128125 and what are the fund codes.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 229,
+    "question": "Give the top ten companies with the highest proportion of unlimited tradable A shares held by trust companies in 2021.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 230,
+    "question": "Can you provide a detailed record of China's bonds and central bank bonds from last year? Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 231,
+    "question": "List the companies with secondary industry in Guangdong Province as \"Real Estate Industry\". Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 232,
+    "question": "Shareholders of listed companies and their rights issues in Guangzhou City",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 233,
+    "question": "Find the names of executives who have the positions of \"Chairman\" or \"Vice Chairman\" and their company names.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 234,
+    "question": "Please query the names of listed manufacturing companies and their A-share capital information, and arrange them in descending order by A-share capital size.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 235,
+    "question": "Find out the highest and lowest ratio of \"Commission Fee\" for \"Treasury Bond Repo\" in different trading markets.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 236,
+    "question": "What was the local government revenue and expenditure in each province and city of China before 2010?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 237,
+    "question": "Siri, please count the number of funds that have won the \"Three-Year Continuous Return Star Fund Company Award.\"",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 238,
+    "question": "Find the data. Which records in the balance sheet of other depositary financial institutions have total assets exceeding 50 million, but total liabilities less than 50 million? Display the time, total assets amount, and total liabilities amount.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 239,
+    "question": "What are the names and education of the top 5 fund managers in terms of average return rate among their peers within the time interval of \"recent 1 year\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 240,
+    "question": "Find the names of companies in Guangdong province with a total share capital exceeding 100 million.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 241,
+    "question": "Search for the fund companies that have been awarded by the organization \"14561\".",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 242,
+    "question": "What are the historical records of GDP and per capita GDP in Zhejiang province?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 243,
+    "question": "List the names and codes of funds with an annualized return rate exceeding 30% since establishment.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 244,
+    "question": "Ranking of funds with benchmark growth rate greater than 0 from high to low today. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 245,
+    "question": "Please find out the different retail amounts of consumer goods for state-owned units, collective units, and joint ventures.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 246,
+    "question": "Which companies in history have a main operating profit exceeding 100 million yuan? List the company codes and main operating profits.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 247,
+    "question": "What is the institution hired by Tianjian Group when issuing or listing stocks?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 248,
+    "question": "Do you know the GDP of the primary, secondary, and tertiary industries in various provinces and cities nationwide over the past 5 years? Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 249,
+    "question": "Help me find the data and count the number of listed companies in the \"Pharmaceutical Manufacturing Industry\" in each province and city.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 250,
+    "question": "What are the institutions and underwriting amounts for the underwriting of 000401 shares?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 251,
+    "question": "Hey, which companies distributed shares last year? List the stock names and stock codes.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 252,
+    "question": "Help me list the data of export and import amounts before the year 2000, where the year-on-year growth of our country's exports is positive while the year-on-year growth of imports is negative. List the import amount and export amount.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 253,
+    "question": "Quickly find the data. Was there any dividend payment for 000021 before? Please organize the dividend payment records for me.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 254,
+    "question": "Hello, please help Wang check the numerical size of the two-year return rate for each fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 255,
+    "question": "Please show the data. How many times were there stock issuances in 2020?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 256,
+    "question": "Which major shareholders participated in the rights issue of 600110 and how many shares did each of them actually subscribe for? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 257,
+    "question": "The fund with the earliest establishment date",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 258,
+    "question": "Do any funds hold 128125? What are their market values?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 259,
+    "question": "Show the data for the most trustworthy fund manager in a fund company.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 260,
+    "question": "Can you show the data and tell me what is the 10-year annualized return rate of the fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 261,
+    "question": "What is the name of the fund with the secucode 160215? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 262,
+    "question": "Help calculate the distribution of \"Domestic Software\" companies in different cities, list the city names and quantities.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 263,
+    "question": "Siri, could you please help me calculate the number of funds that have a yearly return rate exceeding 20% for each different operating form?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 264,
+    "question": "How much cash dividend has been distributed historically for my friend's holdings of 000040?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 265,
+    "question": "Hey, what is the rate division interval and rate of \"Fuguo Innovative Pharmaceuticals ETF\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 266,
+    "question": "Has there been any stock placement records with fundraising amount exceeding 10 billion? How many times in total?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 267,
+    "question": "Hi, could you please check the records of other foreign assets and foreign liabilities again. They are in the balance sheet of the monetary authority?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 268,
+    "question": "Find the names of executives who simultaneously hold the positions of \"Chairman\" and \"CEO\" and their respective companies. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 269,
+    "question": "List the industry to which Jingyan Technology belongs.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 270,
+    "question": "Please give me the size of the three-year return rate data for the fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 271,
+    "question": "Provide the accounting firm and signature accountant information for DaYe Corporation's IPO.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 272,
+    "question": "What is the number of rights issues of Shenzhen Tech?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 273,
+    "question": "Hello, which companies are included in the second industry \"Capital Market Services\"?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 274,
+    "question": "The proportion of investment from companies with Guangfa Securities as the sponsor after 2018.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 275,
+    "question": "Help me find some data! What is the record of China's domestic gross domestic product for the tertiary industry in recent years?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 276,
+    "question": "Which province is Wuliangye a company of and who is the legal representative?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 277,
+    "question": "What is the proportion of freely tradable shares held by other institutions in BuBuGao in the first quarter of 2020? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 278,
+    "question": "Find the data. Can you help me check the amount of total assets in the monetary authority's balance sheet?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 279,
+    "question": "Siri, which shareholder had the highest percentage of ownership in authorizing Xinri Hengli Corporation in 2018?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 280,
+    "question": "Help me summarize the total amount of import and export goods in our country over the years, as well as the specific amounts for imports and exports.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 281,
+    "question": "What is the maximum total fund size managed by fund managers with different educational backgrounds respectively?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 282,
+    "question": "List the company codes with negative year-on-year main operating income before 2019. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 283,
+    "question": "In 2020, what are the names, positions, and company names of the top 5 executives ranked by the number of shares held at the end of the period?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 284,
+    "question": "What is the average proportion of heavy-weight stocks in the assets of FuGuo TianHui A Fund? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 285,
+    "question": "Teacher Wang is in charge of statistics. Please provide him with a set of data on the accumulated amount of loan increases that we record annually according to \"end of period accumulation\".",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 286,
+    "question": "Which manager is managing 160615 and what bonds are held in the portfolio?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 287,
+    "question": "Help me find the data for the name and address of the intermediary institution involved in the issuance of Hubei Yihua's stock",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 288,
+    "question": "What is the total amount of savings and loans in financial institutions?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 289,
+    "question": "Find the data on the proportion of freely tradable A shares held by QFII for each company in 2020.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 290,
+    "question": "Which fund manager has the shortest tenure at a fund company? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 291,
+    "question": "Please help me check the monthly circulating share capital and total share capital data of Oriental Electronics.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 292,
+    "question": "The total amount of \"year-end cumulative\" retail sales of consumer goods in Beijing from 2000 to the present is how much?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 293,
+    "question": "Monthly closing price and circulating shares information for 000822",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 294,
+    "question": "Which fund manager currently manages the highest number of funds?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 295,
+    "question": "Which stocks have a weekly return rate greater than 5% in funds of stock type?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 296,
+    "question": "What are the funds established in the first quarter of last year?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 297,
+    "question": "Which city in Guangdong Province has the most listed companies?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 298,
+    "question": "Which companies have ultimate controlling persons from the United States?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 299,
+    "question": "From two years ago, which shareholders have invested more than 10 million? List the shareholder name, stock code, and investment quantity.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 300,
+    "question": "Which funds have won awards established by \"China Securities Journal\" since 2010?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 301,
+    "question": "Hello, help me check the business performance of Gujinggongjiu last year, and list the main operating income, main operating costs, and main operating profits.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 302,
+    "question": "Is it worth buying the stock of Nordic Securities? Who are its shareholders, and what are their respective shareholding ratios? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 303,
+    "question": "What are the company names and corresponding primary industries of companies whose shareholding ratio after transfer is higher than 0.5?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 304,
+    "question": "Which funds in the \"Stock Type\" category have had an annualized rate of return exceeding 50% since their establishment? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 305,
+    "question": "Help me find the data. Which index funds have a benchmark growth rate of more than 5% for the past six months?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 306,
+    "question": "Find the codes of the funds that have incurred significant losses since their establishment, and list the codes and names of the funds with a yield lower than -30% since their establishment.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 307,
+    "question": "Display the top 3 fund products in terms of daily return rate, along with their fund size and fund category information.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 308,
+    "question": "What is the main business of Shenzhen Technology?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 309,
+    "question": "Do you know the annual \"year-end accumulated\" gross industrial output value of state-owned and collective enterprises in \"all industrial enterprises\" in Shanghai? Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 310,
+    "question": "Check the net asset value of each fund and list the fund codes.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 311,
+    "question": "How many equity shares were entrusted by AUCMA in the year 2016?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 312,
+    "question": "Find the data quickly. Please list the codes and names of \"Mixed Type\" funds that have an annualized rate of return exceeding 30% since inception.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 313,
+    "question": "Please help me calculate the dividend payout amount and actual dividend amount of GujingGongjiu in the past two years. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 314,
+    "question": "I want to know which funds have a monthly return of more than 5%? And show their daily return rate and weekly return rate.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 315,
+    "question": "Please help me check the names of the funds managed by fund managers with a tenure starting in 2021 and their respective risk levels.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 316,
+    "question": "Please help me check the main business of Zhejiang University Netcom.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 317,
+    "question": "What is the one-month benchmark growth rate of Huaxia Industry Fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 318,
+    "question": "How many listed companies are there in Xiamen?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 319,
+    "question": "Hey, check the funds, managers, and investment targets with a benchmark growth rate exceeding 20% in the past five years.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 320,
+    "question": "Provide the funds and fund managers that hold HaiLiang Convertible Bonds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 321,
+    "question": "Hello, what is the average size of the funds managed by Jia Chengdong?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 322,
+    "question": "Hello, please search for the city with the highest number of listed companies in the \"Cloud Computing\" sector, and list the count.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 323,
+    "question": "Can you display the retail amount of social consumer goods for our state-owned units in recent years?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 324,
+    "question": "What is the quantity and total amount of share repurchases for 300011?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 325,
+    "question": "Engineer Li said that he is selecting funds and wants help to check the amount of return since the establishment of the funds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 326,
+    "question": "List the three-month, six-month, and one-year return rate data for Boshi Strategy.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 327,
+    "question": "Display the grouped frozen pledge shareholders' names and the total number of shares held by each shareholder in Perfect World.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 328,
+    "question": "Hello, what is the quantity of the latest share buyback by Nandu Power, and what is the proportion of it to the total share capital?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 329,
+    "question": "How many companies had a main operating income of over 100 million yuan last year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 330,
+    "question": "What are the names of the major shareholders and intermediary institutions during the issuance of Dongxu Blue Sky's stock rights offering?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 331,
+    "question": "Please provide the data records of other assets and other liabilities in the balance sheet of other depositary corporation.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 332,
+    "question": "Which asset management company manages the largest number of equity funds?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 333,
+    "question": "How many companies have added over 1 million shares of tradable A-shares this time, grouped by first-level industry?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 334,
+    "question": "Can you help me look up the number of listed companies in each sector in \"Hainan Province\"? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 335,
+    "question": "Look at the bond with the highest market value held by Penghua Value.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 336,
+    "question": "Find the data. Determine which city and district 600165 belongs to.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 337,
+    "question": "Which fund has Wang Shuai as the fund manager?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 338,
+    "question": "Help me find the data! Find the closing price, float shares, and total shares data of 600649 in the third quarter of 2021.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 339,
+    "question": "Hello, please calculate the number of share repurchases and the proportion of share repurchases to total share capital for Jiangsu Leasing in 2019.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 340,
+    "question": "List the opening price and closing price of Shanmei International every day from 2018 to the present.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 341,
+    "question": "Help me find the data, find the executives of the company with stock code 000430.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 342,
+    "question": "How many listed companies have been established after 2001? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 343,
+    "question": "Display the pre-transfer share quantity and pre-transfer share ratio of 300707. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 344,
+    "question": "I have been following Dongbei Securities for a long time. What are its historical bonus share ratio and cash dividend amount? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 345,
+    "question": "Please display the three-year annualized return rate data for funds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 346,
+    "question": "Please calculate the average distribution of one-year return rates of fund products according to different fund operation methods.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 347,
+    "question": "Help me find the data! What is the use of the funds raised by 300391 through stock issuance?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 348,
+    "question": "Do you know the amount of newly added RMB loans that we recorded by \"month\" two years ago? Please list them.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 349,
+    "question": "How many listed companies are there in Beijing?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 350,
+    "question": "How much were the main operating income and main operating profit of 000752 last year? Please help me take a look. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 351,
+    "question": "Display the data for the half-year growth rate of the average holding ratio of Jingji Zhinong in 2020.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 352,
+    "question": "Hey, find the fund with the highest holding of 128125.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 353,
+    "question": "Xiaoli, I want to buy the \"Huaan 180 ETF\" recently. Can you check its cumulative unit net value, daily growth rate, and weekly growth rate for me?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 354,
+    "question": "Please help me calculate the number of listed companies in the \"Internet Finance\" sector that are located in the city of \"Hangzhou\".",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 355,
+    "question": "Give me the website of Puyin Ansheng Fund. I want to check their information.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 356,
+    "question": "Please search for the funds that were awarded two years ago. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 357,
+    "question": "The losses of Gujing Gongjiu are quite serious. How much was the bonus share ratio before, and what is the amount of cash dividends?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 358,
+    "question": "Which companies had their stock issuance underwritten by institutions for more than 50 million shares?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 359,
+    "question": "List the names of listed companies with stock codes beginning with 600.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 360,
+    "question": "Help me check these data. Show the two-year annualized return rate of the funds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 361,
+    "question": "Show me the data, do we have records of currency and banking before the year 2000? If so, show me the data of net foreign assets and domestic credit.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 362,
+    "question": "What kind of fee rate does 159748 need to pay and how is the interval described?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 363,
+    "question": "The shareholder with the most rights issues allocation of Hundsun Electronics.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 364,
+    "question": "Please list the ten-year return rate and the ten-year annualized return rate of the funds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 365,
+    "question": "What are the names and values of the indices in the \"Industrial Structure Classification Index\" from 2010 to present, displaying data for the \"Same month of the previous year\"?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 366,
+    "question": "Starting from two years ago, which shareholders had investment amounts exceeding 10 million RMB? List the names of shareholders, stock codes, and investment amounts.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 367,
+    "question": "The number of funds with positive average returns in the \"since inception\" period, grouped by fund category, is shown.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 368,
+    "question": "The latest sponsor of Shinewing Certified Public Accountants",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 369,
+    "question": "Please list the index value of \"Production Materials-Processing\" in our \"Same Period Last Year\" \"Industrial Structure Classification Index\".",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 370,
+    "question": "What is the minimum and maximum issuance limit set by Jifeng Technology for stock issuance?\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 371,
+    "question": "Has Qiu Piyun participated in share allotments in the past three years? List the number and amount of allotted shares, with the amount sorted in descending order. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 372,
+    "question": "Help me find the data! Help me check the share distribution of 600517, showing the total number of shares distributed, the investor's name, and the number of shares allocated to the investor.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 373,
+    "question": "Which fund has the highest return rate since its establishment?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 374,
+    "question": "Which fund company was established most recently?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 375,
+    "question": "Is there a record of the index value for the \"Pharmaceutical Manufacturing Industry\" in the first quarter of last year? Please display the value for the \"same month of the previous year\".",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 376,
+    "question": "What are the actual and expected number of shares allocated to each shareholder for 000423?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 377,
+    "question": "Which major shareholders of rights issues have an allotment quantity exceeding 2 million shares?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 378,
+    "question": "Please help me check the highest P/B ratio of stock 600352 in the year 2022.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 379,
+    "question": "Please list the data records of total liabilities in the balance sheet of other deposit-taking companies.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 380,
+    "question": "Find the data. Name and background introduction of fund managers with maximum profit exceeding 2.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 381,
+    "question": "Hello, can you please extract the rate division standard and the starting and ending values for the range of 501065? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 382,
+    "question": "List the total amount of share repurchases and stock codes for all listed companies since 2019. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 383,
+    "question": "How much do we have in claims on other depositing corporate and claims on other resident sectors in the balance sheet of other depository corporations when the total assets amount exceeds 50 million?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 384,
+    "question": "The fund manager with the highest number of job positions.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 385,
+    "question": "Look at the funds and fund managers with a investment style of Large Cap Value Stocks.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 386,
+    "question": "What are the fund names and risk-return characteristics of funds with a risk level of \"Medium\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 387,
+    "question": "Brother, how many companies are there for each classification according to the organizational form of fund companies?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 388,
+    "question": "Please check the names and positions of the executives of companies in Zhejiang Province with stock codes starting with 300. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 389,
+    "question": "Find the data. Please provide the local government revenue and local government expenditure in Shanghai over the years.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 390,
+    "question": "Which funds had net asset values exceeding 10 billion at the end of the fourth quarter of 2020?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 391,
+    "question": "Do you have information on the number of listed companies in Shanxi Province?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 392,
+    "question": "Which companies have issued additional shares since 2022?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 393,
+    "question": "Please help me find the data! Which companies belong to the primary industry \"Construction\"?\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 394,
+    "question": "Please filter out all fund codes with a risk level of \"medium-high\". Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 395,
+    "question": "What is the profit of Huaxia 50ETF in the first quarter of 2021?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 396,
+    "question": "I heard that the pharmaceutical and biotechnology sector has been busy recently. I want to know the main business scope of Nanhua Biology.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 397,
+    "question": "Can I see the ten-year return rate data of the fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 398,
+    "question": "Display the data for the largest controlling shareholder of Yatai Group in terms of the number of allocated shares.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 399,
+    "question": "How many companies are there in Changsha, Hunan province?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 400,
+    "question": "Please help me find the data on each company and its average allotment ratio.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 401,
+    "question": "Show the data for fund managers whose total managed scale is less than 100 million yuan.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 402,
+    "question": "Find the data quickly. Name of the company with the highest total A-shares among companies with stock codes starting with 6.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 403,
+    "question": "What is the main operating income of Iceberg Cold and Hot in 2020?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 404,
+    "question": "What is the fund company with the highest number of managed funds?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 405,
+    "question": "Help me find the data, what are the major shareholders and their allocated shares for the rights issue of Tianshan Stock?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 406,
+    "question": "The fund managers with top ten benchmark growth rate for three months.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 407,
+    "question": "What is the shareholder's name and the shareholding ratio of Liyuan Information? Help me check it out.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 408,
+    "question": "How many listed companies are there in Wuhan City?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 409,
+    "question": "Hello, please check the \"end-of-period accumulated\" retail sales of social consumer goods for collective units and self-employed individuals in each \"province/city\" last year.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 410,
+    "question": "Hey, what are the bonds in which Penghua Value holds more than 50,000 shares?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 411,
+    "question": "Hi Xia Li, show me the total retail sales of consumer goods in Beijing over the years.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 412,
+    "question": "Hello, what is the \"end-of-period cumulative\" total retail sales of consumer goods in Beijing over the years?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 413,
+    "question": "Please list the specific values of interest expense and exchange gain/loss for Wanda Information after 2016.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 414,
+    "question": "Please provide a count of the records in which the Chinese renminbi (RMB) new loan amount exceeds 150,000, displaying the time and new amount fields, according to the records recorded by \"Month\".",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 415,
+    "question": "What is the shareholder and investment amount of Changshan Beiming in March 2020?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 416,
+    "question": "Calculate the total amount of agricultural deposits and savings deposits in China's credit debit statement.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 417,
+    "question": "List the company abbreviation and the names of frozen pledged shareholders whose first-level industry is \"construction industry\", and display them in reverse order according to the cumulative proportion of the total share capital.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 418,
+    "question": "List the funds with benchmark growth rate greater than 5% since this month and their specific values.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 419,
+    "question": "How many companies have a gross profit margin greater than 1 in 2020?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 420,
+    "question": "Please display the return rate values of each fund since this month.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 421,
+    "question": "Find all funds that hold more than 1 million shares of Huahai Convertible Bonds. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 422,
+    "question": "Which company in Zhejiang Province had the highest main operating income in 2020? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 423,
+    "question": "How many stocks had a monthly closing price below 2 in the first quarter of 2022?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 424,
+    "question": "In March 2020, how many shareholders had frozen equity at each company?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 425,
+    "question": "Hey, what is the underwriting amount of Changshan Beiming's stock issuance and listing when it went public?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 426,
+    "question": "Where is Jianxin Fund headquartered? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 427,
+    "question": "Show the maximum value of the total retail sales of consumer goods in Shanghai at the end of the period.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 428,
+    "question": "Quickly find the data. SIRI, filter fund products, with a monthly return rate exceeding 5%, and a weekly return rate exceeding 3%.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 429,
+    "question": "Find the rank of CITIC Securities in terms of total assets under management among its peers.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 430,
+    "question": "The authorizer and authorized receiver of Nord Co., Ltd.'s equity authorization in 2019.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 431,
+    "question": "Please show the amount record of reserve assets in the balance sheet of other depository corporations.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 432,
+    "question": "What is the net asset value of Nanfang Accumulated Allocation at the end of the latest quarter?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 433,
+    "question": "List the fund managers who are male, have a Ph.D., and have the surname Li.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 434,
+    "question": "List the number and size of bond funds managed by Chen Long.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 435,
+    "question": "Help me find the data! Mr. Li wants to know the gross domestic product (GDP) amount of the primary industry, secondary industry, and tertiary industry in China every year.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 436,
+    "question": "I would like to understand the data situation. Find the fund with the highest average management size and its average management size compared to the industry average.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 437,
+    "question": "Please help me find out the highest monthly closing price in the history of Dongfang Electronics. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 438,
+    "question": "What was the expenditure on urban maintenance and construction in Beijing two years ago?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 439,
+    "question": "What is the proportion of non-restricted circulating shares of AVIC Heavy Machinery held by funds in June 2020?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 440,
+    "question": "Please look up the stock code for Kangsheng Co., Ltd.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 441,
+    "question": "Which funds have a 10-year benchmark growth rate exceeding 200%?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 442,
+    "question": "Is there anyone named \"Lin Sihua\" participating in the share allocation? If so, list the allocation quantity and the allocated amount.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 443,
+    "question": "The average holding ratio per account of Dongxu Blue Sky in the first quarter of 2019.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 444,
+    "question": "Can you calculate the average annualized return rate of \"Stock Type\" funds since their establishment? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 445,
+    "question": "Who is the contact person of Southern Fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 446,
+    "question": "What is the scope of business for Shenzhen Tech?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 447,
+    "question": "What are the funds managed by fund managers with less than 2 years of experience and positive fund growth rate during their tenure?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 448,
+    "question": "I would like to know the duration of \"Corporate Bond Pledged Repo\" and the minimum and maximum rates for \"Transaction Fee\" Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 449,
+    "question": "Help me check these data. In the industry of \"Professional and Technical Services\" which province has the most listed companies? List the names of the provinces.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 450,
+    "question": "The proportion of non-restricted circulating shares of Aopu Optoelectronics held by social security funds in May 2020.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 451,
+    "question": "Find the sponsor, law firm, and accounting firm for the IPO of 300278.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 452,
+    "question": "Which executives of Yuejian Intelligent have initial shareholding amounts exceeding 10 million?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 453,
+    "question": "Which evaluation agency did Foster have during IPO?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 454,
+    "question": "Hello classmate! How many fund managers have a negative growth rate during their tenure?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 455,
+    "question": "Quickly find the data. Select the company name and legal representative of companies in circulation with the proportion of A-shares exceeding 20% of the total A-shares.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 456,
+    "question": "Compare the number and scale of QDII funds managed by Xu Meng and Fan Bing. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 457,
+    "question": "Help Wang Gong check, what is the maximum index value of \"Textile Industry\" in the \"Same Period Last Year\" last year?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 458,
+    "question": "Actual allotment records of Shanshan Group as the major shareholder in the share allotment process",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 459,
+    "question": "Brother, please query the institutions and their legal representatives hired for the issuance of DongE EJiao shares.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 460,
+    "question": "Filter out the one-year and two-year return rate data of bond funds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 461,
+    "question": "Find the data quickly. How much are the fiscal deposits in the records of financial institution credit and expenditure over the years?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 462,
+    "question": "What is the name of the fund with the highest rate of return among funds with a performance period of \"six months\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 463,
+    "question": "What is the average annualized return rate of the funds corresponding to LOF operating funds?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 464,
+    "question": "What are the top 20 companies in the A-share capital ranking of the manufacturing industry?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 465,
+    "question": "Please find the bonds held by 166001 for me. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 466,
+    "question": "How many companies conducted share repurchases in 2021?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 467,
+    "question": "Find the fund companies with legal representatives surnamed Zhou.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 468,
+    "question": "I would like to know the data situation. Statistically, what is the number of corresponding fund managers according to educational level and gender?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 469,
+    "question": "Find the data quickly. What is the maximum allotment size for each shareholder after 2018?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 470,
+    "question": "Please help me find detailed information about China's foreign currency deposits and foreign net assets for the previous year. Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 471,
+    "question": "Please display the annualized yield rate of funds in the past two years and the annualized return rate over the past ten years.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 472,
+    "question": "Show the data, which institution had the most authorized equity in 2014?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 473,
+    "question": "Please list the rate type and rate description for 501065.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 474,
+    "question": "Show the data and find the maximum and minimum values of total assets and total liabilities in the balance sheet of other depositary credit institutions.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 475,
+    "question": "How many companies that have a proportion of circulating A-shares exceeding 60% are there, grouped by primary industry?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 476,
+    "question": "Find the data. Which investors had an acquisition sum of over 10,000 shares in the previous year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 477,
+    "question": "What are the different repurchase maturities, the highest ratio floor, and the lowest ratio ceiling for \"Government Bond Buyback\"?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 478,
+    "question": "Do you know the monthly industrial production value of heavy industry in the \"National\" \"State-owned and Large-scale Industrial Enterprises\" in our database over the years?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 479,
+    "question": "What is the proportion of non-restricted circulating shares of Hundsun Electronics held by insurance companies?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 480,
+    "question": "Display the number of turnover deals for stock 601908 on each trading day. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 481,
+    "question": "What are the fund managers currently managing funds in the \"Stock type\" fund category? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 482,
+    "question": "Hey, please help me check the size of the rate of return for each fund this year.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 483,
+    "question": "How many investors acquired more than 10,000 shares in last year's public offering?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 484,
+    "question": "Please provide a count and a list of cities where stocks in the \"OLED\" sector are concentrated.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 485,
+    "question": "Which companies have had a total share repurchase volume exceeding 100,000 shares in the past two years? Please list the company names and codes.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 486,
+    "question": "Dear robot, please help me check the daily return rate, return rate since the beginning of the week, and weekly return rate indicators for the fund Huabao Baosheng. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 487,
+    "question": "Did we have records of the total sales of consumer goods before 2010? If so, please display the annual total amount in Shanghai city.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 488,
+    "question": "Find which funds hold Hailiang Convertible Bonds and what are their fund types.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 489,
+    "question": "Please list the annual cumulative industrial value added for national state-owned and above-scale industrial enterprises.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 490,
+    "question": "Please help me find the data! How many times has there been a stock issuance in the last 5 years?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 491,
+    "question": "Hey, what is the full name of Boshi Themes?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 492,
+    "question": "Show the data records of the wholesale retail trade and catering industry in our country. Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 493,
+    "question": "Please display the records of money reserves and self-owned funds in the balance sheet of the monetary authority for the previous year.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 494,
+    "question": "Help me check the shareholders and the amount of shares held by them for Aerospace Development in March 2020.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 495,
+    "question": "What are the authorizers of Xinbeiyang in 2018?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 496,
+    "question": "How many companies have more than 200 million shares of non-listed A-shares, grouped by the province where the company is located?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 497,
+    "question": "Hello, list the names of industries where the number of listed companies established in 2010 reaches 10, and do not list the corresponding number of listed companies.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 498,
+    "question": "What is the average value of funds managed by fund managers with less than 5 years of work experience?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 499,
+    "question": "I want to know the calculation method of \"Fuguo Innovation Drug ETF\" fee, and also the description of the fee interval division.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 500,
+    "question": "Please list the highest payment ratio of \"Securities Transaction Stamp Tax\" for \"A shares\" on the \"Shenzhen Stock Exchange\". Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 501,
+    "question": "Nationality statistics of fund managers",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 502,
+    "question": "Help me quantify the number of companies that have records of stock allotment in 2021.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 503,
+    "question": "What are the nationalities of fund managers whose annualized Sharpe ratio exceeds 2 and the number of fund managers exceeds 20?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 504,
+    "question": "How many companies in the A-share market had a total capitalization exceeding 10 billion in 2021?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 505,
+    "question": "Which fund managers has \"40981\" awarded and what are the corresponding fund names? Thanks.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 506,
+    "question": "Can you please tell me which stocks in \"Gu Yu\"'s holdings last year had an investment amount exceeding 1 million?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 507,
+    "question": "I heard that Northeast China is a major agricultural province. Can you help me see the number of listed companies in the \"Agriculture\" industry in each province?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 508,
+    "question": "How many bonds are heavily invested in Boshi Theme?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 509,
+    "question": "Siri, can you give me a classification and statistics of the listed companies in \"Xi'an\" in the \"Integrated Circuit\" sector?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 510,
+    "question": "What is the proportion of unlimited circulating A-shares of China Aviation Industry Heavy Machinery held by social security in February 2019?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 511,
+    "question": "Can you show the data of fund managers born after 1990?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 512,
+    "question": "How many funds does fund manager Fu Hao manage?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 513,
+    "question": "Show the maximum and minimum index values of \"Food Manufacturing Industry\" in the \"Last Year Same Period\" statistical type from 2008 to present.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 514,
+    "question": "Show the share repurchase situation of Zhejiang Longsheng, including the buyback quantity, percentage, and total buyback amount.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 515,
+    "question": "Search for the five-year return rate data of the fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 516,
+    "question": "In history, what were the amounts of claims to government, claims to non-financial sectors, and claims to specific deposit institutions respectively?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 517,
+    "question": "Please answer the names and values of various indexes in the \"Industrial Structure Classification Index\" for the previous month. Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 518,
+    "question": "What is the primary industry of Pulutong?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 519,
+    "question": "Does any fund hold 200203?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 520,
+    "question": "How much was the gross domestic product of the primary industry, secondary industry, and tertiary industry in each province two years ago?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 521,
+    "question": "Can you help me find the daily growth rate of the open-ended fund units for Huaxia Oil A?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 522,
+    "question": "Which stocks have been frozen pledged in the past two years? Provide a list of stock codes.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 523,
+    "question": "Help list the amounts of claims on government and claims on central bank in the balance sheet of other depository corporations when the total assets amount exceeds 30 million, and differentiate them by time.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 524,
+    "question": "List the bond name, market value, and proportion of net assets for 161010.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 525,
+    "question": "Who are the investors of 002981?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 526,
+    "question": "Who are the fund managers who manage more than 3 bond funds?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 527,
+    "question": "Please help me check the records of companies that had stock allocations last year.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 528,
+    "question": "Can you tell me the names of the top 2 industries, in terms of company count, within the first industry \"Information Transmission, Software, and Information Technology Services\"?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 529,
+    "question": "What is the province and city where Huachangda is located?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 530,
+    "question": "Please help me check which companies have been allocated to State Grid Yingda in 2020.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 531,
+    "question": "Hello, could you please show me the weekly growth rate of NAV for fund 160416 in the past 2 years?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 532,
+    "question": "Show the data, which fund category has the highest average return rate for one month?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 533,
+    "question": "Please help me search for the two-year annualized return rate of funds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 534,
+    "question": "Please check the bond holdings, market value, and fund manager information for 510130. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 535,
+    "question": "Find the data. List the top ten bond funds with the highest total AUM type average in their respective categories.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 536,
+    "question": "What are the fund names and brief introductions of funds with a risk level of \"medium-high\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 537,
+    "question": "List the funds, managers, and specific values whose benchmark growth rate for six months is positive.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 538,
+    "question": "Which provinces do companies with main operating income exceeding 100 billion yuan distribute in? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 539,
+    "question": "What is the number of companies that conducted IPOs in each industry in 2012? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 540,
+    "question": "The names and educational background of fund managers whose fund growth rate is less than 0.1.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 541,
+    "question": "Please provide the annual industrial value-added amount for \"provinces and cities\" in \"state-owned and large-scale industrial enterprises\".",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 542,
+    "question": "Show me the data of the latest sponsor and IPO law firm for Hongta Securities.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 543,
+    "question": "Can you conveniently check the names of shareholders in Rui Maotong with a frozen equity pledge quantity exceeding 1 million?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 544,
+    "question": "Which stock is held by the most funds?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 545,
+    "question": "What is the return rate since the establishment of the fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 546,
+    "question": "List all funds with the investment style \"Sector Stocks-Pharmaceutical Style\" and their risk-return characteristics.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 547,
+    "question": "Hello, when extracting the records of enterprise income and corporate income tax for the past five years in Beijing, where the enterprise income growth rate exceeds 5, please assist.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 548,
+    "question": "Also, Xiaoli, please help me check the ten-year annualized return rate and the annualized return rate since establishment of the fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 549,
+    "question": "Hello, please provide the distribution of the average total fund size managed by fund managers with different education levels.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 550,
+    "question": "How many fund managers have an annualized alpha exceeding 0.5, grouped by fund manager education?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 551,
+    "question": "I would like to see the list of provinces whose year-on-year gross domestic product exceeded 0.5% last year.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 552,
+    "question": "I would like to understand the data situation. What is the main operating income of Sinopec in the first quarter of last year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 553,
+    "question": "Siri, please help me check the year-end accumulated data of the total industrial production value of the light industry within the scope of \"National\" \"All Industrial Enterprises\" over the years.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 554,
+    "question": "Hey, do you know the net asset value and weekly growth rate of each fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 555,
+    "question": "Who manages the largest scale of QDII funds? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 556,
+    "question": "How many listed companies conducted share repurchases in 2021?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 557,
+    "question": "The top ten stocks in terms of total share capital in the monthly data for the year 2020.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 558,
+    "question": "Find all fund managers who manage more than 5 equity funds and display the corresponding fund count and total scale. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 559,
+    "question": "Please search for the daily return rate of each fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 560,
+    "question": "Find which companies have actual controllers who are not from mainland China.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 561,
+    "question": "What is the half-year growth rate of the average shareholding proportion of Xingye Securities?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 562,
+    "question": "What is the main operating business profit of Gujing Gongjiu after 2018? List the main operating business costs and main operating business profits.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 563,
+    "question": "How many trading days of Kesi shares have a total turnover value exceeding 100 million yuan?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 564,
+    "question": "Show the rate of return of \"Bond Type\" funds since establishment. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 565,
+    "question": "How much is the dividend base and cash dividend amount of Shenzhen Technology in the past three years?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 566,
+    "question": "Which funds hold Hikvision?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 567,
+    "question": "Quickly find the data. What are the records of RMB incremental amounts exceeding 150,000 since 2000? Please find the time recorded as \"end of period cumulative\" and the field of loan incremental amounts.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 568,
+    "question": "Hello, please help me check the codes of the listed companies that had a bonus share ratio exceeding 0.5 last year.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 569,
+    "question": "Which company has the highest commission fees?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 570,
+    "question": "What is the maximum value of total assets in our other deposit-taking company's balance sheet over the years, and which year does it belong to? Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 571,
+    "question": "Hey, can you check the benchmark growth rate of LOF funds since the beginning of this week?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 572,
+    "question": "What is the minimum ratio of \"Excess Reserve Ratio\" for \"Large Chinese Banks\"?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 573,
+    "question": "Hey, my friend wants to know the situation of our financial institution's RMB credit receipts and payments in recent years. Please list the end-of-period balance of deposits for units or enterprises.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 574,
+    "question": "Is there a positive benchmark growth rate for LOF funds this month?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 575,
+    "question": "In the past three years, the export amount of our country has exceeded 40 million, while the import amount is less than 20 million. Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 576,
+    "question": "Are there any listed companies in Fujian Province with a subscription quantity greater than 1 million shares?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 577,
+    "question": "Please search for the data on domestic loans and foreign currency deposits after 2005. Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 578,
+    "question": "hello, Who is the largest actual allotment shareholder of Zhejiang University Netcom?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 579,
+    "question": "Do you know the ranking of the average management scale for fund managers with undergraduate degrees among their peers?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 580,
+    "question": "List the rate types of \"Southern Tianyuan\" and the amount for each rate type.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 581,
+    "question": "What are the records in which Gujing Gongjiu's annual dividend amount exceeds 5 yuan? Display the equity registration date and dividend amount. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 582,
+    "question": "Which fund managers have a doctoral degree and have served for more than 200 days?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 583,
+    "question": "Company names, executive names, and positions of the top 5 companies in terms of pre-transfer shareholding percentage.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 584,
+    "question": "What are the names of the top 10 fund managers in terms of Calmar ratio and their dates of securities employment with an index cycle of \"three years\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 585,
+    "question": "What are the primary and secondary industries of Tibet Development?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 586,
+    "question": "The number of funds with negative average return in the same category with a display period of \"six months\", grouped by fund operation mode.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 587,
+    "question": "Show the average daily total turnover amount for each company in the fourth quarter of 2021. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 588,
+    "question": "What is the benchmark growth rate of BOCOM Governance ETF since this month?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 589,
+    "question": "List the unit net value, accumulated net value, and discount rate of the fund product HuaAn 180 ETF.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 590,
+    "question": "Display the total records of currency and quasimoney in China in the past two years, and the respective amounts of currency and quasimoney.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 591,
+    "question": "Please find the information of the top ten bond fund managers and their birthdates.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 592,
+    "question": "Siri, in the first quarter of 2021, which funds have year-end net asset values exceeding 10 billion?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 593,
+    "question": "Display the number of companies with circulating A-share equity exceeding 10 billion in 2019, grouped by the second-level industry in which the companies are located.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 594,
+    "question": "What is the distribution of fund manager nationality for funds with an average fund size larger than 50 billion RMB? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 595,
+    "question": "Help Director Li find out the total amount of currency and quasi-money before 1995, and the respective amounts of currency and quasi-money.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 596,
+    "question": "Which companies and corresponding trade dates have a total turnover exceeding 1 billion?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 597,
+    "question": "Please look up which listed company Zhang Lizhong is the legal representative of. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 598,
+    "question": "Please help me check the data for other foreign assets and other liabilities in the monetary authority balance sheet.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 599,
+    "question": "I want to know about the data. Please show me the information for \"HuaAn Oil A\" fund. The unit net value and daily growth rate for this quarter.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 600,
+    "question": "Which city in Shanxi Province has the most listed companies and what is the specific number?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 601,
+    "question": "Take a look at the funds that hold Wen's Convertible Bond and the respective quantities they hold.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 602,
+    "question": "List the names and positions of executives in Yimikang.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 603,
+    "question": "Which shareholders were involved in the development of Aerospace Development in August 2020? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 604,
+    "question": "Hey, what is the subscription and redemption confirmation date of CMB Growth Fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 605,
+    "question": "Please help me check this data. What is the ranking of the same category manager's return rate for fund managers with more than 10 years of experience in the securities industry?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 606,
+    "question": "Hey, Xiaoli, can you help me check the records of China's overseas net assets exceeding 1 million yuan? Please provide the fields of the date and the amount of overseas net assets.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 607,
+    "question": "Check the ranking of fund managers and total managed fund sizes.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 608,
+    "question": "The accounting firm is the sponsor of the IPO of PwC.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 609,
+    "question": "Hey, help me calculate the average annual return rate of all fund products in the market.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 610,
+    "question": "Please search for the data on the amount of foreign exchange, amount of currency gold, and other foreign assets when our total assets exceed 10 million in recent years.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 611,
+    "question": "I would like to know the data situation. Which executive at Fuxing Corporation has the substring \"谭\" in their name? List the name and position.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 612,
+    "question": "What is the total amount of fiscal loans and fiscal deposits in the credit and debit of financial institutions in China in the past two years?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 613,
+    "question": "Show the data, return the fund names and fund risk levels managed by fund managers whose resignation dates are before 2020.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 614,
+    "question": "Help me find the data, list the stock codes of listed companies in the \"Professional Technical Services Industry\" along with their provinces and cities.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 615,
+    "question": "What is the total number of shareholders and the average holdings per household for Xin Tianranqi in 2016?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 616,
+    "question": "Can Li Gong be shown if there were any \"monthly\" recorded loan amounts exceeding 100,000 in the previous year? If there were, please extract the time, loan amount, and year-on-year change records.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 617,
+    "question": "Which companies in Shanghai have circulating shares exceeding 10 million? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 618,
+    "question": "Which companies did the \"Guangfa Valuation Advantage Mixed Securities Investment Fund\" participate in the share placement last year, and what was the amount allocated?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 619,
+    "question": "What are the top 3 countries or regions with the highest number of listed companies under actual control?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 620,
+    "question": "Hey, what are the top ten bond funds with the highest total assets under management in their respective category rankings?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 621,
+    "question": "What is the name of the fund manager and the date of securities practice with the highest average management scale among the same class of funds in the time interval \"Last one day\". Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 622,
+    "question": "Show the data, among bond funds, who manages the largest total size, and what are the corresponding number of funds and total size.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 623,
+    "question": "Engineer Wang asked me to check the weekly growth rate data record of unit net value for 510210.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 624,
+    "question": "Can you help me check the net asset value of \"Taide Efficiency\" and its historical data?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 625,
+    "question": "Hello classmate! Group and count the number of funds in each category that have had an annualized return exceeding 10% since inception.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 626,
+    "question": "Find the data. Tell me the names of executives who simultaneously serve as CEO and Chairman of the Board, along with the company name.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 627,
+    "question": "Please help me check this data. Which companies have records of stock allocation in the past year? List the stock names and stock codes.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 628,
+    "question": "Hello classmates! Which companies have not added more than 10 million tradable A-shares in this round?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 629,
+    "question": "How many public mutual fund companies have won awards? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 630,
+    "question": "Please list the monthly industrial added value data of \"all industrial enterprises\" within the \"national\" scope, retaining the time field. Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 631,
+    "question": "Can you calculate the total industrial output value in \"monthly\" for \"all industrial enterprises\" in the \"national\" level throughout these years? Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 632,
+    "question": "Find the data. Can you please tell me how many listed companies are in \"Jiangsu Province\" in the \"Agricultural and sideline food processing industry\"?\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 633,
+    "question": "What records do we have for total assets less than 10 million, specifically listing the records for time, forex amount, money and gold, and other foreign currencies? Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 634,
+    "question": "Hi, please help me find the annual statistical value of social retail sales for the wholesale and retail trade industry and the catering industry in Shanghai in 2004. Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 635,
+    "question": "How many companies have more than 10 billion circulating shares of A-shares under unrestricted conditions, grouped by the primary industry in which the companies belong?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 636,
+    "question": "Let's calculate the number of companies in each city's stock market that belong to the \"big data\" sector. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 637,
+    "question": "Which province has the most listed companies established in the year 2000?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 638,
+    "question": "Calculate the number of listed companies in each industry in \"Jiangsu Province\".",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 639,
+    "question": "Find the fund with the least holding of 200203.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 640,
+    "question": "List the listed companies in Shandong Province.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 641,
+    "question": "What is the largest number of shareholders for a listed company in 2016?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 642,
+    "question": "Hello classmate! What is the yield on returns for the past month and one month for the fund product named Tianhong Hengxiang?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 643,
+    "question": "I would like to understand the data situation. In our table, what records do we have regarding \"Metal Products Industry\" in the \"National Economic Industry Index\"? Please list the relevant statistical periods and index values.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 644,
+    "question": "In the year 2000, what was the value added of \"annual\" industrial production in \"all industrial enterprises\" in Shanghai?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 645,
+    "question": "My friend wants to know the number of companies that had a total amount of stock repurchases reaching 100 million yuan last year.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 646,
+    "question": "Siri, please provide the number of companies that have a pre-transfer shareholding ratio exceeding 0.2.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 647,
+    "question": "The information of the actual controller of listed companies in Hangzhou City.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 648,
+    "question": "Show the six-month return rate of each fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 649,
+    "question": "How much is our paid-in capital amount in the balance sheet of other depositary companies? Please list it. Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 650,
+    "question": "What are the stocks with a proportion of circulating A shares exceeding 50% of the total A shares?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 651,
+    "question": "Hello, list all the bonds held in BOC China A Portfolio.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 652,
+    "question": "Hello, what is the name of the company in the manufacturing sector with the highest proportion of newly added tradable A-shares compared to the previous period's outstanding A-shares?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 653,
+    "question": "Can you count the number of awarding agencies for public funds? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 654,
+    "question": "Which companies had stock issuances in 2021, and what was the purpose of their issuances?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 655,
+    "question": "Show the Gross Domestic Product (GDP) of China.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 656,
+    "question": "Help me find the data and calculate the number of fund managers whose total management scale exceeds 50 billion.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 657,
+    "question": "I would like to understand the data situation. How many companies had records of stock allocations in the previous year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 658,
+    "question": "Hello classmates! Please help me find out which funds \"Morningstar Information\" has awarded the \"China Stock Hedge Fund Award Nomination\" to. Please list the names of the funds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 659,
+    "question": "Hello, what is the industry of Hongta Securities in the IPO information?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 660,
+    "question": "What is the number of funds with negative fund returns in the \"one-year\" index cycle, grouped by fund operating mode? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 661,
+    "question": "Display the total amount of retail sales of consumer goods in the \"annual\" social consumption in the whole country in the past three years, differentiated by time.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 662,
+    "question": "Which sectors have more than 4 listed companies in Guangdong Province, and list the specific number?\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 663,
+    "question": "Retrieve the names of the bond holdings for 160611.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 664,
+    "question": "What is the number of funds with different investment styles?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 665,
+    "question": "Hey, list the shareholder names and their shareholding percentages of NFA Seed Industry since 2019.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 666,
+    "question": "Which companies did WanAn Group Co., Ltd. purchase shares from last year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 667,
+    "question": "Find the fund with the highest net asset ratio of holding 21 Treasury Bond 06 and its fund manager.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 668,
+    "question": "What are the top 3 fund managers ranked by registered capital?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 669,
+    "question": "hello, evaluate the \"chip concept\" sector, which provinces have more than 5 listed companies, and list the province names and specific quantities.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 670,
+    "question": "How many listed companies are there in the telecommunications industry and the computer industry?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 671,
+    "question": "How many funds have a negative benchmark growth rate for the year in each fund investment type?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 672,
+    "question": "The number of fund managers with a bachelor's degree and the total size of the funds they manage exceeds 10 billion yuan.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 673,
+    "question": "Calculate the average fund size managed by fund managers with more than 15 years of securities industry experience.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 674,
+    "question": "Please help me check the annual accumulated industrial output value of \"all industrial enterprises\" in each \"province or city.\" Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 675,
+    "question": "Find the data. I have held \"Nanfang Tianyuan\" for a while, and I bought a small amount at that time. Please help me find the highest and lowest values of its charge rate.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 676,
+    "question": "What is the number of funds with positive returns in the \"one-month\" indicator period, displayed by fund operating form grouping?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 677,
+    "question": "How many total shares were distributed by State Grid Power Corporation Yingda Co., Ltd. in March 2020?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 678,
+    "question": "List the data size of China's tertiary industry gross domestic product over the years.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 679,
+    "question": "What were the expenses and capitalization of R&D investments of Shenzhen Technology Company last year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 680,
+    "question": "Hello, how many directors does Tuowei Information have?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 681,
+    "question": "Look up which funds have been managed by fund managers with an undergraduate education.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 682,
+    "question": "How many companies have more than 10 million shares of circulating A-shares? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 683,
+    "question": "Siri, which investors are the targeted audience for Jingsheng Electromechanical's additional issuance of shares, and who are the general manager and legal representative of the company?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 684,
+    "question": "Find out the number of bond funds managed by fund managers that exceeds 3, along with their birthdate information. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 685,
+    "question": "Calculate the number of companies whose main operating income has exceeded 100 million yuan since 2019.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 686,
+    "question": "What is the risk level of GJ50?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 687,
+    "question": "Which companies have the China National Tobacco Corporation as their actual controller?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 688,
+    "question": "Who are the vice presidents of Hengbao Corporation?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 689,
+    "question": "Please help me find out how many listed companies were established in each industry in 2020. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 690,
+    "question": "What are the top 5 companies with the highest circulating shares in A-share market?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 691,
+    "question": "What are the top ten funds on the 2021 Fund Profit Ranking and their fund codes?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 692,
+    "question": "Find the ten industries with the fewest number of companies for IPO.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 693,
+    "question": "Please tell me, in which province are there more than 10 companies with a number of non-tradable A-shares exceeding 200 million? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 694,
+    "question": "How many companies have a number of newly added tradable A-shares exceeding 1 million, displayed grouped by city?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 695,
+    "question": "The ranking from low to high of funds with a negative benchmark growth rate since the beginning of this week.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 696,
+    "question": "Find the names of fund managers who hold more than 5 funds with a risk level of \"Medium-Low\".",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 697,
+    "question": "Can you help me see the weekly return information of each fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 698,
+    "question": "Wang Gong wants to know the year-on-year growth and decline data of our imports and exports over the years. Please provide it.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 699,
+    "question": "Percentage of non-restricted circulating shares held by securities companies of Chongqing Jiangong in February 2020.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 700,
+    "question": "Bro, what is the daily net asset value of \"Huaxia Oil A\" in the past two years?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 701,
+    "question": "Which companies have a total share capital of more than 1 billion A-shares, sorted in descending order by the free float ratio?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 702,
+    "question": "Help me find the data! How many funds on average does each fund manager manage in the entire market?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 703,
+    "question": "Which provinces have more than 3 companies in the primary industry \"Wholesale and Retail Trade\"?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 704,
+    "question": "Find out which listed company Feng Li serves as the company secretary.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 705,
+    "question": "What are the respective number of outstanding A-shares and restricted A-shares for Tongfu Microelectronics and Hailiang Co. Ltd.? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 706,
+    "question": "Hey, what is the purpose of the stock issuance of Beijing Energy Real Estate?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 707,
+    "question": "Query the stock funds and their daily fund benchmark growth rate.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 708,
+    "question": "Please find the years of experience in the fund industry for Jiang Yixi. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 709,
+    "question": "Is this something I can know, the annual data on Gross Domestic Product (GDP) and Gross Domestic Product per capita (GDPPC)?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 710,
+    "question": "Did 159901 hold bonds? What are the market value and ratio?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 711,
+    "question": "What was the gross profit margin of Ice Cold Hot's stock held by my friend last year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 712,
+    "question": "What is the distribution of educational backgrounds of current fund managers at Fuguo Fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 713,
+    "question": "Retrieve the one-year return rate values for each fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 714,
+    "question": "Hey, how are you? I want to check the weekly and one-week return rate data for the fund product \"Yin Hua Pure Bond\"",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 715,
+    "question": "How many ETF funds have had a benchmark growth rate exceeding 3% this month? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 716,
+    "question": "List the names of the institutions that participated in the listing of Nanhua Biology's stocks and the underwriting amount.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 717,
+    "question": "What is the annual amount of new loans added by our financial institution?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 718,
+    "question": "Help me find the data. I own 000752. What was the bonus share ratio and cash dividend amount for it last year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 719,
+    "question": "I would like to know which shareholders had frozen pledged shares records last year. Please list these records, including the investor's name and the proportion of shares held by the freezing pledger.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 720,
+    "question": "What is the daily benchmark growth rate of 512500? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 721,
+    "question": "Show the data for the rate of return since the fund's establishment and the annualized rate of return since the fund's establishment.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 722,
+    "question": "Hello classmate! Please query the data of the rate of return for each fund since the beginning of this year.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 723,
+    "question": "Which listed company corresponds to the maximum total amount of funds expected to be raised in a single stock issuance?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 724,
+    "question": "Which listed companies in Liaoning province have stock issuance underwriting volumes greater than 1 million shares and underwriting amounts greater than 10 million yuan? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 725,
+    "question": "Who are the executives currently employed at Ketuo Biotechnology in 2020? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 726,
+    "question": "Which were the top 10 investors in the share placement of 603059 in April last year? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 727,
+    "question": "Please count the number of listed companies in the \"Nanjing City\" sector, and list the sector names and quantities. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 728,
+    "question": "During the audit period, list the urban maintenance and construction fees and local financial expenditures in Sichuan Province over the years.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 729,
+    "question": "Provide Engineer Wang with the record of China's export amount reaching 40 million over the past ten years and the year-on-year growth rate of exports, including time, import amount, and export amount.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 730,
+    "question": "Can you help me list the names of the top ten provinces and cities in terms of the gross domestic product of the primary industry in the past year?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 731,
+    "question": "Last year, among the investors of stock 600110, which investors had investment amounts reaching the tens of millions? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 732,
+    "question": "I want to know which companies' stocks \"Gu Yu\" has bought, and what are the respective quantities and amounts of holdings.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 733,
+    "question": "What is the size of the three-year annualized return rate of the fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 734,
+    "question": "Which funds hold 20 Treasury bonds 10?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 735,
+    "question": "Which stock funds were established by E Fund Management Co., Ltd. in 2021? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 736,
+    "question": "Can you help me take a look at the detailed information of total liability in our historical data, sorted in descending order according to the total liability amount?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 737,
+    "question": "Which fund has the earliest establishment date and who is its manager?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 738,
+    "question": "Display the data and check the cash dividend amount and the actual cash dividend amount paid by Gujing Gongjiu last year.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 739,
+    "question": "How many companies have more than 10 billion shares of non-restricted circulating A-shares, grouped by the city in which the companies are located?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 740,
+    "question": "Please list the annualized rate of return of funds in the past three years.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 741,
+    "question": "The number of allocated shares and actual shares when Guangxi province-listed companies issue rights shares",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 742,
+    "question": "Can you quickly find the data for the amount of financial bonds, shares and other investments in the income and expenditure of financial institutions in China?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 743,
+    "question": "Please help me check the annual GDP and per capita GDP data of Shandong Province.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 744,
+    "question": "The top ten companies with the highest proportion of research and development investment in Guangdong Province.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 745,
+    "question": "Please help me check the interest expenses of ZaiSheng Technology and LanSi Technology in 2017.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 746,
+    "question": "Which bond has the highest proportion in the assets net value held by E Fund Mid Cap ETF?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 747,
+    "question": "Please count the number of listed companies in each province and city in the \"Large Aircraft\" sector. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 748,
+    "question": "Help me find the data! Evaluate the three-month return rate performance of Nord Bond.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 749,
+    "question": "What is the establishment date of Huachangda?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 750,
+    "question": "Which companies did WanAn Group Co., Ltd. buy shares of and what are the respective investment amounts?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 751,
+    "question": "I would like to understand the data situation. Which companies conducted share issuances in 2022?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 752,
+    "question": "List the total share capital and A-share share capital information of 600371.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 753,
+    "question": "In recent years, what is the end-of-period cumulative industrial production value of light industry in \"national\" scope, \"state-owned and above-scale industrial enterprises\"?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 754,
+    "question": "How many fund managers have a doctoral degree and are male?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 755,
+    "question": "When did Daye Shares conduct additional issuance? What are the purposes and targets of the additional issuance?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 756,
+    "question": "What are the names of the funds that have a fund category description of \"Stock\" and a fund annualized return greater than 0?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 757,
+    "question": "Who are the signature accountant and signature lawyer of Warner Bros. IPO?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 758,
+    "question": "What is the repurchase situation of Baosteel Co., Ltd. and Kuaijishan in 2020? List the stock names and the total amount of repurchased shares.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 759,
+    "question": "Hey, what are the companies that rank top 20 in foreign exchange gains and losses?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 760,
+    "question": "Bro, among the funds of which type does CITIC Securities have the lowest rank in total AUM ranking?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 761,
+    "question": "Which fund has the highest market value of holding Bairun Convertible Bonds and who is the fund manager?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 762,
+    "question": "Can you conveniently calculate the number of investors with less than 10,000 shares allocated in the previous year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 763,
+    "question": "What are the funds that have a benchmark growth rate of over 200% in the past seven years?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 764,
+    "question": "What is the general range of starting and ending values for the rate division standard of \"index licensing fee\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 765,
+    "question": "How many funds are optimistic about Guizhou Maotai and how many funds are optimistic about Ningde Times?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 766,
+    "question": "Hello, find the names and risk levels of the funds managed by fund managers whose tenure exceeds 1000 days.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 767,
+    "question": "Can you show the annual retail data of social consumer goods for joint ventures and self-employed units in Zhejiang province?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 768,
+    "question": "What funds have a ten-year benchmark growth rate exceeding 50%, and what are the types and manager information?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 769,
+    "question": "Hello, which are the top 10 companies with the highest number of pledged shares frozen in May 2018?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 770,
+    "question": "How many bond products does Huaxia 50 ETF hold?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 771,
+    "question": "Which investors' shares have been frozen or pledged in the past three years? Please query the names of the investors.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 772,
+    "question": "Hello classmates! Please find out the number of incumbent assistant fund managers.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 773,
+    "question": "Hello, what are the non-Chinese fund managers? What are the total fund scale, equity fund scale, and hybrid fund scale respectively?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 774,
+    "question": "Help me check the purpose of Jinneng Real Estate's stock issuance.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 775,
+    "question": "Which fund types correspond to funds with an average monthly return greater than 1?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 776,
+    "question": "What is the monthly change in circulating share capital for stocks 600168 and 000422?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 777,
+    "question": "Website address of Vanke",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 778,
+    "question": "What awards did the \"Securities Times\" give to which fund managers?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 779,
+    "question": "Please help me check these data. Find out the fund manager with the highest total number of funds under their management and who the fund management company is.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 780,
+    "question": "Hello, I want to know if Nandu Power conducted any buyback operations in 2021. Please list the buyback price and total buyback quantity.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 781,
+    "question": "Help me look up these data. Show the total share, PB, and PE information for 000935 every month.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 782,
+    "question": "What are the names of fund managers and their background introductions for funds with a return rate greater than 0 in the time interval of \"recent 10 years\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 783,
+    "question": "Do you know the names of the funds that have received awards in the \"Investment Fund\" category from 2015 until now?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 784,
+    "question": "My friend wants to buy 160133. He is a general investor. Please check the investor type of 160133.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 785,
+    "question": "Help me find the data. Hey, can you please take a look at the amount of commodity exports and the year-on-year increase/decrease in commodity exports in our country last year?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 786,
+    "question": "What are the companies with a circulating A-share capital of more than 100 million?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 787,
+    "question": "Help me look up these data. Fund codes with a benchmark growth rate exceeding 50% for the past five years.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 788,
+    "question": "Hey, what is the per capita gross domestic product of our country in recent years?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 789,
+    "question": "How is the equity freeze situation of Ruimaotong? List the names of shareholders whose equity is frozen and the number of shares involved.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 790,
+    "question": "The names and specific sizes of the top ten managers in terms of mixed fund assets under management ranking.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 791,
+    "question": "What is the amount of reserve deposits and cash in vault from 2008 to present, in the data table of other deposit-taking company's balance sheet? ",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 792,
+    "question": "What are the companies in Wuhan City, Hubei Province?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 793,
+    "question": "List the names of companies in Zhejiang Province with a first-level industry of \"Scientific research and technology services.\"",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 794,
+    "question": "What is the half-year growth rate of average shares per household in Jing Ji Zhi Nong in 2020?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 795,
+    "question": "I want to understand the data situation. Can you help me check the size of the wholesale retail trade industry?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 796,
+    "question": "Please help me confirm the main business scope of Tianqi Lithium.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 797,
+    "question": "Legal representative of Yaoming Kangde",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 798,
+    "question": "Do you know the fee type and fee classification standards of \"Huitianfu Classic\"?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 799,
+    "question": "Find the abbreviations and corresponding actual controllers of all listed companies with a code starting with \"00\".",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 800,
+    "question": "Siri, show how many stocks have a frozen pledge amount exceeding 10 million.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 801,
+    "question": "Which fund has the highest three-year benchmark growth rate?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 802,
+    "question": "Find funds with positive benchmark growth rate in the last three years.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 803,
+    "question": "What are the rankings and specific values of the top ten funds with the highest benchmark annualized growth rate since inception? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 804,
+    "question": "Help Teacher Li check the five-year return rate records of our fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 805,
+    "question": "Can you help me find out what stocks are in the new energy sector?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 806,
+    "question": "What are the top 5 companies in terms of commission fees? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 807,
+    "question": "Help me find the data, what are the names and codes of the listed companies in Xinjiang?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 808,
+    "question": "Li wants to buy funds, show him the one-year return rate, three-year return rate, and five-year return rate of the funds.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 809,
+    "question": "Help me check this data. How many LOF funds were listed on the Shanghai Stock Exchange in 2021?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 810,
+    "question": "Which fund managers have just started working in the securities industry this year?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 811,
+    "question": "Please help me check which province has more than 10 companies with a circulating A-share stock quantity exceeding 10 billion under unrestricted sale conditions.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 812,
+    "question": "What is the weighted average fund profit per share for Investment Growth in the third quarter of 2021? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 813,
+    "question": "Find funds with a one-year and two-year return rate both exceeding 50% and display all dimensional data.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 814,
+    "question": "Hello classmate! Please help me count how many companies in \"Hangzhou City\" have the \"E-commerce Concept\" in the listed company sector.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 815,
+    "question": "Xiao Wang, can you help me retrieve the listing codes and contact addresses of companies in the \"Retail Industry\"?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 816,
+    "question": "Are there any stocks that are common to both Baidu concept sector and Alibaba concept sector? If so, list the stock codes.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 817,
+    "question": "Hello, please help me check the total Gross Domestic Product (GDP) and per capita GDP amount in Shandong Province over the past five years.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 818,
+    "question": "Which education levels correspond to an average working experience of fund managers greater than 10?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 819,
+    "question": "How much is the amount of deposits included in the broad money in the balance sheet of other depository corporations? Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 820,
+    "question": "How many QDII funds managed by how many fund managers have a total scale exceeding 20 billion?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 821,
+    "question": "Display the data and count the number of companies in the same industry as Shenzhen Technology.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 822,
+    "question": "How many companies have issued additional shares since 2022?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 823,
+    "question": "Siri, find the initial and final share holdings of the Chairman of Shunwang Technology.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 824,
+    "question": "Please display the annual value of industrial production for the light industry in \"China\" \"state-owned and above-scale industrial enterprises\" over the years.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 825,
+    "question": "Provide the top 10 funds with the highest number of bond holdings and their fund managers. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 826,
+    "question": "What are the names of the top 10 funds in terms of annualized return rate among the \"Stock\" funds?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 827,
+    "question": "Help Teacher Li to check the general index value of \"Durable Consumer Goods\" in the \"Industrial Structure Classification Index\" for the \"Previous Year Same Period.\"",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 828,
+    "question": "List the annualized standard deviation of returns and the annualized downside risk for fund managers with less than 5 years of securities industry experience.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 829,
+    "question": "Hey, help me to count the number of fund products with a one-year, two-year, and three-year return rate greater than 30%.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 830,
+    "question": "Quickly find the data. Help me to count how many vice presidents are there in 002104?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 831,
+    "question": "Filter out which funds have a benchmark growth rate greater than 5% since this month and who is the fund manager?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 832,
+    "question": "Please query the total amount of retail sales of consumer goods for the past three years in each province and city in China.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 833,
+    "question": "How many fund managers are there for each gender?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 834,
+    "question": "I want to check which fund managers have previously won awards from \"China Fund News\".",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 835,
+    "question": "What is the closing price of stock 002153 on January 21, 2021?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 836,
+    "question": "In the share allotment of 603059 in 2020, which investors are there? List the investor names and amounts, and arrange them in descending order of allocated amount.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 837,
+    "question": "Find the data quickly. I want to see the company with the highest number of dividend distributions in the last 10 years.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 838,
+    "question": "Display the pre-transfer shareholding ratio and post-transfer shareholding ratio of Langxin Technology in 2019.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 839,
+    "question": "What are the names of the top 5 companies and their primary industries in descending order of non-circulating A-share volume?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 840,
+    "question": "How many different award names do we have?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 841,
+    "question": "Hello, what is the secretary's phone number of Vanke?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 842,
+    "question": "What are the names of the top 10 companies in terms of total number of A-shares?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 843,
+    "question": "Please provide Wang Gong with the stock codes and names of companies in the \"Autonomous Driving\" sector in Anhui Province.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 844,
+    "question": "Calculate the total number of years in which Sinopec's main operating income exceeds 200 billion.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 845,
+    "question": "What is the shareholder and percentage holding of Space Development in March 2020?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 846,
+    "question": "Funds that earned more than 1 billion in 2020",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 847,
+    "question": "What is the highest percentage of \"excess reserve requirement ratio\" for \"large Chinese banks\"?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 848,
+    "question": "Help me find the data! The stock code and securities abbreviation for iFlytek.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 849,
+    "question": "Help me find some data. Please find the stock codes in the \"Sharing Economy\" sector, and also list the secretary's name and company address.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 850,
+    "question": "Show the data and find all records where the proceeds from a single placement are less than 100 million. List the company abbreviation, placement year, and proceeds.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 851,
+    "question": "I want to understand the data situation. Are there any listed companies in Yinchuan and their registered address information?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 852,
+    "question": "Which listed companies are actually controlled by the Finance Department of Fujian Province?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 853,
+    "question": "Help me check the daily return rate of the fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 854,
+    "question": "\"Meta Universe\" has recently become popular. Can you help me see which provinces the listed companies in this sector are from?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 855,
+    "question": "Which fund managers manage equity funds with a scale exceeding 10 billion and hybrid funds with a scale exceeding 5 billion?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 856,
+    "question": "What are the top 10 companies ranked by interest expenses?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 857,
+    "question": "Quickly find the data. Where are the records for \"Metallurgical Industry\"? Please display the related statistical periods, index values, and the index types it belongs to.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 858,
+    "question": "Please help me find the names of funds with positive fund returns and annualized fund returns.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 859,
+    "question": "I would like to understand the data situation. Please query the two-year return rate records for each fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 860,
+    "question": "Help me find the data. Which listed companies in Shanghai have a stock issuance underwriting quantity greater than 1 million shares?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 861,
+    "question": "Which listed companies are sorted in descending order by commission fees?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 862,
+    "question": "How much is the rate for \"Fuguo 300ESGETF\" generally? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 863,
+    "question": "Please provide the names of shareholders and the number of shares involved where the equity freeze quantity of 600180 is equal to or greater than 0.05% of the total share capital. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 864,
+    "question": "Find the underwriters with the top 100 underwriting volumes.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 865,
+    "question": "List the companies with a free float ratio of 100%.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 866,
+    "question": "Help me find the data. Which companies issued shares for private placement two years ago?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 867,
+    "question": "Help me find the data, list the names of the equity transferors of companies in Jiangsu Province, the pre-transfer shareholding quantity, and the pre-transfer shareholding ratio.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 868,
+    "question": "How many listed companies are there in the computer industry?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 869,
+    "question": "Please help Wang Gong check the \"end-of-period accumulated\" industrial output value amount of \"national\" \"all industrial enterprises,\" and remember to include the time.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 870,
+    "question": "Which are the top 5 companies ranked by main operating income in 2021 from highest to lowest?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 871,
+    "question": "Help me look up this data. Find the names of the top 5 funds and fund managers in terms of net value growth rate during their tenure.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 872,
+    "question": "Hey, list the unit net value and accumulated net value of the fund product Guotai Rongxin.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 873,
+    "question": "Who has the largest total management scale and what is their market value?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 874,
+    "question": "Hello, list the funds and fund managers with the highest bond market value.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 875,
+    "question": "Siri, which stocks have more than one issuance?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 876,
+    "question": "Hello classmates! List the return rate records of each fund since the beginning of this year.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 877,
+    "question": "What is the bonus share ratio for stock code 000021?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 878,
+    "question": "Can you provide the records of import amount data and import year-on-year growth rate from 10 years ago in our country?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 879,
+    "question": "Provide the ranking and growth rate of the 20 funds with the lowest benchmark growth rate since establishment.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 880,
+    "question": "What is the shareholder name of 300184 in the fourth quarter of last year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 881,
+    "question": "Please display the names of executives who serve as Vice Presidents and their end-of-period shareholdings. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 882,
+    "question": "I have a requirement, and I would like to know the bonus share ratio and the dividend base of Tibet Development from last year.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 883,
+    "question": "What is the amount of our most recent registered domestic credit?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 884,
+    "question": "Hi, can you check the one-month return rate records for various funds?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 885,
+    "question": "Can you help me check the company codes and stock names for which the actual cash dividend amount exceeded 10 RMB in the previous year?\n",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 886,
+    "question": "I want to understand the data. Hi, can you provide me with the returns since inception and the annualized returns since inception of the funds?\n",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 887,
+    "question": "Find the name of the executive with the highest number of holdings in Sinopec Oilfield Service Co., Ltd. at the end of the period.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 888,
+    "question": "Hey, please find the names of the shareholders and the number of pledged shares of companies whose stock codes start with \"300\".",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 889,
+    "question": "Look up the fund with the highest total profit in 2020.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 890,
+    "question": "Yearly, two-year, and three-year return rate data for E Fund Small and Medium-sized Enterprises A Fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 891,
+    "question": "Please list the records of annualized returns since the establishment of the fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 892,
+    "question": "What is the number of funds with negative returns in the \"one-year\" index cycle, grouped by fund category?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 893,
+    "question": "Please list the three-year return rate, five-year return rate, ten-year return rate, and return rate since inception of the fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 894,
+    "question": "Display the total capital of Dongbei Securities and Guoyuan Securities.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 895,
+    "question": "Which fund has the lowest subscription amount?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 896,
+    "question": "Please help me find all the listed companies that have issued dividends in 2021, along with their general managers and legal representatives.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 897,
+    "question": "I want to know the social retail sales records of our individual units in recent years.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 898,
+    "question": "Hey, can you help me check the five-year annualized return rate data for funds?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 899,
+    "question": "What is the number of fund companies with different characteristics, ranked in descending order by quantity?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 900,
+    "question": "Show the records of domestic and overseas loans in China's financial institutions' credit income and expenditure records before the year 2000, where the total loan amount exceeds 1 million. Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 901,
+    "question": "Help me find the data! What is the profit distribution method of \"Investment Growth\" fund?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 902,
+    "question": "Please check the number of concept sectors each stock belongs to. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 903,
+    "question": "Can you search for the annualized rate of return of funds and display it for three years, five years, and ten years respectively?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 904,
+    "question": "Which funds have a negative benchmark growth rate for this month and what are their investment scopes?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 905,
+    "question": "List the business names of Fuling Precision Works.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 906,
+    "question": "Sort all funds by establishment date from late to early. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 907,
+    "question": "Which investors have had the proportion of frozen pledged stocks exceeding 0.3 in the past two years?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 908,
+    "question": "I want to understand the data situation. Wang is interested in the weekly growth rate of the net asset value per unit of our fund. Please check it, and remember to include the fund code.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 909,
+    "question": "Quarterly growth rate of per capita shareholding proportion in Jingji Zhinong for the 2nd quarter of 2020",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 910,
+    "question": "The IPO evaluation agency and signature evaluator for 300278.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 911,
+    "question": "Please provide the total retail sales of consumer goods in Jiangsu province since records have been kept.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 912,
+    "question": "Show the respective amounts of unit deposits and fiscal deposits in the financial institutions' credit and deposit transactions in China in 2004.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 913,
+    "question": "Which years in Jiangsu Province had local government revenue exceeding 100 million yuan and local government expenditure less than 100 million yuan?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 914,
+    "question": "What industry is Shenzhen Tech involved in, considering that the semiconductor sector has been recently hot? Please help me confirm the relevance.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 915,
+    "question": "Hello, what was the main operating income of Sinopec in the first quarter of last year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 916,
+    "question": "Can you tell me the index cycle and fund return of Huaxia Chuanglan Blue Chip ETF and Jianxin Shenzhen 60 ETF respectively?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 917,
+    "question": "Do you have information on the total asset under management of the funds under Zhang Kun's management?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 918,
+    "question": "Which fund managers have the nationality 'United States'? Please list their total fund size and QDII fund size. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 919,
+    "question": "Hello, I would like to know which institutions have the highest number of listed companies under actual control.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 920,
+    "question": "What is the fund code for GF Small Cap A? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 921,
+    "question": "Siri, what are the names of companies in Shenzhen with freely tradable shares exceeding 10 million and their board secretaries?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 922,
+    "question": "What is the amount of specific deposit institution claims and claims to other financial non-financial institutions in the central bank's balance sheet?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 923,
+    "question": "The fund with the highest total market value of heavy-weighted stocks.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 924,
+    "question": "How many companies in the banking industry have IPO?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 925,
+    "question": "Which fund manager is the youngest?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 926,
+    "question": "Which companies in Zhejiang province had R&D investments exceeding 100 million yuan last year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 927,
+    "question": "Which companies conducted share buybacks in the third and fourth quarters of last year?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 928,
+    "question": "What are the abbreviations and actual controllers of all listed companies in Zhejiang Province? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 929,
+    "question": "hello, Find all ETF funds and fund managers managed by Guotai Asset Management Co., Ltd.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 930,
+    "question": "How many funds managed by Zhu Shaoxing have a positive monthly benchmark growth rate?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 931,
+    "question": "Please briefly check the index value of \"Living Expenses - Food\" in our \"Industrial Structure Classification Index\" for the \"Same Period Last Year\".",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 932,
+    "question": "How was the operating performance of 000822 in the previous year? Show the main operating income, main operating cost, and main operating profit.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 933,
+    "question": "Help me look up the data. What is the price change of the closing price for 300278 in the first quarter of 2021?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 934,
+    "question": "Siri, select the top 10 companies by number of shares involved.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 935,
+    "question": "Hello, please tell me, in which primary industry are there more than 50 companies with a number of unlisted A-shares exceeding 200 million?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 936,
+    "question": "Which fund companies have managed funds in the \"Investment Fund\" category that have won the \"Three-Year Equity Fund Award\" since 2010?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 937,
+    "question": "The names of fund managers whose fund code starts with 15 and whose fund performance is greater than 0.7 during their tenure.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 938,
+    "question": "Show the latest record in the balance sheet of other deposit-taking companies where the total assets exceed 50 million, and list the specific amounts of total assets, total liabilities, foreign assets, and foreign liabilities.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 939,
+    "question": "Please provide the quarterly average growth rate of per capita holdings of Gujing Gongjiu. Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 940,
+    "question": "What is the price change of Huachangda stock in May 2021?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 941,
+    "question": "Hi, can you show me which funds have won awards and list who issued them?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 942,
+    "question": "Do you know the minimum ratio of \"Excess Deposit Reserve Requirement Rate\" for \"Rural Credit Cooperatives\"?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 943,
+    "question": "List the company names and corresponding second industry of companies in Zhejiang Province with a first industry of \"Manufacturing Industry.\" Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 944,
+    "question": "Find the company name of the executive named \"Liu Mingqiang\".",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 945,
+    "question": "Find the top ten funds with the highest monthly benchmark growth rate and their investment targets.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 946,
+    "question": "Help me find the data on executives who concurrently serve as \"Chairman\" and \"President,\" including their names and the respective company they work for.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 947,
+    "question": "List the secretary and secretary's phone information for 600234.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 948,
+    "question": "What is the total amount of retail sales of social consumer goods for collective units?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 949,
+    "question": "Which fund managers have a daily benchmark growth rate greater than 0?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 950,
+    "question": "Show the provinces with more than 1 listed companies in the \"Graphene\" sector, list the province names and specific quantities.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 951,
+    "question": "How many companies have a free float ratio of 100% and are grouped by primary industry?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 952,
+    "question": "Find the company abbreviations, names of frozen pledge shareholders, and the number of frozen pledge shares of listed companies in Hebei Province.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 953,
+    "question": "Please check the data before the year 2000, where the export amount exceeds 20 million and the year-on-year export growth is greater than 0. List the import amount and the year-on-year import growth.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 954,
+    "question": "Please check the net asset value data of HuaAn 180 ETF from April 1, 2021 until now.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 955,
+    "question": "Help me check the educational background and years of experience of fund manager Liu Weilin.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 956,
+    "question": "Help me find female fund managers with more than 20 years of industry experience.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 957,
+    "question": "What companies have a total share capital exceeding 10 billion in the construction industry?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 958,
+    "question": "Who currently manages the fund with the largest total scale? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 959,
+    "question": "Brother, what are the companies with underwriting amounts below 100 million yuan?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 960,
+    "question": "Please display the annual statistical data of the total retail sales of social consumer goods in Tianjin.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 961,
+    "question": "Please help Li Gong retrieve the index value of \"Beverage Manufacturing\" for the \"previous year same period.\"\n",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 962,
+    "question": "What is the number of hybrid funds managed by Zhu Shaoxing and Liu Gesong respectively?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 963,
+    "question": "Li Gong wants to know the respective amounts of claims on non-financial institutions and liabilities to non-financial institutions on the balance sheet of other depositary companies this year, including the time field. Thank you.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 964,
+    "question": "I want to understand the data situation. Please help me check, in the primary industry of \"Manufacturing,\" what is the industry name with the highest number of companies in the secondary industry?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 965,
+    "question": "Please help me check these data. How many companies in history have records of stock allocation?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 966,
+    "question": "Calculate the number of funds whose cumulative return rate exceeds 1000%",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 967,
+    "question": "Hi, can you display the types of indices in our Industrial Producer Price Index table?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 968,
+    "question": "Which fund product with the word 'Wenjian' in its name has the highest daily return rate? Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 969,
+    "question": "How many companies have circulating shares exceeding 50 million shares, grouped by secondary industry?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 970,
+    "question": "Changes in the closing price of 300278 in May 2021",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 971,
+    "question": "Please help me check the shareholders of Nongfa Seeds before 2019 and their respective shareholding amounts.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 972,
+    "question": "In which years has 600859 distributed shares, and what is the respective amount of funds raised?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 973,
+    "question": "List the top three major shareholders of Borui Media with the highest number of actual allotment shares.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 974,
+    "question": "List the ranking of funds with negative benchmark growth rates from low to high since this week, and what are their growth rates respectively?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 975,
+    "question": "List the main business of Jingyan Technology.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 976,
+    "question": "What are the companies with a quarterly growth rate in average shareholding proportion exceeding 10%?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 977,
+    "question": "Hello, which are the top five companies in terms of shareholder numbers in 2019?",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 978,
+    "question": "List the companies whose average holdings per account have increased by over 20% in the past six months.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 979,
+    "question": "Hello, in our currency and banking system, how much is the government claim?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 980,
+    "question": "Find the names of shareholders in Ruimaotong whose proportion of frozen shares exceeds 0.05% of the total share capital.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 981,
+    "question": "Help me find the data! What are the amounts of savings deposits and agricultural deposits in China's financial institution credit situation?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 982,
+    "question": "What is the total value of goods imported and exported in our customs import and export records over the years?",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 983,
+    "question": "What is the fund manager with the longest working experience in the Doctorate degree?\n",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 984,
+    "question": "Find the data. Check the names of the equity transferor and the equity transferee for Baoshan Iron & Steel Co., Ltd. in 2018.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 985,
+    "question": "Help Teacher Li check how much our capital received, net foreign assets, and domestic loans have respectively lost in the last two years.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 986,
+    "question": "Display the names, registered locations, and registered capitals of large fund companies with registered capital exceeding 10 billion. Thank you.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 987,
+    "question": "List the names of the equity transferors, the number of shares held after the transfer, and the percentage of shares held after the transfer of Shengtian Network in 2018.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 988,
+    "question": "Intermediary agency information for A-share issuance and listing appointment.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 989,
+    "question": "Brother, can Tibet Development continue to be held? Please help me check the gross profit margin of Tibet Development in these years.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 990,
+    "question": "Help me find the data. Please check the amount of goods imported to our country in the previous year and the year-on-year growth and shrinkage data of goods imports.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 991,
+    "question": "Find all non-Chinese fund managers.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 992,
+    "question": "Show me the data, I want to know how our records of claims on other financial institutions appear on the balance sheet of other deposit-taking companies. Please list them.",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 993,
+    "question": "Help me find the data! Check the closing price of Shiji Information on January 14, 2021.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 994,
+    "question": "Has 300022 conducted a stock issuance? What is the purpose of the issuance? Thank you.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 995,
+    "question": "Display the companies located in Zhejiang Province, the company's abbreviated name, the name of the frozen pledged shareholder, and the number of frozen pledged shares.",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 996,
+    "question": "Are there any fund managers with more than 15 funds under their management?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 997,
+    "question": "Does Zheng Xi manage any hybrid type funds? If so, what is the quantity and scale?",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 998,
+    "question": "Please query the daily benchmark growth rate of Fuguo Tianfeng fund.",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 999,
+    "question": "Distribution of the number of fund management companies established in each region after 2015.",
+    "db_name": "ccks_fund"
+  }
+]

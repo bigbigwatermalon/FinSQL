@@ -1,0 +1,5002 @@
+[
+  {
+    "q_id": 0,
+    "question": "显示指标周期为\"一个月\"的基金收益为正的基金数目，按基金类别分组展示",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 1,
+    "question": "列出本周以来基金基准增长幅度为正的基金和投资方向 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 2,
+    "question": "2017年配股最多的大股东",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 3,
+    "question": "哪些股东名称的实配和应配股数都超过50万",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 4,
+    "question": "出让前持股占比排名前5公司的公司名称、高管姓名及职位",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 5,
+    "question": "兴业证券的户均持股比重半年增长率是多少 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 6,
+    "question": "西藏发展还能继续持有吗，帮我查一下这些年西藏发展的毛利",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 7,
+    "question": "列出公司所属一级行业为\"房地产业\"的公司简称、冻结质押股东名称及累计占冻结质押方持股数比重 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 8,
+    "question": "查一下最高学历为本科的基金经理管理过哪些基金？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 9,
+    "question": "哪些基金经理的QDII管理规模超过了200亿？各自最高学历是什么",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 10,
+    "question": "我想了解一下数据情况。孙健是哪个公司的总裁",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 11,
+    "question": "\"证券时报\"给哪些经理管的什么基金颁发了奖项",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 12,
+    "question": "看下哪个基金和经理持仓了兴业转债 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 13,
+    "question": "查出全部00开头的上市公司简称及相应实际控制人 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 14,
+    "question": "查询所有博士最高学历基金经理姓名及对应的一年期最大收益率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 15,
+    "question": "找出持有债券种类最多的十个基金和经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 16,
+    "question": "帮我找找数据，浙江省上市公司2018年每个公司的研发费用",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 17,
+    "question": "同学你好！显示指标周期为\"成立以来\"的同类基金收益率均值为正的基金数目，按基金运作形式分组展示",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 18,
+    "question": "天健集团股票上市发行时的中介结构和配股股东名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 19,
+    "question": "siri, 历史上营业成本低于1亿元的公司多吗，有多少个",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 20,
+    "question": "我想知道\"东数西算\"热门板块的股票情况，列出股票代码、董事长秘书名称和董秘电话",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 21,
+    "question": "同学你好！不同基金投资类型的设立规模均值分别是多少？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 22,
+    "question": "赵马克是哪个公司实际控制人名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 23,
+    "question": "帮我查一下这些数据。展示601908每个交易日的交易量数据",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 24,
+    "question": "帮我看一下\"3D玻璃\"板块的股票都有哪些，列出股票名称，董事会秘书名称和董事会秘书联系方式",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 25,
+    "question": "列出各个基金的单位累计净值和开放式基金单位基金净值日增速记录",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 26,
+    "question": "成立日期在2010年以后的上市公司中（唯一化），有哪些实施过分红",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 27,
+    "question": "帮我查一下，基金收益和基金年化收益率均小于0的基金有多少只 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 28,
+    "question": "找到持有基金风险评级为\"中低\"的基金数目超过5只的基金经理名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 29,
+    "question": "找下三年基金基准增长幅度为正的基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 30,
+    "question": "哪些股票及月度时间满足市盈率大于200，且PB小于5，列出股票名称 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 31,
+    "question": "基金经理最高学历为\"本科\"且所管理的基金总规模超过100亿元的基金经理人数",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 32,
+    "question": "2020年主营业务销售毛利率大于1的公司有多少个",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 33,
+    "question": "2010年以后成立的新基金管理人简称有哪些",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 34,
+    "question": "你知道\"大飞机\"这个板块的股票董事会秘书都有哪些人吗，列出股票名称和董秘名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 35,
+    "question": "基金经理管理基金的年化阿尔法超过0.2，基金经理人数超过5的最高学历有哪些？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 36,
+    "question": "查出那些企业法定代表姓周的基金管理人简称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 37,
+    "question": "你好，基金运作形式为\"开放式\"的基金风险程度为\"中低\"有哪些？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 38,
+    "question": "快速找一下数据。给出管理股票型基金数量超过5个的基金经理和他们的简介",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 39,
+    "question": "列出上市以来古井贡酒营业收入同比大于0的记录，包含主营业务收入，营业收入同比增长率",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 40,
+    "question": "指标周期为\"今年以来\",基金平均规模排名前3的基金经理姓名和最高学历",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 41,
+    "question": "帮我查一下这些数据。2020年主营业务销售毛利率大于1的公司有哪些",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 42,
+    "question": "京基智农、天健集团的送股占比分别是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 43,
+    "question": "哥，有哪些配股大股东名称的应配股数超过2百万股",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 44,
+    "question": "同学你好！同济科技的配股大股东名称有哪些，分别实际配股多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 45,
+    "question": "哥，帮我统计一下不同公司属性的基金管理人数量，并进行升序展示",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 46,
+    "question": "杉杉集团作为配股股东名称的实际配股记录",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 47,
+    "question": "帮我查一下这些数据。把注册资金最大的基金管理人简称找出来",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 48,
+    "question": "基金投资风格为\"成长型—稳健成长型\"基金的基金风险评级为\"中低\"的有哪些？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 49,
+    "question": "查询2019年5月航天发展的股东及股东投资金额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 50,
+    "question": "查询参与东阿阿胶股票发行的机构及其法人，以及配股大股东名称和实配股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 51,
+    "question": "请问工商银行的户均持股数半年增速是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 52,
+    "question": "统计一下，基金投资风格为\"综合型\"的基金里基金风险级别为\"中\"的有多少家？ 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 53,
+    "question": "哥，持有21国债01张数最多的基金及经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 54,
+    "question": "帮我找找数据，找出天娱数科所在省市及代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 55,
+    "question": "有本周以来基金基准增长率排名前十的基金、基金经理和风险收益类型的信息吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 56,
+    "question": "列出两年基金基准增速为负的基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 57,
+    "question": "帮我看看000822前一年的主营业务利润和营业总成本",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 58,
+    "question": "展示一下数据，被中信银行股份有限公司托管最多的基金管理人是哪个公司？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 59,
+    "question": "哥，2020年以后，000822的营业收入同比有为负数的情况吗，列一下营业收入同比字段",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 60,
+    "question": "A股总股本超过100亿的公司名称和总裁",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 61,
+    "question": "您好，请简要介绍下各个基金的单位净值和单位基金净值周增长幅度",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 62,
+    "question": "任职期间基金净值增速为正的基金经理，按基金风险级别来统计所管理的基金数目",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 63,
+    "question": "列一下陈龙管理的债券型基金数目和规模 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 64,
+    "question": "有哪些基金的本周以来基金基准增长幅度超过5% 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 65,
+    "question": "2020年金禾实业的户均持股比例季度增速情况是怎样的",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 66,
+    "question": "快速找一下数据。基金风险程度为\"中\"的基金名称和风险收益类型",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 67,
+    "question": "我朋友最近想买股票，帮我看看近三年利润贡献超过1的公司有哪些，列出股票代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 68,
+    "question": "有哪些基金的十年基金基准增速超过200%",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 69,
+    "question": "哪个基金管理人管理的混合型股票最多？数量是多少？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 70,
+    "question": "成立日期在2015年以后且注册资金大于20亿的基金管理人简称有哪些",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 71,
+    "question": "作为股权质押方，中国进出口银行管理了几家公司的冻结质押股份",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 72,
+    "question": "帮我查一下中银基金的法定代表是谁",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 73,
+    "question": "嘿，深科技的核心业务是什么",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 74,
+    "question": "股市黑天鹅了，\"边缘计算\"板块的上市公司的法定代表和公司地址是哪里，同时写出上市公司代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 75,
+    "question": "新疆的上市公司和它们的证券代码都是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 76,
+    "question": "武汉控股的公司全称是什么？及它股票发行上市的承销机构",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 77,
+    "question": "显示指标周期为\"六个月\"的同类基金收益率均值为负的基金数目，按基金运作形式分组展示",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 78,
+    "question": "基金运作形式为\"开放式\"的基金风险级别为\"中高\"有哪些？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 79,
+    "question": "002305这支股票增发对应的最小发行量, 最大发行量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 80,
+    "question": "找出指标周期为\"六个月\"的基金收益最高的基金名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 81,
+    "question": "八方股份2017年以前的利息净支付是多少？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 82,
+    "question": "帮我查一下历史上单次送股占比最高的公司，以及当时的送股比重情况",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 83,
+    "question": "送股比重最高的股票是哪只",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 84,
+    "question": "hello,广州浪奇的配股股东",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 85,
+    "question": "证券市场为\"上海期货交易所\"的基金中，基金经理名称及基金增长率 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 86,
+    "question": "看一下股票代码以6开头的上市公司简称，及它们的实际控制人名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 87,
+    "question": "嘿，帮我看一下2019年以前，农发种业有哪些大股东，持股数量分别是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 88,
+    "question": "近三年毛利超过1的公司有多少个",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 89,
+    "question": "返回任职天数超过200天且任职期间基金增长率为负的基金经理简介",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 90,
+    "question": "请问，月平均收益率为正的基金经理姓名，最高学历，证券从业经理年限 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 91,
+    "question": "国金50的风险程度是什么？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 92,
+    "question": "大成基金和兴银基金都是什么时候成立的呀 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 93,
+    "question": "我想了解一下数据情况。同仁堂所在省市及成立时间",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 94,
+    "question": "看下持仓了博世转债的经理以及持仓市值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 95,
+    "question": "京基智农2020年2季度的户均持股占比季度增长幅度",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 96,
+    "question": "哪些股票今年一月的市净率PB低于1 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 97,
+    "question": "查下易方达中盘ETF的六个月基金基准增速",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 98,
+    "question": "查下债券型管理规模排名前十的基金经理和生日信息 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 99,
+    "question": "浙江省内去年有哪些公司的研发费用超过1亿元 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 100,
+    "question": "北京银行股份有限公司托管了哪些基金管理人的基金？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 101,
+    "question": "找一下合煦智远基金管理有限公司管理的债券型基金及经理信息",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 102,
+    "question": "一年基金基准增长率排名前十的基金和基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 103,
+    "question": "查下德美化工的全称和证券代码 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 104,
+    "question": "本日基金基准增长幅度大于0的基金和基金投资范围",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 105,
+    "question": "嘿，本次新增可售A股占上期末已流通A股比重小于20%有多少家",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 106,
+    "question": "同学你好！挑选出10支三个月基金基准增速最高的基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 107,
+    "question": "找一下数据。基金类别为\"股票型\"，基金平均规模小于20亿元的基金经理姓名及最高学历",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 108,
+    "question": "我想了解一下数据情况。京基智农2020年4季度的户均持股比重季度增速",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 109,
+    "question": "计算一下不同最高学历，不同性别对应的基金经理数量",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 110,
+    "question": "统计一下每个基金管理人管理了多少“行业股票-金融地产”",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 111,
+    "question": "这两年资本市场火爆，哪些股东名称的股东投资总额超过了1千万，列出这些大股东和股票代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 112,
+    "question": "LOF型基金和本日基金基准增速 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 113,
+    "question": "2010年5月股东投资总额达到100000000的公司有哪些",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 114,
+    "question": "找一下数据。请列出000686的配股大股东名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 115,
+    "question": "展示一下数据，哪个基金持仓百润转债的市值最高，经理是谁？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 116,
+    "question": "基金经理管理基金的年化索提诺比率超过2，基金经理人数超过10的最高学历有哪些？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 117,
+    "question": "siri, 帮忙查一下，基金经理最高学历为本科的总管理规模同类均值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 118,
+    "question": "找一下数据。户均持股数季度增长幅度超过5%的公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 119,
+    "question": "我想了解浙大网新的主营构成和所属行业",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 120,
+    "question": "我想了解一下数据情况。600165的配股大股东名称信息？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 121,
+    "question": "找一下数据。基金风险程度为\"中高\"的基金对应的基金经理名称和任职期间基金净值增速",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 122,
+    "question": "我很久之前买了000552，能帮我查一下它例是送股比重、派现金额吗",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 123,
+    "question": "siri, 麻烦帮我统计一下不同基金运作形式各有几只基金产品一年回报率超过20%",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 124,
+    "question": "哪些机构参与了天健集团的股票发行，还有它的配股股东都有谁",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 125,
+    "question": "你好，看看七年基金基准增速超过200%的基金有哪些",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 126,
+    "question": "列出六个月基金基准增速为正的基金、基金经理和具体值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 127,
+    "question": "计算出中石化总共有几年的营收超过2000亿",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 128,
+    "question": "我想知道2020年3月股东投资总额达到100000000的公司有多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 129,
+    "question": "列一下一共有多少基础设施证券投资基金基金的存续期开始日在2021年5月份",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 130,
+    "question": "给出股票型管理规模超过50亿的经理、基金管理人和市值信息",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 131,
+    "question": "同学你好！给我看一下一周基金基准增长率排名最高的十个基金、基金经理和收益分配原则信息",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 132,
+    "question": "QDII基金里，不同基金管理人管理的优化指数型基金数量",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 133,
+    "question": "本周以来基金基准增长幅度最高的十支基金和其投资目标",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 134,
+    "question": "2020年浙江省内成本费用最多的公司是哪家 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 135,
+    "question": "有哪些基金是本季度以来基金基准增长幅度最高的10支基金 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 136,
+    "question": "有哪些基金经理的股票型管理规模超过100亿，性别和最高学历信息？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 137,
+    "question": "南华生物和浙大网新是主要经营业务是什么，帮我查一下 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 138,
+    "question": "帮我找找数据，基金产品名称为天弘恒享的本月以来及一个月以来回报率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 139,
+    "question": "有600135的法定责任人和总裁信息吗",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 140,
+    "question": "显示一级行业为\"制造业\"公司的公司简称、城市和总经理",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 141,
+    "question": "统计下最近两年进行过股份回购的公司，列出公司全称和股票名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 142,
+    "question": "找出持仓20国开08市值最高的经理和基金管理人",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 143,
+    "question": "总裁姓刘的上市公司有哪些",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 144,
+    "question": "000752去年的主主营业务收入和主营业利润有多大，帮我瞅瞅 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 145,
+    "question": "本日基金基准增长幅度为负的基金及经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 146,
+    "question": "有维宏股份的法定责任人和总裁的信息吗",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 147,
+    "question": "看看每个基金和它们的一年基金基准增长幅度",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 148,
+    "question": "列出经理是张坤的基金、代码及基金管理人",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 149,
+    "question": "列出股票代码以300开头的上市公司简称，对应实控人，并按照股票代码排序 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 150,
+    "question": "管理基金规模超过100亿的基金经理最高学历分布情况",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 151,
+    "question": "同学你好！前年开始，股东投资总额超过1千万的股东名称有哪些，列出股东、股票代码和股东投资总额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 152,
+    "question": "列出户均持股占比小于10%的公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 153,
+    "question": "列出一个月基金基准增速为负的基金和基金类型 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 154,
+    "question": "你好，基金经理管理基金的年化阿尔法超过0.5的有多少位，按基金经理最高学历分组展示",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 155,
+    "question": "找出一个月基金基准增速高于8%的基金及基金管理人",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 156,
+    "question": "我要向方正富邦基金咨询业务，麻烦给我一下客服电话 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 157,
+    "question": "找出那个经理旗下基金总数做多，及基金管理人是谁",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 158,
+    "question": "麻烦帮我看下000948最近三年的股东及股东持股数目",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 159,
+    "question": "嗨，能查一下\"工业互联网\"这个板块有哪些股票吗，列出股票代码和法定代表，还有董事长秘书名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 160,
+    "question": "请问2015年以后才开始从业的缅甸基金经理是哪些",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 161,
+    "question": "帮我找找数据，去年哪家公司的营收最多",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 162,
+    "question": "非'关岛'籍基金经理有哪些？管理基金总规模，股票型基金规模，混合型基金规模分别是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 163,
+    "question": "查询双节电气的配股大股东名称及应配、实配股数情况",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 164,
+    "question": "帮我查一下这些数据。找出一个月基金基准增速排名前十的基金及投资目标",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 165,
+    "question": "其他型基金中配置型投资风格的基金都有哪些 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 166,
+    "question": "哪些基金管理人的注册资本小于10亿",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 167,
+    "question": "罗列出我持仓股票600881、601158的实控人",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 168,
+    "question": "本日基金基准增速大于0的基金由高到低的排名",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 169,
+    "question": "你好，杭州市上市公司的实际控制人名称信息",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 170,
+    "question": "嘿，2021年在上海黄金交易所上市了多少开放式基金？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 171,
+    "question": "给出富国天丰的经理和持仓的债券信息",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 172,
+    "question": "深科技的经营范围是什么 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 173,
+    "question": "列出易方达人工智能ETF基金的代码",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 174,
+    "question": "显示指标周期为\"一年\"的基金收益为负的基金数目，按基金运作形式分组展示",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 175,
+    "question": "帮我找找数据，新天然气的累计占冻结质押方持股数占比超过0.8的冻结质押股东名称及冻结质押股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 176,
+    "question": "在江苏省中，自由流通比重为100%的公司有多少家",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 177,
+    "question": "诺德股份这只股票值得买吗，它的参股股东名称有哪些，分别持股比例是多少 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 178,
+    "question": "帮我找一下数据！按利息净支付升序排列公司名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 179,
+    "question": "天山股份的配股股东及其应配股数分别是？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 180,
+    "question": "给出600797的配股股东信息",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 181,
+    "question": "找一下数据。000822上一年的经营情况如何，展示营业收入、营业总成本、主营业务利润",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 182,
+    "question": "同学你好！看下600190的股票简称和证券代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 183,
+    "question": "看看精研科技的主营和所属行业",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 184,
+    "question": "广东省研发人员数量最多的50个公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 185,
+    "question": "你好，列出本周以来基金基准增速为负的基金由低到高的排名，还有增长率分别是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 186,
+    "question": "列出基金类别为\"债券型\"，且同类基金收益率均值大于0的基金名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 187,
+    "question": "我想了解一下数据情况。持仓债券种类最多的基金和经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 188,
+    "question": "谁是富国天丰的经理，持有哪些债券，市值分别是多少？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 189,
+    "question": "给出重仓南银转债的基金和经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 190,
+    "question": "天健集团股票在发行时机构的承销额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 191,
+    "question": "帮我找找数据，给出户均持股数季度增速低于5%的公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 192,
+    "question": "同学你好！列一下持有杭银转债的基金和经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 193,
+    "question": "帮我找找数据，基金类别为\"债券型\"基金的基金风险评级为\"中\"的有哪些？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 194,
+    "question": "找到长春市上市公司及所属区县信息",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 195,
+    "question": "帮我查一下，任职天数最高的基金经理姓名和最高学历 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 196,
+    "question": "展示那些美国公司控股的上市公司，包括简称、总裁、法定代表",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 197,
+    "question": "嘿，600110的配股大股东名称及实配和应配股数信息",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 198,
+    "question": "不同公司性质的基金公司分别有多少家",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 199,
+    "question": "列出天健集团股票发行时聘请的机构及承销金额，还有配股大股东名称及实配股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 200,
+    "question": "哪些股东2020年的持股数量在1千万以上，列出这些股东名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 201,
+    "question": "查找一下指标周期为\"今年以来\"的基金收益率小于0的基金名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 202,
+    "question": "列出准备金存款在其他存款性公司资产负债表中的数据记录",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 203,
+    "question": "帮我查一下哈尔斯和京运通的冻结质押股东名称 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 204,
+    "question": "siri, 去年第四季度，在其他存款性公司资产负债表中，我国对政府债权金额和对中央银行债权分别有多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 205,
+    "question": "基金代码以16开头的，基金收益率大于0的基金有多少只",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 206,
+    "question": "筛选出管理股票型基金总规模超过200亿的所有基金经理名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 207,
+    "question": "你好，哪个基金管理人管理的指数型基金最多",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 208,
+    "question": "嘿，科思股份每天的总成交量和总成交金额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 209,
+    "question": "哪些王姓基金经理的从业时间超过10",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 210,
+    "question": "麻烦查一下有送股记录的公司代码和股票名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 211,
+    "question": "找一下数据。列出四川美丰历史所有配售年份，配股价格, 募集总金额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 212,
+    "question": "您好，小李呀，听说\"鹏华基金管理有限公司\"的基金都不错，它的哪些基金获得过奖项，列一下",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 213,
+    "question": "计算一下面向\"养老金客户\"的基金有多少种 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 214,
+    "question": "嘿，计算出哪种基金运作方式对应的日回报率均值最大",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 215,
+    "question": "展示我持仓基金产品国投瑞盈今年的累计净值数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 216,
+    "question": "hello,红塔证券ipo的保荐人",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 217,
+    "question": "2017年后哪个行业ipo公司最多",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 218,
+    "question": "我想看看\"金属制品业\"去年\"上年同期\"的指数值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 219,
+    "question": "查询一下基金的五年回报率数值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 220,
+    "question": "帮忙查下\"农村信用社\"\"超额存款准备金率\"的最高比率 谢谢",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 221,
+    "question": "展示总股本超过100亿上市公司的公司名称、所属一级行业",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 222,
+    "question": "让我瞅瞅咱们国内生产总值是多少，第一二三产业的国内生产总值分别是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 223,
+    "question": "基金经理柳军的什么时候开始从业的",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 224,
+    "question": "找出浙江省在公司担任\"副总经理\"的高管姓名及所在公司名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 225,
+    "question": "哥，我想买002354这支股票，帮我查一下它是什么板块的",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 226,
+    "question": "帮我看看\"资本市场服务\"行业的上市公司名称是什么，所在的省份和城市分别是哪里哦",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 227,
+    "question": "A股上市公司的实控人国籍在各国、各地区分布情况",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 228,
+    "question": "快速找一下数据。看下哪些基金持有128125，及基金代码都是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 229,
+    "question": "给出2021年信托公司持有无限售流通A股比例最高的前十家公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 230,
+    "question": "能列出去年我国债券和央行债券的详细记录吗 谢谢啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 231,
+    "question": "列出广东省二级行业为\"房地产业\"的公司 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 232,
+    "question": "广州市上市公司及其配股股东",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 233,
+    "question": "找到所有职位为\"董事长\"或者\"副董事长\"的高管姓名及公司名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 234,
+    "question": "请查询制造业上市公司名称及A股股本信息，并按A股股本大小降序排列",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 235,
+    "question": "查一下\"国债买断式回购\"在不同交易市场交易时，\"经手费\"的最高和最低比率",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 236,
+    "question": "2010年以前，我国各省市的地方财政收入和支出分别是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 237,
+    "question": "siri, 请统计一下获得过\"三年持续回报明星基金公司奖\"的基金数量",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 238,
+    "question": "找一下数据。在其他存款性公司资产负债表中，总资产金额超过5千万，而总负债金额不足5千万的记录是哪些，展示一下时间、总资产金额和总负债金额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 239,
+    "question": "时间区间为\"近1年\"，同类经理收益率均值排名前5的基金经理姓名和学历",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 240,
+    "question": "找到广东省A股总股本超过1亿的公司名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 241,
+    "question": "搜一下\"14561\"这家机构给哪些基金公司颁发过奖项",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 242,
+    "question": "hello,浙江省历年gdp和人均gdp记录分别是什么",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 243,
+    "question": "列出设立以来年化回报率超过30%的基金名称和代码",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 244,
+    "question": "本日基金基准增长率大于0的基金由高到低的排名 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 245,
+    "question": "请查一下我们国有单位、集体单位和合营单位的不同的社会消费品零售金额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 246,
+    "question": "历史上主营业务利润超过1亿元的公司有哪些，列出公司代码和主营业务利润",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 247,
+    "question": "天健集团的股票在发行或上市时聘请的机构",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 248,
+    "question": "你知道这5年来，全国各省市第一二三产业的gdp吗 感谢",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 249,
+    "question": "帮我找找数据，统计一下各省市\"医药制造业\"的上市公司分别是多少家",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 250,
+    "question": "承销000401的股票的机构及承销金额分别是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 251,
+    "question": "嘿，去年配售股份的公司有哪些，列出股票名称和股票代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 252,
+    "question": "帮我列出2000年以前，我国出口同比增长，而进口同比减少的数据，列出进口金额和出口金额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 253,
+    "question": "快速找一下数据。之前000021有派现吗，帮我整理一下派现记录",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 254,
+    "question": "hello,请给王工查一下各基金的两年回报率数值大小",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 255,
+    "question": "展示一下数据，请问2020年有多少次股票增发",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 256,
+    "question": "600110的配股大股东有哪些以及分别实际配了多少股 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 257,
+    "question": "设立时间最早的基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 258,
+    "question": "有基金持有128125吗，市值都是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 259,
+    "question": "展示一下数据，在一家基金公司最待得住的基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 260,
+    "question": "展示一下数据，你知道基金的十年年化回报率是多少吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 261,
+    "question": "160215的基金名称是什么 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 262,
+    "question": "帮忙计算一下，\"国产软件\"这个板块的上市公司，在各个城市的分布情况，列出城市名称和数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 263,
+    "question": "siri, 麻烦帮我统计一下不同基金运作方式各有几只基金产品一年回报率超过20%",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 264,
+    "question": "我朋友持有000040好几年了，它历史上派现多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 265,
+    "question": "嘿，\"富国创新药ETF\"的费率划分区间是哪种，费率是哪种",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 266,
+    "question": "请问发生过募集金额超过100亿的股票配售记录吗？总共有几次",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 267,
+    "question": "你好，那你再查一下对其他国外资产和国外负债的数据记录，还是在货币当局资产负债表中",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 268,
+    "question": "找到同时担任\"董事长\"和\"总经理\"的高管姓名及所在公司 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 269,
+    "question": "列出精研科技的所属行业",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 270,
+    "question": "请给我查一下基金的三年回报率数据大小",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 271,
+    "question": "给出大业股份ipo的会计所和签字会计师信息",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 272,
+    "question": "深科技的配股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 273,
+    "question": "hello,二级行业为\"资本市场服务\"包括哪些公司？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 274,
+    "question": "2018年后保荐人是广发证券的公司的投入占比",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 275,
+    "question": "帮我找一下数据！我国第三产业国内生产总值这些年来的记录是什么样的",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 276,
+    "question": "问下五粮液是哪个省的企业，法人代表是谁？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 277,
+    "question": "2020年1季度其他机构持有的步步高的非限售流通股比例 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 278,
+    "question": "找一下数据。你能帮我查一下，在货币当局资产负债表中，总资产的金额大小吗",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 279,
+    "question": "siri, 2018年授权新日恒力股份的授权方哪个股权占授权方比例最高",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 280,
+    "question": "帮忙统计一下这些年来，我国进出口商品总金额，以及进口商品金额和出口商品金额情况",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 281,
+    "question": "我想看一下不同基金经理学历水平管理基金总规模最大分别为多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 282,
+    "question": "列出2019年以前，主营业务收入同比为负数的公司代码 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 283,
+    "question": "2020年，期末持股数排名前5的高管姓名、职位及所在公司名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 284,
+    "question": "富国天惠A基金重仓股平均占资产比例 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 285,
+    "question": "王老师在统计数据，请给他提供一份咱们每年按\"期末累计\"记录的贷款新增金额数据",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 286,
+    "question": "哪个经理在管理160615，持仓了哪些债券",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 287,
+    "question": "帮我找找数据，湖北宜化股票发行的中介机构的名称和地址",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 288,
+    "question": "金融机构的各项存款和各项借款总额分别是多少啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 289,
+    "question": "找一下数据。2020年QFII持有各公司的无限售流通A股比例的情况",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 290,
+    "question": "哪个基金经理在一个基金公司待的时间最短 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 291,
+    "question": "帮我查一下东方电子月频流通股本和总股本数据",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 292,
+    "question": "2000年至今，北京市\"期末累计\"社会消费品零售总金额是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 293,
+    "question": "000822月频收盘价、流通股本信息",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 294,
+    "question": "当前哪位基金经理同时管理的基金数量最多",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 295,
+    "question": "基金类型为股票型的产品中，哪些一周回报率大于5%",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 296,
+    "question": "去年一季度设立的基金有哪些",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 297,
+    "question": "广东省哪个城市上市公司最多？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 298,
+    "question": "有哪些公司的实控人来自美国",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 299,
+    "question": "从前年起，投资数量超过1千万的股东有哪些，列出股东名称、股票代码和投资数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 300,
+    "question": "2010年至今，有哪些基金获得过\"中国证券报\"设立的奖项",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 301,
+    "question": "哈喽，帮我看下去年古井贡酒的经营状况，列出主营业收入，主营业成本和主营业利润",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 302,
+    "question": "诺德股份这只股票值得买吗，它的参股股东有哪些，分别持股比例是多少 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 303,
+    "question": "返回出让后持股比例超过0.5的公司名称及所属一级行业",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 304,
+    "question": "你知道\"股票型\"基金中设立以来年化收益率超过50%的有哪些 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 305,
+    "question": "帮我找找数据，指数型基金中有哪些六个月基金基准增长率超过5%",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 306,
+    "question": "把那些设立以来亏了很多的基金代码找出来，列出设立以来收益率低于-30%的基金代码和名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 307,
+    "question": "展示日回报率排行前3的基金产品，以及他们的基金规模，基金类别信息",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 308,
+    "question": "深科技的主营业务是什么",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 309,
+    "question": "你知道上海市的\"全部工业企业\"中，国有及控股企业和集体企业每年的\"期末累计\"工业生产总值金额吗 感谢",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 310,
+    "question": "查一下各个基金的单位净值，列出基金代码",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 311,
+    "question": "2016年澳柯玛一共有多少股权被托管",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 312,
+    "question": "快速找一下数据。请列举出来，设立以来年化收益率超过30%的\"混合型\"基金的代码和名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 313,
+    "question": "帮我统计下最近两年古井贡酒的派新金额和实派人民币金额 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 314,
+    "question": "我想知道一个月回报在5%以上的基金有哪些？并展示它们的日回报率，一周回报率情况",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 315,
+    "question": "帮我查一下到任日期在2021年以后的基金经理所管理的基金名称及基金风险等级",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 316,
+    "question": "帮我查一下浙大网新的主营业务",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 317,
+    "question": "看下华夏行业基金一个月基金基准增长率是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 318,
+    "question": "看下厦门有多少上市公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 319,
+    "question": "嘿，查下五年基金基准增长率超过20%的基金、经理和投资投资目标",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 320,
+    "question": "给出持有海亮转债的基金和基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 321,
+    "question": "hello,查一下贾成东管理的基金平均规模有多大",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 322,
+    "question": "你好，查一下\"云计算\"板块，上市公司数量最多城市是哪个，并列出数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 323,
+    "question": "展示一下数据，能展示一下我们国有单位这些年的社会消费品零售金额吗",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 324,
+    "question": "300011的股份回购数量和总金额是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 325,
+    "question": "李工说他在选基金，想让帮他查一下基金设立以来回报率的金额",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 326,
+    "question": "列出博时策略的三个月、半年和一年回报率数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 327,
+    "question": "分组展示完美世界各冻结质押股东名称及所持的冻结质押股数总和",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 328,
+    "question": "您好，南都电源最近一次股份回购的数量是多少，占总股本的比例是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 329,
+    "question": "去年主营业务收入超过1亿元的公司有几个",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 330,
+    "question": "东旭蓝天股票发行时配股大股东和中介机构的名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 331,
+    "question": "最近我们要统计数据，请提供下其他存款性公司资产负债表中，我们其他资产和其他负债的数据记录",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 332,
+    "question": "谁管理的股票型基金数量最多",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 333,
+    "question": "本次新增可售A股股数超过100万股的公司有多少家，按一级行业分组展示",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 334,
+    "question": "能帮我查一下\"海南省\"的上市公司，在各个板块中的数量吗 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 335,
+    "question": "看下鹏华价值持有的市值最高的债券",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 336,
+    "question": "找一下数据。查出600165是哪个城市和区县的",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 337,
+    "question": "哪只基金的基金经理是王帅",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 338,
+    "question": "帮我找一下数据！查找2021年第三季度600649的收盘价，可流通股本和总股本数据",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 339,
+    "question": "您好，计算一下2019年江苏租赁的股份回购数量、股份回购数量占总股本的比例",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 340,
+    "question": "列出山煤国际2018年至今每天的开盘价和收盘价",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 341,
+    "question": "帮我找找数据，找出股票代码是000430的公司高管",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 342,
+    "question": "2001年以后成立的上市公司 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 343,
+    "question": "显示300707的出让前持股数量和出让前持股比例 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 344,
+    "question": "我关注东北证券好久了，它历年送股比例和派现金额是多少啊 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 345,
+    "question": "您好，请展示一下基金的三年年化回报率数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 346,
+    "question": "按照基金运作方式不同统计一下基金产品的一年回报率均值分布情况",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 347,
+    "question": "帮我找一下数据！300391通过股票增发募集资金的用途是啥",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 348,
+    "question": "你知道前年，我们按\"月份\"记录的人民币新增贷款金额吗，请列出来",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 349,
+    "question": "北京市上市公司的数量是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 350,
+    "question": "000752去年的主营业收入和主营业利润有多大，帮我瞅瞅 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 351,
+    "question": "展示一下数据，京基智农2020年户均持股比例半年增长率",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 352,
+    "question": "哥，找到持有128125最多基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 353,
+    "question": "小李呀，我最近想买那个\"华安180ETF\"，你给我查查它的累计单位净值和日增长率和周增长率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 354,
+    "question": "帮我计算一下\"互联网金融\"板块中，有多少上市公司市在\"杭州市\"的",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 355,
+    "question": "给我浦银安盛基金的公司网址，我要去看一下他们的信息",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 356,
+    "question": "搜一下，前年，被授予奖项的基金是哪些 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 357,
+    "question": "古井贡酒亏损好严重啊，就分红了，它之前送股比例多少啊，派现金额有多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 358,
+    "question": "哪些公司的股票发行时被机构承销超过5千万股",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 359,
+    "question": "列出600股票代码开头的上市公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 360,
+    "question": "帮我查一下这些数据。展示一下基金的二年年化回报率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 361,
+    "question": "展示一下数据，我们有2000年以前的货币和银行记录吗，如果有，展示一下国外净资产和国内信贷的数据",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 362,
+    "question": "159748的要交的费率是哪种，划分区间是怎么描述的",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 363,
+    "question": "恒生电子配股最多的股东",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 364,
+    "question": "请列出基金十年回报率和十年年化回报率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 365,
+    "question": "2010年至今，\"工业结构分类指数\"中有哪些指数名称，他们的值是多少，展示\"上年同月\"的数据即可",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 366,
+    "question": "前年开始，投资金额超过1千万的股东有哪些，列出股东名称、股票代码和投资金额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 367,
+    "question": "显示指标周期为\"成立以来\"的同类基金收益率均值为正的基金数目，按基金类别分组展示",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 368,
+    "question": "立信会计事务所的最新保荐人",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 369,
+    "question": "请列出我们\"上年同期\"，\"工业结构分类指数\"中，\"生产资料-加工\"的指数值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 370,
+    "question": "吉峰科技股票增发设置的最低发行量下限, 最高发行量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 371,
+    "question": "\"邱丕云\"这三年参与过股份配售吗，列出获配数量和获配金额，获配金额按降序排列 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 372,
+    "question": "帮我找一下数据！帮我看下600517的股份配售情况，展示配售总股数、投资者名称和投资者获配股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 373,
+    "question": "哪只基金自设立以来回报率这个指标最优",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 374,
+    "question": "哪家基金公司最晚成立",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 375,
+    "question": "请问去年第一季度\"医药制造业\"的指数值有记录吗，请显示一下\"上年同月\"的值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 376,
+    "question": "000423的各股东的实配和应配股数分别是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 377,
+    "question": "有哪些配股大股东的应配股数超过2百万股",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 378,
+    "question": "帮我查一下600352这支股票在2022年的市净率最高达到多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 379,
+    "question": "请列出在其他存款性公司资产负债表中，总负债的数据记录",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 380,
+    "question": "找一下数据。最大盈利超过2的基金经理姓名和背景介绍",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 381,
+    "question": "你好呀，能给我提取一下501065的费率划分标准和范围的起始值和终止值吗 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 382,
+    "question": "列出2019年以来，所有上市公司的股份回购总金额和股票代码 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 383,
+    "question": "在其他存款性公司资产负债表中，当总资产金额超过5千万的时候，我们的对其他存款性公司债权和对其他居民部门债权有多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 384,
+    "question": "任职段数最多的基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 385,
+    "question": "看下投资风格是大盘价值股票的基金及基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 386,
+    "question": "基金风险等级为\"中\"的基金名称和风险收益特征",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 387,
+    "question": "哥，按照基金公司组织形式进行归类，各有多少家",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 388,
+    "question": "看一下浙江省股票代码以300开头公司高管名称及职位 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 389,
+    "question": "找一下数据。请提供一下上海市历年的地方财政收入和地方财政支出",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 390,
+    "question": "2020年第四季度期末资产净值超过百亿的基金有哪些",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 391,
+    "question": "有山西省的上市公司数量信息吗",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 392,
+    "question": "2022年以来有哪些公司增发股票了",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 393,
+    "question": "帮我找一下数据！一级行业为\"建筑业\"的公司有哪些？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 394,
+    "question": "筛选出所有风险等级为\"中高\"的基金代码 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 395,
+    "question": "华夏50ETF2021年第一季度的利润是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 396,
+    "question": "听说最近医药生物板块成交活跃，我想知道南华生物的主要经营范围，",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 397,
+    "question": "我能看一下基金的十年回报率数据吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 398,
+    "question": "展示一下数据，亚泰集团实配股数最多的配股大股东",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 399,
+    "question": "湖南省长沙市有多少企业",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 400,
+    "question": "帮我找找数据，每个公司及其平均配股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 401,
+    "question": "展示一下数据，哪些基金经理管理总规模小于1亿元",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 402,
+    "question": "快速找一下数据。股票代码6开头的公司，A股总股数最高的公司名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 403,
+    "question": "2020年冰山冷热的主营业务收入是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 404,
+    "question": "管理基金数最多的基金公司",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 405,
+    "question": "帮我找找数据，天山股份的配股大股东及其应配股数分别是？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 406,
+    "question": "三个月基金基准增长率排名前十的基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 407,
+    "question": "力源信息的股东名称和股东持股比例是多少，帮我查一下啦",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 408,
+    "question": "武汉市有几家上市公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 409,
+    "question": "你好，查一下，各\"省市\"去年，集体单位和个体单位的\"期末累计\"社会消费品零售额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 410,
+    "question": "哥，鹏华价值持有超过5万张的债券是那些",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 411,
+    "question": "嗨，夏利呀，给我展示一下历年来，北京市的额社会消费品零售总额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 412,
+    "question": "你好，北京市历年来的\"期末累计\"社会消费品零售总额是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 413,
+    "question": "列出万达信息2016年以后利息支出和汇兑损益具体数值 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 414,
+    "question": "请统计一下按\"月份\"记录的数据里，人民币新增贷款金额超过15万的记录，展示时间和新增金额字段",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 415,
+    "question": "2020年3月常山北明的股东及投资金额是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 416,
+    "question": "算一下我国信贷收支表中，农业存款总额是多少，储蓄存款总额是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 417,
+    "question": "列出公司所属一级行业为\"建筑业\"的公司简称和冻结质押股东名称，按累计占总股本比例倒序展示",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 418,
+    "question": "列出本月以来基金基准增长率大于5%的基金及具体数值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 419,
+    "question": "2020年主营业务毛利率大于1的公司有多少个",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 420,
+    "question": "请展示一下各个基金本月以来的回报率值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 421,
+    "question": "找出所有持有华海转债超过100万张的基金 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 422,
+    "question": "2020年浙江省内主营业务收入最多的公司是哪家 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 423,
+    "question": "统计一下有几只股票在2022年一季度的月收盘价低于2？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 424,
+    "question": "统计2020年3月各公司股权被冻结股东数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 425,
+    "question": "嘿，常山北明股票发行上市时中介的承销金额是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 426,
+    "question": "建信基金在哪里办公 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 427,
+    "question": "展示一下上海市\"期末累计\"社会消费品零售总额的最大值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 428,
+    "question": "快速找一下数据。SIRI，基金产品筛选一下，一个月回报率超过5%，而且一周回报率超过3%",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 429,
+    "question": "查下中信证券总管理规模同类排名",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 430,
+    "question": "2019年诺德股份的股权授权与接收方",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 431,
+    "question": "您好，请展示一下其他存款性公司资产负载表中，储备资产的金额记录",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 432,
+    "question": "请问南方积配最新一季的期末基金资产净值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 433,
+    "question": "列一下男性、博士，且姓李的基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 434,
+    "question": "列一下陈龙管理的债券型基金数量和规模",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 435,
+    "question": "帮我找一下数据！李工想了解一下我国每年的第一产业，第二产业和第三产业的国内生产总值金额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 436,
+    "question": "我想了解一下数据情况。找一下平均管理规模排名第一的基金及其平均管理规模同类均值是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 437,
+    "question": "帮我查一下东方电子历史最高月度收盘价 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 438,
+    "question": "前年北京市的城市维护建设费投入是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 439,
+    "question": "2020年6月基金持有的中航重机的非限售流通股比例",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 440,
+    "question": "查下康盛股份的股票代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 441,
+    "question": "有哪些基金的十年基金基准增长率超过200%",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 442,
+    "question": "有么有叫\"林泗华\"的人参与股份配售呀，有的话列出配售数量和获配金额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 443,
+    "question": "2019年1季度东旭蓝天的户均持股比例",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 444,
+    "question": "能计算下\"股票型\"基金设立以来年化回报率均值吗 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 445,
+    "question": "展示一下南方基金的联系人是谁",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 446,
+    "question": "hello,深科技的兼营范围是什么",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 447,
+    "question": "基金经理从业年限小于2年且任职期间基金增长率为正的有哪些？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 448,
+    "question": "我想知道\"企债质押式回购\"的回购期限是多久，\"经手费\"缴纳的最低比率和最高比率分别是多少 谢谢啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 449,
+    "question": "帮我查一下这些数据。\"专业技术服务业\"行业中，上市公司最多的省份是哪个，列出省份名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 450,
+    "question": "2020年5月份社保持有的奥普光电的非限售售流通股比例",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 451,
+    "question": "找下300278ipo的保荐机构、律所和会计所",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 452,
+    "question": "越剑智能初期持股数超过1000万的高管有哪些？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 453,
+    "question": "福斯特在ipo时的评估机构是哪个",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 454,
+    "question": "同学你好！任职期间基金增长率为负的基金经理有多少位？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 455,
+    "question": "快速找一下数据。筛选已流通A股占A股总数比例超过20%的公司的公司名称、法人",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 456,
+    "question": "对比一下徐猛和范冰两位大佬管理的qdii基金数和规模 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 457,
+    "question": "帮王工查一下，去年，\"纺织业\"\"上年同期\"的指数值最大是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 458,
+    "question": "杉杉集团作为配股大股东的实际配股记录",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 459,
+    "question": "哥，查询东阿阿胶股票发行聘请的机构及其法人代表",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 460,
+    "question": "过滤出债券型基金产品的一年、两年回报率数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 461,
+    "question": "快速找一下数据。历年金融机构信贷收支记录中，财政性存款有多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 462,
+    "question": "找出指标周期为\"六个月\"的基金收益率最高的基金名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 463,
+    "question": "基金运作方式为LOF的基金对应的同类基金年化收益率均值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 464,
+    "question": "制造业A股股本排名前20的公司有哪些？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 465,
+    "question": "把166001持仓的债券给我找一下 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 466,
+    "question": "有多少家公司2021年进行股份回购",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 467,
+    "question": "查出那些企业法人姓周的基金公司",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 468,
+    "question": "我想了解一下数据情况。按照学历水平和性别统计相应基金经理数量",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 469,
+    "question": "快速找一下数据。2018年后每个股东的最大配股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 470,
+    "question": "帮我查一下前年我国外币存款和国外净资产的详细信息 谢谢啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 471,
+    "question": "请展示一下基金两年年化收益率和十年年化回报率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 472,
+    "question": "展示一下数据，2014年授权最多股权的机构是哪个",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 473,
+    "question": "请给我列出501065的费率类型，以及费率描述",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 474,
+    "question": "展示一下数据，统计一下，在其他存款性公司资产负债表中，总资产和总负债的最大最小值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 475,
+    "question": "已流通A股占A股总数比例超过60%的公司有多少家，按一级行业分组展示",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 476,
+    "question": "找一下数据。上一年配售股份超过1万分的投资者有哪些",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 477,
+    "question": "搜一下\"国债买断式回购\"不同的回购期限，\"经手费\"的最高比率和最低比率分别是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 478,
+    "question": "你知道咱们数据库里，历年的\"全国\"\"国有及规模以上工业企业\"中，重工业的\"月度\"工业生产总值金额吗",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 479,
+    "question": "保险公司持有恒生电子非限售流通股比例是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 480,
+    "question": "展示601908每个交易日的成交笔数数据 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 481,
+    "question": "基金类别为\"股票型\"基金的在任基金经理有哪些？ 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 482,
+    "question": "嘿，请帮我查一下各基金今年以来回报率大小",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 483,
+    "question": "去年配售股份超过1万份的投资者有多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 484,
+    "question": "统计一下\"OLED\"这个板块的股票，都集中在哪些城市，列出城市名称和数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 485,
+    "question": "近两年单次回购股份总分数超过10万份的公司有哪些，列出公司名称和代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 486,
+    "question": "万能的机器人，帮我查一下华宝宝盛这支基金的日回报率、本周以来回报率和一周回报率指标数据 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 487,
+    "question": "那2010年以前，我们社会消费品销售总额有记录吗，有的话展示一下上海市每年的\"年度\"总金额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 488,
+    "question": "找下哪些基金持有海亮转债，其基金类型是什么",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 489,
+    "question": "请列出每年全国的国有及规模以上工业企业的期末累计工业增加值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 490,
+    "question": "帮我找一下数据！最近5年发生过多少次股票增发呀",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 491,
+    "question": "嘿，博时主题的全称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 492,
+    "question": "展示一下我国批发零售贸易业和餐饮业的数据记录 谢谢啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 493,
+    "question": "请展示一下前年，货币当局资产负债表中，储备货币和自有资金的记录",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 494,
+    "question": "帮我查一下2020年3月航天发展的股东及持股数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 495,
+    "question": "2018年新北洋的股权有哪些授权方",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 496,
+    "question": "未流通A股股数超过2亿的公司有多少家，按公司所在省份分组",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 497,
+    "question": "你好，列出2010年成立的上市公司数量达到10家的行业名称，别列出对应的上市公司数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 498,
+    "question": "从业经验小于5年的基金经理平均管理了多少价值的基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 499,
+    "question": "我想知道\"富国创新药ETF\"的费率计算方式是什么，还有他的费率划分区间描述",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 500,
+    "question": "请列出\"A股\"在\"深圳证券交易所\"的\"证券交易印花税\"的最高缴纳比例是多少哦 感谢",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 501,
+    "question": "基金经理的国籍统计情况",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 502,
+    "question": "帮我统计下2021年有几家公司有配售股票的记录",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 503,
+    "question": "基金经理管理基金的年化夏普比率超过2，基金经理人数超过20的国籍有哪些？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 504,
+    "question": "2021年A股总股本超过100亿的公司共计几家？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 505,
+    "question": "\"40981\"这家机构给哪些基金经理颁发过奖项，还有对应的基金名称也列一下 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 506,
+    "question": "帮我看一下\"顾瑜\"去年持有的股票中，哪些股票的投资金额超过了1百万",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 507,
+    "question": "听说东北是农业大省，帮忙看看\"农业\"行业的上市公司中，各省份的数量是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 508,
+    "question": "哥，有多少债券是博时主题重仓的债券",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 509,
+    "question": "siri, 能给我分类统计下，\"西安市\"有哪些上市公司市\"集成电路\"板块的",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 510,
+    "question": "2019年2月份社保持有的中航重机的无限收流通a股份比例是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 511,
+    "question": "展示一下数据，1990年以后出生的基金经理有吗？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 512,
+    "question": "请问，基金经理付浩管理的基金数量",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 513,
+    "question": "展示一下\"上年同期\"统计类型中，2008年至今，\"食品制造业\"的最大和最小指数值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 514,
+    "question": "展示一下浙江龙盛的股份回购情况，包括回购数量，占比和回购总金额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 515,
+    "question": "搜一下基金的五年回报率结果数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 516,
+    "question": "历史上，我们对政府债权、对非金融部门债权、特定存款机构的债权分别是多少哦",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 517,
+    "question": "请回答一下，\"工业结构分类指数\"中，\"上年同月\"各类指数名称及其指数值 谢谢啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 518,
+    "question": "普路通的一级行业是什么？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 519,
+    "question": "有基金持有200203吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 520,
+    "question": "前年，各个省份的第一产业、第二产业和第三产业国内生产总值分别是多大",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 521,
+    "question": "你能帮我找到华安石油A的开放基金单位净值日增长比例吗？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 522,
+    "question": "最近两年，有哪些股票被冻结质押过，列出股票代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 523,
+    "question": "帮忙列出在其他存款性公司资产负债表中，当总资产金额超过3千万时，对政府债权和对中央银行债权的金额分别是多大，并用时间区分",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 524,
+    "question": "列一下161010的持仓债券、市值和占净资产比例情况",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 525,
+    "question": "002981的投资者有哪些",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 526,
+    "question": "管理债券型基金数量高于3个的基金经理有谁",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 527,
+    "question": "帮我看看去年有哪些公司有配售股票的记录",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 528,
+    "question": "可以告诉我，一级行业为\"信息传输、软件和信息技术服务业\"，二级行业公司数量排名前2的行业名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 529,
+    "question": "华昌达的所在省市",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 530,
+    "question": "帮我查一下2020年国网英大获配企业有哪些",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 531,
+    "question": "你好啊，能给我查一下160416这只基金最近2年的单位基金净值周增长率吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 532,
+    "question": "展示一下数据，哪个基金类别的产品一个月回报率平均值最大",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 533,
+    "question": "帮我搜索一下基金的二年年化回报率吧",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 534,
+    "question": "看下510130的债券持仓、市值和基金经理等信息 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 535,
+    "question": "找一下数据。列出哪十个债券型基金的总规模管理规模同类均值最高",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 536,
+    "question": "基金风险等级为\"中高\"的基金名称和基金简介",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 537,
+    "question": "列出六个月基金基准增长率为正的基金、经理和具体值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 538,
+    "question": "主营业务收入超过1000亿元的公司都分布在哪些省份 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 539,
+    "question": "2012年各行业进行ipo的公司的数量分别是多少 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 540,
+    "question": "基金净值增长率小于0.1的基金经理名称及学历",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 541,
+    "question": "统计一下各\"省市\"的\"国有及规模以上工业企业\"中，每年的\"年度\"工业增加值金额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 542,
+    "question": "展示一下数据，红塔证券最新的保荐人和ipo律所",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 543,
+    "question": "方便查一下瑞茂通的股权冻结质押中，冻结数量超过1百万的股东名称吗",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 544,
+    "question": "被最多基金持有的股票是哪只",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 545,
+    "question": "你知道基金设立以来回报率是多大吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 546,
+    "question": "列出所有“行业股票-医药风格”的基金及风险收益特征",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 547,
+    "question": "你好，王总来视察了，帮忙提取出北京市近五年的企业增速收入超过5时，企业收入和企业所得税的记录",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 548,
+    "question": "还有哦，小李，帮忙查一下基金十年年化收益率和设立以来年化回报率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 549,
+    "question": "你好，统计不同学历水平的基金经理管理基金总规模平均数分布情况",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 550,
+    "question": "基金经理管理基金的年化阿尔法超过0.5的有多少位，按基金经理学历分组展示",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 551,
+    "question": "我想看看去年，国内生产总值同比超过0.5的省份名单",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 552,
+    "question": "我想了解一下数据情况。中石化去年一季度的主营业务成本是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 553,
+    "question": "siri, 请帮我查一下历年来，\"全国\"\"全部工业企业\"范围内，轻工业的\"期末累计\"工业生产总值数据",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 554,
+    "question": "嘿，你知道各个基金的单位净值和周增长率是多少吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 555,
+    "question": "谁管理的QDII基金规模最大 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 556,
+    "question": "统计一下2021年有多少家上市公司进行过股份回购",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 557,
+    "question": "月度数据中2020年总股本排名前十的股票",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 558,
+    "question": "找到所有管理了超过5支股票型产品的基金经理，并展示相应的基金数量和总规模 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 559,
+    "question": "请搜索一下各个基金的的日回报率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 560,
+    "question": "找找哪些公司的实际控制人不是来自中国大陆",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 561,
+    "question": "兴业证券的户均持股比例半年增长率是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 562,
+    "question": "2018年以后，古井贡酒的主营业务利润是怎样的，列出主营业务成本和主营业务利润",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 563,
+    "question": "统计一下科思股份有多少个交易日成交总金额超1亿元",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 564,
+    "question": "展示一下\"债券型\"基金设立以来的回报率 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 565,
+    "question": "深科技最近三年效益还行，它分红股本基数和派现金额是多少啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 566,
+    "question": "哪些基金持有了海康卫视",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 567,
+    "question": "快速找一下数据。2000年以来，人民币新增金额超过15万的记录有哪些，请找出按照\"期末累计\"记录的时间，和贷款新增金额字段",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 568,
+    "question": "hello,帮我查一下去年送股比例超过0.5的上市公司代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 569,
+    "question": "手续费最高的公司是哪家？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 570,
+    "question": "在我们的其他存款性公司资产负债表中，这些年来，总资产的最大值是多少，归属于哪一年 谢谢啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 571,
+    "question": "哥，看下LOF基金本周以来基金基准增长率情况",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 572,
+    "question": "\"中资大型银行\"的\"超额存款准备金率\"的最小比率是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 573,
+    "question": "嘿，我朋友想知道咱们金融机构人民币信贷收支这些年的情况是什么样的，列出单位或者企业存款期末余额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 574,
+    "question": "有LOF基金本月以来基金基准增长率为正吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 575,
+    "question": "这三年来，我国出口金额超过4000万，进口金额低于2000万的出口金额和进口金额 感谢",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 576,
+    "question": "福建省上市公司里有应配股数大于100万股的吗？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 577,
+    "question": "给咱们搜一下2005年以后，国内信贷和外币存款的数据 感谢",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 578,
+    "question": "hello,浙大网新的最大实际配股大股东是谁",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 579,
+    "question": "你知道基金经理学历为本科的平均管理规模同类排名情况吗？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 580,
+    "question": "列出\"南方天元\"的费率类型，以及每种费率金额",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 581,
+    "question": "古井贡酒历年派现金额超过5块的记录有哪些，展示股权登记日和派现金额 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 582,
+    "question": "基金经理学历为博士且任职天数超过200天的有哪些？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 583,
+    "question": "出让前持股比例排名前5公司的公司名称、高管姓名及职位",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 584,
+    "question": "指标周期为\"三年\",卡玛比率排名前10的基金经理姓名和证券从业日期",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 585,
+    "question": "西藏发展的一级行业和二级行业分别是什么？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 586,
+    "question": "显示指标周期为\"六个月\"的同类基金收益率均值为负的基金数目，按基金运作方式分组展示",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 587,
+    "question": "展示2021年第四季度各公司平均日成交总金额 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 588,
+    "question": "hello,查出交银治理ETF本月以来基金基准增长率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 589,
+    "question": "列出基金产品华安180ETF的单位净值、累计净值和升贴水率情况",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 590,
+    "question": "展示一下这两年我国货币和准货币的总记录，以及货币和准货币分别是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 591,
+    "question": "查下债券型管理规模排名前十的基金经理和出生日期信息",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 592,
+    "question": "siri, 2021年第一季度哪些基金期末资产净值超过百亿",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 593,
+    "question": "显示2019年流通A股股本超过100亿的公司数目，按公司所在二级行业分组统计",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 594,
+    "question": "平均基金规模大于500亿元的基金经理国籍分布情况 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 595,
+    "question": "帮李处长查一下咱们1995年以前货币和准货币总金额是多少，货币、准货币金额分别是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 596,
+    "question": "请问有哪些公司和成交日对应成交总额超过10亿",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 597,
+    "question": "查下张利忠是哪个上市公司的法人代表 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 598,
+    "question": "请帮我在货币当局资产负债表中查一下，其他国外资产和其他负债的数据分别是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 599,
+    "question": "我想了解一下数据情况。请展示一下\"华安石油A\"这只基金。这个季度的单位净值和日增长率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 600,
+    "question": "陕西省哪个城市的上市公司最多，具体数目是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 601,
+    "question": "看下都是哪些基金持有温氏转债，且持有的数量分别是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 602,
+    "question": "列出依米康的高管姓名及职位",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 603,
+    "question": "2020年8月航天发展的股东有哪些 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 604,
+    "question": "嘿，招商成长的申赎确认日",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 605,
+    "question": "帮我查一下这些数据。请问，证券从业经历超过10年的基金经理的同类经理收益率排名情况",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 606,
+    "question": "哥，嘿，小李，能帮我查一下我国国外净资产超过1百万元的记录情况吗，给出日期和国外净资产金额的字段",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 607,
+    "question": "看下基金经理及总管理基金规模排名情况",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 608,
+    "question": "会计事务所是立信会计事务所的上市公司的ipo保荐人",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 609,
+    "question": "哥，帮我计算一下全市场基金产品一年回报率均值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 610,
+    "question": "请搜索一下，这些年来，我们总资产超过1千万时，外汇金额、货币黄金金额和其他国外资产的数据，",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 611,
+    "question": "我想了解一下数据情况。福星股份哪个高管的名字有\"谭\"这个子串？列出姓名和职位。",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 612,
+    "question": "这两年，我国金融机构信贷收支中，财政借款和财政性存款总额是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 613,
+    "question": "展示一下数据，返回离职日期在2020年以前的基金经理所管理的基金名称及基金风险等级",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 614,
+    "question": "帮我找找数据，列出“专业技术服务业”的上市公司股票代码以及所在的省份和城市",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 615,
+    "question": "新天然气2016年的总股东数和户均持股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 616,
+    "question": "李工想问能不能给他显示下前年，有没有按\"月份\"记录的贷款新增金额超过了10万，有的话，请提取一下时间和贷款金额和同比增减记录",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 617,
+    "question": "上海市流通股本超过1000万的公司有哪些？ 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 618,
+    "question": "\"广发估值优势混合型证券投资基金\"上一年参与了哪些公司的股份配售，获配金额是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 619,
+    "question": "实际控制上市公司数量最多的前3国家或地区是哪些",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 620,
+    "question": "嘿，债券型基金的总管理规模同类排名最高的十个",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 621,
+    "question": "时间区间为\"近1天\"，平均管理规模同类均值最高的基金经理姓名和证券从业日期 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 622,
+    "question": "展示一下数据，债券型基金中，谁管理总规模最大，相应的基金数量和总规模分别是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 623,
+    "question": "王工说给他查一下510210的单位基金净值周增长率数据记录",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 624,
+    "question": "能帮我看一下\"泰达效率\"的单位净值吗，历年来的数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 625,
+    "question": "同学你好！按照基金类别分组统计各自有多少设立以来年化回报超过10%",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 626,
+    "question": "找一下数据。告诉我，同时担任总裁和董事长的高管姓名及公司名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 627,
+    "question": "帮我查一下这些数据。最近一年有哪些公司有配售股票的记录，列出股票名称和股票代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 628,
+    "question": "同学你好！本次新增可售A股股数不超过1000万股的公司有哪些",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 629,
+    "question": "获得过奖项的公募基金公司有多少个 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 630,
+    "question": "请列出\"全国\"范围内，\"全部工业企业\"的\"月度\"工业增加值数据，保留时间字段 感谢",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 631,
+    "question": "能算算\"全国\"\"全部工业企业\"这些年来的\"月度\"工业总产值金额， 谢谢",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 632,
+    "question": "找一下数据。能给我查一下\"江苏省\"\"农副食品加工业\"有多少家上市公司吗",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 633,
+    "question": "我们总资产不足1千万的记录有哪些，主要列出时间、外汇金额、货币黄金和其他国外货币的记录 谢谢",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 634,
+    "question": "嗨，帮我查一下2004年，上海市的批发零售贸易业和餐饮业的社会销售品零售金额的\"年度\"统计值 谢谢啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 635,
+    "question": "无限售条件流通A股股数超过100亿的公司有多少家，按公司所在一级行业分组",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 636,
+    "question": "我们来计算一下，各个城市的上市公司中，属于\"大数据\"这个板块的数量有多少 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 637,
+    "question": "哪个省2000年成立的上市公司最多",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 638,
+    "question": "简单算一下\"江苏省\"各行业的上市公司数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 639,
+    "question": "找持有200203最少的基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 640,
+    "question": "列出山东省的上市公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 641,
+    "question": "2016年股东总户数最多的上市公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 642,
+    "question": "同学你好！基金产品名称为天弘恒享的本月以来及一个月回报率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 643,
+    "question": "我想了解一下数据情况。在咱们表里，关于\"国民经济行业指数\"中\"金属制品业\"的记录有哪些，请列出相关统计周期和指标值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 644,
+    "question": "2000年的时候，上海的\"全部工业企业\"中，\"年度\"工业增加值是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 645,
+    "question": "我朋友想知道去年单次回购股份总金额达到1亿元的公司数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 646,
+    "question": "siri, 统计一下出让前持股比例超过0.2的公司有多少家",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 647,
+    "question": "杭州市上市公司的实控人信息",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 648,
+    "question": "展示一下各基金的六个月回报率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 649,
+    "question": "我们实收资本金额在其他存款性公司资产负债表里，有多少，请列出来 感谢",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 650,
+    "question": "查出已流通A股占A股总数比例超过50%有哪些？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 651,
+    "question": "你好，列出中银中国A持仓的所有债券",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 652,
+    "question": "您好，制造业本次新增可售A股占上期末已流通A股比例最大的公司名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 653,
+    "question": "能统计一下公募基金的评奖机构个数吗 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 654,
+    "question": "2021年有哪些公司发生过股票增发，它们的增发目的是什么",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 655,
+    "question": "展示一下我国的国内生产总值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 656,
+    "question": "帮我找找数据，计算出有几个基金经理的管理总规模超过500亿",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 657,
+    "question": "我想了解一下数据情况。前一年有配售股票记录的公司有几家",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 658,
+    "question": "同学你好！帮我查下\"晨星资讯\"这家机构的\"中国股票型对冲基金奖提名\"颁发给了哪些基金，请列出基金名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 659,
+    "question": "你好，红塔证券ipo信息中所属行业是什么",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 660,
+    "question": "显示指标周期为\"一年\"的基金收益率为负的基金数目，按基金运作方式分组展示 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 661,
+    "question": "展示一下最近三年，全国的\"年度\"社会消费品零售总金额，用时间区分",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 662,
+    "question": "\"广东省\"上市公司数量超过4的板块名称是那些，并列出具体个数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 663,
+    "question": "检索一下160611的持有债券名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 664,
+    "question": "统计一下各种投资风格的基金的数量",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 665,
+    "question": "嘿，列出2019年以来，农发种业的股东名称和持股比例",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 666,
+    "question": "\"万安集团有限公司\"去年买了那几家公司的股份",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 667,
+    "question": "找出持仓21国债06占净资产比例最高的基金及基金管理人",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 668,
+    "question": "注册资本排行前3的基金管理人是哪些",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 669,
+    "question": "hello,评价一下\"芯片概念\"板块，上市公司超过5的省份有哪些，列出省份名称和具体数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 670,
+    "question": "通信行业和计算机行业的上市公司有多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 671,
+    "question": "给出各基金投资类型中基金今年以来基金基准增长率为负的个数",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 672,
+    "question": "基金经理学历为\"本科\"且所管理的基金总规模超过100亿元的基金经理人数",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 673,
+    "question": "统计出证券从业经验大于15年的基金经理管理基金规模平均值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 674,
+    "question": "帮我看看各\"省市\"的\"全部工业企业\"，每年的\"期末累计\"工业总产值是多少 谢谢啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 675,
+    "question": "找一下数据。我持有\"南方天元\"一点时间了，我当时买的少，帮我看一下它的费率最高值和最低值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 676,
+    "question": "显示指标周期为\"一个月\"的基金收益率为正的基金数目，按基金运作方式分组展示",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 677,
+    "question": "统计下2020年3月国网英大配售总股数有多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 678,
+    "question": "列出历年我国第三产业国内生产总值的数据大小",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 679,
+    "question": "去年深科技的费用化研发投入、资本化研发投入分别是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 680,
+    "question": "您好，拓维信息有多少个董事？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 681,
+    "question": "查一下学历为本科的基金经理管理过哪些基金？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 682,
+    "question": "已流通A股股数超过1000万股的公司有多少家 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 683,
+    "question": "siri, 晶盛机电增发股票面向哪些投资者, 该公司的总经理，法人分别是谁？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 684,
+    "question": "找找哪些基金经理管理的债券型基金数量超过3个及出生日期信息 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 685,
+    "question": "算一下2019年来，有几家公司的主营业务利润大于1亿元",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 686,
+    "question": "国金50的风险等级是什么？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 687,
+    "question": "哪些公司的实际控制人是中国烟草总公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 688,
+    "question": "恒宝股份的副总裁有哪几位？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 689,
+    "question": "帮我看看2020年成立的各行业上市公司分别有多少家 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 690,
+    "question": "A股流通股本最多的5家公司是什么？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 691,
+    "question": "2021年基金赚钱榜前十的基金及其基金代码",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 692,
+    "question": "找下哪十个行业ipo的公司最少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 693,
+    "question": "请告诉我，哪个省份的未流通A股股数超过2亿的公司数目超过10家 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 694,
+    "question": "本次新增可售A股股数超过100万股的公司有多少家，按城市分组展示",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 695,
+    "question": "本周以来基金基准增长率为负的基金由低到高的排名",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 696,
+    "question": "找到持有基金风险等级为\"中低\"的基金数目超过5只的基金经理名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 697,
+    "question": "能帮我看看各基金的一周回报率信息吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 698,
+    "question": "王工想知道我们历年的进口同比增减数据和出口同比增减数据，麻烦提供下",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 699,
+    "question": "2020年2月券商持有的重庆建工非限售流通股比例",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 700,
+    "question": "哥，最近两年，\"华安石油A\"的每日单位净值是多少，",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 701,
+    "question": "A股总股本超过10亿的公司有哪些，按自由流通比例从大到小排序",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 702,
+    "question": "帮我找一下数据！全市场每个基金经理平均管理了多少只基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 703,
+    "question": "哪些省份的公司的一级行业为\"批发和零售业\"数量超过3家？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 704,
+    "question": "给我找下冯莉是哪个上市公司的董秘",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 705,
+    "question": "请问通富微电和海亮股份的已流通A股股数和待流通A股股数分别是多少？ 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 706,
+    "question": "哥，京能置业股票增发的目的是啥",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 707,
+    "question": "查询股票型基金和它们的本日基金基准增长率情况",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 708,
+    "question": "找一下蒋一茜的基金从业年限 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 709,
+    "question": "这是我能知道的吗，咱们每年的国内生产总值数据和人均国内生产总值数据",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 710,
+    "question": "159901持仓了债券吗，市值和比例都是多少？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 711,
+    "question": "我朋友持有冰山冷热的股票，他家去年的毛利率是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 712,
+    "question": "富国基金现任基金经理学历分布",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 713,
+    "question": "查询一下各基金的一年回报率值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 714,
+    "question": "哥，你好，我想查基金产品银华纯债的本周以来和一周回报率数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 715,
+    "question": "ETF基金本月以来基金基准增长率超过3%有多少 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 716,
+    "question": "列出南华生物股票上市时参与的机构名称及承销金额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 717,
+    "question": "咱们金融机构新增贷款每年的新增金额是多少啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 718,
+    "question": "帮我找找数据，我持有000752，它去年的送股比例和派现金额是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 719,
+    "question": "我想知道去年有哪些股东有股份被冻结质押的记录，列出这些记录，包含投资者名称和占冻结质押方持股数量的比例",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 720,
+    "question": "512500的本日基金基准增长率是多少 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 721,
+    "question": "展示一下基金设立以来回报率和设立以来年化回报率的数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 722,
+    "question": "同学你好！查询一下各基金今年以来回报率数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 723,
+    "question": "单次股票增发预计募集资金总额最大对应的上市公司是哪个",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 724,
+    "question": "辽宁省上市公司中股票发行承销数量大于1百万股且承销金额大于1千万元的有哪些 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 725,
+    "question": "2020年科拓生物在职的高管有哪些？ 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 726,
+    "question": "603059在去年四月的股份配售中，获配金额前10的投资者是哪些 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 727,
+    "question": "请统计一下\"南京市\"个板块的上市公司数量，列出板块名称和数量 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 728,
+    "question": "又到了审计期间了，列出四川省历年的城市维护建设费和地方财政支出",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 729,
+    "question": "给王工提供一下，这十年来，我国出口金额达到4000万，并且出口同比增长的记录，包含时间、进口金额和出口金额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 730,
+    "question": "能帮我列出去年第一产业生产总值排名前十的省市名单吗",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 731,
+    "question": "去年，600110这支股票的投资者中，哪些投资者的投资数量达到千万级 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 732,
+    "question": "我想知道\"顾瑜\"买了哪些公司的股票，持股数量和金额分别是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 733,
+    "question": "查询基金的三年年化回报率大小",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 734,
+    "question": "哪些基金持有20国债10",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 735,
+    "question": "有哪些股票型基金是易方达基金管理有限公司2021年设立的？ 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 736,
+    "question": "能帮我看一下我们的历史数据中，每年的总负债书据详情吗，按照总负债金额降序排列",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 737,
+    "question": "哪只基金设立时间最早，它的管理人是谁",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 738,
+    "question": "展示一下数据，查一下去年古井贡酒派现金额和实派人民币金额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 739,
+    "question": "无限售条件流通A股股数超过100亿的公司有多少家，按公司所在城市分组",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 740,
+    "question": "请列出基金的三年年化回报率大小",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 741,
+    "question": "广西省上市公司及它们配股时的应配股数与实际配股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 742,
+    "question": "快速找一下数据。能给我查一下我国金融机构信贷收支中，金融债券和有价证券及投资金额吗",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 743,
+    "question": "请帮我看一下山东省每年的gdp和人均gdp数据",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 744,
+    "question": "广东省研发人员比例最高的公司中研发投入占比最高的十个公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 745,
+    "question": "帮我查一下，2017年再升科技和蓝思科技的利息支出",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 746,
+    "question": "易方达中盘ETF持有的债券中占其资产净值最高的是哪个",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 747,
+    "question": "统计一下\"大飞机\"板块，各省市的上市公司数量分别是多少 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 748,
+    "question": "帮我找一下数据！评价一下诺德债券的三个月回报率表现",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 749,
+    "question": "华昌达的成立日期 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 750,
+    "question": "\"万安集团有限公司\"前年买了那些公司的股份，投资金额分别是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 751,
+    "question": "我想了解一下数据情况。2022年有哪些公司开展过股票增发",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 752,
+    "question": "列出600371的总股本和A股股本信息",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 753,
+    "question": "这些年来，我们\"全国\"范围内，\"国有及规模以上工业企业\"中，轻工业的\"期末累计\"工业生产总值是多少哇",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 754,
+    "question": "学历为博士且性别为男的基金经理有多少位？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 755,
+    "question": "大业股份什么时候进行增发了？增发目的和对象分别是什么",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 756,
+    "question": "筛选基金类别描述为\"股票型\"，且基金年化收益率大于0的基金名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 757,
+    "question": "华纳百录ipo的签字会计师和签字律师分别是谁",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 758,
+    "question": "2020年宝钢股份和会稽山的股份回购情况分别是什么，列出股票名称和股份回购总金额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 759,
+    "question": "嘿，汇兑损益排名前20的公司有哪些？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 760,
+    "question": "哥，中信证券哪个类型的基金的总管理规模同类排名最低",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 761,
+    "question": "哪个基金持仓百润转债的市值最高，基金经理是谁？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 762,
+    "question": "方便统计下前一年配售股份不足1万份的投资者数量吗",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 763,
+    "question": "看看七年基金基准增长率超过200%的基金有哪些",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 764,
+    "question": "\"指数许可费\"的费率划分标准范围的起始数值和截止数值一般是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 765,
+    "question": "有几只基金看好贵州茅台，有几只基金看好宁德时代",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 766,
+    "question": "你好，找到任职天数超过1000天的基金经理所管理的基金名称和基金风险等级",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 767,
+    "question": "能展示一下浙江省合营单位和个体单位历年\"年度\"社会消费品零售数据吗",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 768,
+    "question": "有哪些基金的十年基金基准增长率超过50%，类型和经理的信息也给下",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 769,
+    "question": "您好，2018年5月被冻结质押股数前10的公司是哪几家",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 770,
+    "question": "查下华夏50ETF持有多少债券产品",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 771,
+    "question": "最近三年，有哪些投资者的股份被冻结质押过，查询一下投资者名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 772,
+    "question": "同学你好！查一下，有多少位在任的基金经理助理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 773,
+    "question": "您好，非'中国'籍基金经理有哪些？管理基金总规模，股票型基金规模，混合型基金规模分别是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 774,
+    "question": "帮我查一下京能置业进行股票增发的目的",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 775,
+    "question": "哪些基金类型对应的基金产品一个月回报均值大于1",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 776,
+    "question": "对比600168，000422两只股票的月频流通股本变化情况",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 777,
+    "question": "万科的网站地址",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 778,
+    "question": "还有啊，\"证券时报\"给哪些基金经理都颁发了什么奖项",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 779,
+    "question": "帮我查一下这些数据。找出那个基金经理旗下基金总数做多，及基金管理人是谁",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 780,
+    "question": "您好，我想知道南都电源2021年有没有回购操作，列出回购价格和回购总数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 781,
+    "question": "帮我查一下这些数据。展示000935每个月的总股本，PB和PE信息",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 782,
+    "question": "时间区间为\"近10年\"，基金收益率大于0的基金经理姓名和背景介绍",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 783,
+    "question": "你知道2015年至今，获奖对象为“投资基金”中获得过奖项的基金名称有哪些吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 784,
+    "question": "我朋友想买160133，他是一般投资者，查一下160133的投资者类型",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 785,
+    "question": "帮我找找数据，嘿，帮忙看看我国去年的商品出口金额和商品出口同比增减金额分别是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 786,
+    "question": "有限售流通A股股本超过1亿的公司有哪些？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 787,
+    "question": "帮我查一下这些数据。五年基金基准增长率超过了50%的基金代码",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 788,
+    "question": "嘿，咱们这些年的人均国内生产总值是多少啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 789,
+    "question": "瑞茂通的股权冻结情况是怎么样的，列出股权被冻结质押股东名称和涉及股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 790,
+    "question": "混合型管理规模排名前十的经理及具体规模",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 791,
+    "question": "2008年至今，我们每年的准备金存款金额和库存现金是多少啊，在其他存款性公司资产负债数据表中",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 792,
+    "question": "hello,湖北省武汉市有哪些企业",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 793,
+    "question": "列出浙江省一级行业为\"科学研究和技术服务业\"的公司名",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 794,
+    "question": "京基智农2020年户均持股数半年增长率",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 795,
+    "question": "我想了解一下数据情况。能帮我查一下我们批发零售贸易业金额大小吗",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 796,
+    "question": "帮我确认一下天齐锂业的主要经营范围",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 797,
+    "question": "药明康德的法人代表",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 798,
+    "question": "你知道\"汇添富经典\"的费率类型和费率划分标准吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 799,
+    "question": "查出全部00开头的上市公司简称及相应实控人",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 800,
+    "question": "siri, 展示下有多少股票的冻结质押数量超过了1千万",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 801,
+    "question": "哪个基金的三年基金基准增长率最高",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 802,
+    "question": "找下三年基金基准增长率为正的基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 803,
+    "question": "基金成立以来基准年化增长率最高的十支基金排名及具体数值是多少 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 804,
+    "question": "帮李老师看看我们的库里，基金的五年回报率记录哦",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 805,
+    "question": "最近可以布局新能源产业了，帮我查一下新能源板块有什么股票",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 806,
+    "question": "手续费排名前5的公司有哪些？ 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 807,
+    "question": "帮我找找数据，新疆的上市公司和它们的代码都是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 808,
+    "question": "李工想买基金，给他展示一下基金的一年收益率、三年收益率、五年收益率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 809,
+    "question": "帮我查一下这些数据。2021年在上海证券交易所上市了多少LOF基金？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 810,
+    "question": "今年刚开始从事证券行业的基金经理有哪些",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 811,
+    "question": "帮我查一下，哪个省份的无限售条件流通A股股数超过100亿的公司数目超过10家",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 812,
+    "question": "2021年第3季度招商成长的加权平均基金份额利润 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 813,
+    "question": "找到一年、两年回报率都超过50的基金产品，并展示所有维度数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 814,
+    "question": "同学你好！请帮忙统计一下，\"杭州市\"的上市公司中，\"电商概念\"这个板块有多少数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 815,
+    "question": "小王哦，方便帮我获取一下\"零售业\"这个行业的上市公司代码和公司的联系地址吗",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 816,
+    "question": "百度概念板块和阿里概念板块有没有相同的股票，有的话，列出股票代码",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 817,
+    "question": "hello,嗨，帮我看看山东省这五年来的国内生产总值和人均国内生产总值金额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 818,
+    "question": "哪些学历水平对应基金经理从业年限平均值大于10",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 819,
+    "question": "在其他存款性公司资产负债表中，纳入广义货币的存款金额有多少呢 谢谢啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 820,
+    "question": "在线等，有几位基金经理管理的qdii类型基金总规超过200亿",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 821,
+    "question": "展示一下数据，统计和深科技同行业的企业数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 822,
+    "question": "计算出2022年至今有几家公司增发股票了",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 823,
+    "question": "siri, 找出顺网科技董事长的期初持股数和期末持股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 824,
+    "question": "请展示一下这些年来，\"全国\"\"国有及规模以上工业企业\"中，轻工业的\"年度\"工业生产总值金额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 825,
+    "question": "给出持有债券张数最多的前10个基金和它们的基金经理 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 826,
+    "question": "筛选基金类别为\"股票型\"基金中基金年化收益率排名前10的基金名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 827,
+    "question": "帮李老师看看\"工业结构分类指数\"里，\"上年同期\"\"生活资料-耐用消费品\"的一般指数值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 828,
+    "question": "列出证券从业经历小于5年的基金经理的年化收益标准差和年化下行风险",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 829,
+    "question": "嘿，帮我统计一下一年、两年和三年回报率均大于30%的基金产品有多少只",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 830,
+    "question": "快速找一下数据。帮我统计一下，002104有多少个副总裁？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 831,
+    "question": "筛选一下哪些基金本月以来基金基准增长率大于5%及基金经理是谁",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 832,
+    "question": "查询一下，我国各省市最近三年\"期末累计\"社会消费品销售总金额，",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 833,
+    "question": "不同性别基金经理分别有多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 834,
+    "question": "我想查一下有哪些基金经理曾经获得过\"中国基金报社\"颁发的奖项",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 835,
+    "question": "002153这只股票在2021年1月21日的收盘价",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 836,
+    "question": "2020年603059的股份配售中，投资者有哪些，列出投资者名称和金额，并按照获配金额的降序排列",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 837,
+    "question": "快速找一下数据。我想看看最近10年分红送转次数最多的公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 838,
+    "question": "显示2019年朗新科技的出让前持股比例和出让后持股比例",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 839,
+    "question": "按未流通A股股数从大到小排序，排名前5的公司名称及所在一级行业",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 840,
+    "question": "我们有多少种不同的奖项名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 841,
+    "question": "您好，万科的董秘电话",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 842,
+    "question": "选取A股总股数排名前10的公司名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 843,
+    "question": "给王工提一下\"安徽省\"\"无人驾驶\"\"板块的股票代码和名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 844,
+    "question": "计算出中石化总共有几年的主营业务收入超过2000亿",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 845,
+    "question": "2020年3月航天发展的股东及持股比例是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 846,
+    "question": "2020年赚了10亿以上的基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 847,
+    "question": "还有，看看\"中资大型银行\"的\"超额存款准备金率\"的最高比例",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 848,
+    "question": "帮我找一下数据！科大讯飞的股票代码和证券简称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 849,
+    "question": "帮我找找数据，给咱找一下\"共享经济\"这个板块的股票代码有哪些，同时列出董秘名称和公司地址",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 850,
+    "question": "展示一下数据，找出所有单次配售募集金额低于1亿的记录，罗列公司简称、配售年份、募集金额",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 851,
+    "question": "我想了解一下数据情况。请问有银川上市公司和其注册地址信息吗？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 852,
+    "question": "福建省财政厅实际控股了哪些上市公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 853,
+    "question": "帮我查一下基金的日回报率支",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 854,
+    "question": "\"元宇宙\"最近好火啊，帮忙看看这个板块的上市公司都是哪些省的，",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 855,
+    "question": "哪些基金经理管理的股票型基金规模超过100亿，且混合型基金规模大于50亿",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 856,
+    "question": "利息支出排名前10的公司有哪些？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 857,
+    "question": "快速找一下数据。那\"冶金工业\"的记录呢，请展示一下相关的统计周期和指数值，以及所属的指数类型",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 858,
+    "question": "帮我查一下，基金收益率和基金年化收益率均大于0的基金名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 859,
+    "question": "我想了解一下数据情况。查询一下各基金的两年回报率记录",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 860,
+    "question": "帮我找找数据，上海市上市公司股票发行承销数量大于1百万股的有哪些",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 861,
+    "question": "按手续费降序排列的上市公司是哪些？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 862,
+    "question": "\"富国300ESGETF\"的费率一般是多大 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 863,
+    "question": "麻烦提供下600180的股权冻结数量占总股本比例达到0.05及以上的股东名称和涉及股数 感谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 864,
+    "question": "找一下承销股数排名前100的承销机构",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 865,
+    "question": "列出自由流通比例为100%的公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 866,
+    "question": "帮我找找数据，前年有哪些公司配售股票了",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 867,
+    "question": "帮我找找数据，罗列江苏省公司的股权出让方名称、出让前持股数量和出让前持股比例",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 868,
+    "question": "我想了解一下计算机行业的上市公司有多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 869,
+    "question": "给王工查查一下\"全国\"\"全部工业企业\"的\"期末累计\"工业总产值金额，记得带上时间",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 870,
+    "question": "2021年主营业务收入从大到小排名前5的是哪几家公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 871,
+    "question": "帮我查一下这些数据。查找任职期间基金净值增长率排名前5的基金名称和基金经理名称",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 872,
+    "question": "嘿，列出基金产品国泰融信的单位净值和累计净值",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 873,
+    "question": "谁的总管理规模第一，市值是多少？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 874,
+    "question": "您好，列出持有债券市值最高的基金和基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 875,
+    "question": "siri, 请问哪些股票增发次数大于1",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 876,
+    "question": "同学你好！列出各基金今年以来回报率记录",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 877,
+    "question": "hello,000021送股比例是多少呀",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 878,
+    "question": "能提供下10年前，我国进口金额数据和进口同比增减的记录吗",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 879,
+    "question": "给出基金成立以来基准增长率最低的20个基金排名及增长率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 880,
+    "question": "去年第四季度300184的股东名称是什么",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 881,
+    "question": "显示担任副总裁的高管姓名及期末持股数 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 882,
+    "question": "我有一个需求，我想知道去年西藏发展的送股比例和分红股本基数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 883,
+    "question": "我们最近的一次登记的国内信贷金额是多大",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 884,
+    "question": "嗨，能给我查一下各基金的一个月回报率记录吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 885,
+    "question": "能帮我查一下前年实派金额超过10块的公司代码和股票名称吗",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 886,
+    "question": "我想了解一下数据情况。嗨，能个我取一下基金设立以来回报率和设立以来年化回报率吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 887,
+    "question": "找一下石化油服期末持股数最多的高管姓名",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 888,
+    "question": "哥，查出股票代码300开头的公司冻结质押股东名称及冻结质押股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 889,
+    "question": "查一下2020年度总利润最大的基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 890,
+    "question": "在线等！易方达中小企业A的一年、两年和三年回报率数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 891,
+    "question": "请列出基金设立以来年化回报率的记录",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 892,
+    "question": "显示指标周期为\"一年\"的基金收益率为负的基金数目，按基金类别分组展示",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 893,
+    "question": "请列出基金的三年收益率，五年收益率、十年收益率和设立以来收益率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 894,
+    "question": "显示东北证券和国元证券的总股本",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 895,
+    "question": "申购金额最低的基金是哪只",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 896,
+    "question": "帮我查一下2021年分红的所有上市公司，以及他们的总经理和法人",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 897,
+    "question": "我想知道我们个体单位这些年的社会消费品零售记录",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 898,
+    "question": "嘿，帮我看一下基金的五年年化回报率数据吧 ",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 899,
+    "question": "不同性质的基金公司分别有多少家，按照数量降序排列",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 900,
+    "question": "展示一下2000年以前，我国金融机构信贷收支记录中，各项贷款总额超过1百万时，境内贷款和境外贷款的记录 谢谢",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 901,
+    "question": "帮我找一下数据！招商成长的收益分配方式",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 902,
+    "question": "查一下每支股票所属的概念板块数量 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 903,
+    "question": "能搜一下基金的年化收益率吗，分别展示一下三年、五年和十年的",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 904,
+    "question": "查出哪些基金的本月以来基金基准增长率为负及它们的投资范围",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 905,
+    "question": "列出富临精工的业务名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 906,
+    "question": "所有基金按设立日期从晚到早排 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 907,
+    "question": "这两年来，哪些投资者被冻结质押的股票比例超过了0.3",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 908,
+    "question": "我想了解一下数据情况。王工想知道咱们基金的单位基金净值周增长率，请查一下，记得带上基金代码",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 909,
+    "question": "京基智农2020年2季度的户均持股比例季度增长率",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 910,
+    "question": "300278的ipo评估机构和签字评估师",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 911,
+    "question": "贴一下有记录以来，所有的江苏省的社会消费品零售总额数据",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 912,
+    "question": "展示一下2004年，我国金融机构信贷收支中，单位存款和财政性存款分别是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 913,
+    "question": "江苏省哪些年地方财政收入大于1亿元，而地方性财政支出小于1亿",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 914,
+    "question": "半导体板块最近比较火热，深科技涉足行业是什么，帮我确认下相关性",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 915,
+    "question": "您好，中石化去年一季度的主营业务收入是多少亿",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 916,
+    "question": "能告诉我，华夏创蓝筹ETF和建信深证60ETF的指标周期和基金收益率分别是多少？",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 917,
+    "question": "有张坤旗下基金总管理规模的情况吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 918,
+    "question": "哪些基金经理国籍为'美国'，并列出它们管理基金总规模，qdii基金总规模 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 919,
+    "question": "您好，我想知道哪些机构实控上市公司数量最多",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 920,
+    "question": "广发小盘A的基金代码是多少 谢谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 921,
+    "question": "siri, 深圳市自由流通股本超过1000万的公司名称及董事会秘书",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 922,
+    "question": "那在货币当局资产负债表中，对特定存款机构债权和对其他金融机构债券分别是多少也",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 923,
+    "question": "重仓股总市值最高的基金",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 924,
+    "question": "银行业有多少公司ipo？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 925,
+    "question": "请问哪个基金经理年纪最小",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 926,
+    "question": "浙江省内去年有哪些公司的研发投入超过1亿元",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 927,
+    "question": "去年第三季度和第四季度进行股份回购的公司有哪些",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 928,
+    "question": "浙江省所有上市公司简称及实控人 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 929,
+    "question": "hello,找出国泰基金管理有限公司管理的所有ETF基金及基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 930,
+    "question": "朱少醒管理的基金一个月基金基准增长率为正的有多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 931,
+    "question": "请简单查一下，我们\"上年同期\"\"工业结构分类指数\"里，\"生活资料-食品\"的指数值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 932,
+    "question": "000822上一年的经营情况如何，展示主营业务收入、主营业务成本、主营业务利润",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 933,
+    "question": "帮我查一下这些数据。2021年第一季度300278收盘价变动情况",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 934,
+    "question": "siri, 选取涉及股数排名前10的公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 935,
+    "question": "hello,请告诉我，哪个一级行业的未流通A股股数超过2亿的公司数目超过50家",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 936,
+    "question": "从2010年开始，\"投资基金\"中，有哪些基金公司管理的基金获得过\"三年期股票型金基金奖\"奖项",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 937,
+    "question": "基金代码15开头的且任职期间基金净值增长率大于0.7的基金经理姓名",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 938,
+    "question": "展示一下最近的一次其他存款性公司资产负债表中，总资产超过5000万的记录，列出时间总资产，总负债，国外净资产和国外负债的具体金额",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 939,
+    "question": "给出古井贡酒的户均持股数季度增长率信息 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 940,
+    "question": "华昌达2021年5月股价变动情况",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 941,
+    "question": "嗨，能展示一下哪些基金获得过奖项吗，并列一下是谁颁发的",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 942,
+    "question": "你知道\"农村信用社\"\"超额存款准备金率\"的最低比率吗",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 943,
+    "question": "列出浙江省一级行业为\"制造业\"的公司名称及对应的二级行业 谢谢",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 944,
+    "question": "找到名为\"刘明强\"高管的公司名称。",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 945,
+    "question": "找出一个月基金基准增长率排名前十的基金及投资目标",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 946,
+    "question": "帮我找找数据，找到同时担任\"董事长\"和\"总裁\"的高管姓名及所在公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 947,
+    "question": "列一下600234的董秘和董秘电话信息",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 948,
+    "question": "siri, 那集体单位的社会消费品零售总金额是什么样的",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 949,
+    "question": "哥，哪些基金经理的本日基金基准增长率大于0",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 950,
+    "question": "展示下\"石墨烯\"板块，上市公司数量大于1的省份有哪些，列出省份名称和具体数量",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 951,
+    "question": "自由流通比例为100%的公司有多少家，按一级行业分组统计",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 952,
+    "question": "查找河北省上市公司的公司简称、冻结质押股东名称、冻结质押股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 953,
+    "question": "请查一下2000年以前，出口金额超过2000万，且出口同比增减量大于0的数据，列出进口金额和进口同比增长数据",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 954,
+    "question": "看一下华安180ETF在2021年4月1日至今的单位净值数据",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 955,
+    "question": "帮我查一下基金经理刘伟琳的学历水平，从业年限",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 956,
+    "question": "帮我找一下从业年限超过20的女基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 957,
+    "question": "建筑业总股本超过100亿的公司有哪些？",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 958,
+    "question": "现在谁管理的基金总规模最大 谢谢啊",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 959,
+    "question": "哥，机构承销金额低于1亿元的公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 960,
+    "question": "请展示一下天津市历年来的社会消费品零售总额的\"年度\"统计数据",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 961,
+    "question": "帮李工取一下上一年，\"饮料制造业\"的\"上年同期\"指数值",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 962,
+    "question": "朱少醒和刘格菘管理的混合型基金数量分别是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 963,
+    "question": "李工想知道今年，在其他存款性公司资产负债表中，对非金融机构债权和对非金融机构负债分别是多少，带上时间字段 谢谢啊",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 964,
+    "question": "我想了解一下数据情况。帮我查一下，一级行业为\"制造业\"，二级行业公司数量最多的行业名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 965,
+    "question": "帮我查一下这些数据。历史上有配售股票记录的公司有多少家",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 966,
+    "question": "计算一下有多少只基金产品的累计回报率超过1000%",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 967,
+    "question": "嗨，能显示一下我们工业品出厂价格指数表中，指数类型是哪些吗",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 968,
+    "question": "名称中包含‘稳健’二字的基金产品中哪只日回报率最高 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 969,
+    "question": "已流通股数超过5000万股的公司有多少家，按所属二级行业分组展示",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 970,
+    "question": "2021年5月300278收盘价变动情况",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 971,
+    "question": "帮我看一下2019年以前，农发种业有哪些股东，持股数量分别是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 972,
+    "question": "600859在哪些年份配售过股份，募集资金分别是多少",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 973,
+    "question": "列出博瑞传媒配股大股东里实配股数最多的三个",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 974,
+    "question": "列出本周以来基金基准增长率为负的基金由低到高的排名，还有增长率分别是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 975,
+    "question": "列出精研科技的主营业务",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 976,
+    "question": "户均持股比例季度增长率超过10%的公司 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 977,
+    "question": "你好，2019年股东户数排名前五的公司",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 978,
+    "question": "列出哪些公司的户均持股数半年增长率超过20%",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 979,
+    "question": "您好，我国货币与银行中，对政府债权有多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 980,
+    "question": "查一下瑞茂通的股权冻结质押中，冻结数量占总股本比例超过0.05的股东名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 981,
+    "question": "帮我找一下数据！列出金融机构信贷情况中，我国的储蓄存款和农业存款分别是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 982,
+    "question": "我们海关进出口记录中，历年的商品进口总额和出口总额分别是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 983,
+    "question": "博士学历里证券从业时间最长的基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 984,
+    "question": "找一下数据。查一下宝钢股份2018年的股权出让方名称和股权受让方名称",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 985,
+    "question": "帮李老师查查，咱们最近两年的实收资本，国外净资产和国内信贷分别输多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 986,
+    "question": "展示注册资本超过100亿的大基金公司及对应的注册地，注册资本 感谢",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 987,
+    "question": "列出2018年盛天网络的股权出让方名称、出让后持股数量和出让后持股比例",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 988,
+    "question": "a股发行与上市聘请的中介机构信息",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 989,
+    "question": "哥，西藏发展还能继续持有吗，帮我查一下这些年西藏发展的毛利率",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 990,
+    "question": "帮我找找数据，帮我查一下前年我国的商品进口金额和商品进口同比增减数据是多少",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 991,
+    "question": "找到所有非中国籍的基金经理",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 992,
+    "question": "展示一下数据，我想知道我们对其他金融机构债权的记录在其他存款性公司资产负债表是怎样的，请列出来",
+    "db_name": "ccks_macro"
+  },
+  {
+    "q_id": 993,
+    "question": "帮我找一下数据！查一查石基信息2021年1月14日收盘时的价格",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 994,
+    "question": "300022进行过股票增发吗？增发目的是什么 谢谢啊",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 995,
+    "question": "显示所在省份为\"浙江省\"的公司，公司简称、冻结质押股东名称及冻结质押股数",
+    "db_name": "ccks_stock"
+  },
+  {
+    "q_id": 996,
+    "question": "有旗下基金总数超过15个的基金经理吗",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 997,
+    "question": "请问郑希有管理混合类型基金吗？数量是多少，规模又是多少",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 998,
+    "question": "查询一下富国天丰的本日基金基准增长率",
+    "db_name": "ccks_fund"
+  },
+  {
+    "q_id": 999,
+    "question": "2015年以后，各地区成立基金公司数量分布",
+    "db_name": "ccks_fund"
+  }
+]
