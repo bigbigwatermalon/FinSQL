@@ -1,2 +1,2 @@
 # This directory contains the BULL dataset 
-We will soon update the database links. 
+The Google Drive link for BULL dataset and databases is: [https://drive.google.com/file/d/1OtyFdH9cs-6bEVj8yKK4Zt53N52L_dBH/view?usp=sharing](https://drive.google.com/file/d/1OtyFdH9cs-6bEVj8yKK4Zt53N52L_dBH/view?usp=sharing)
