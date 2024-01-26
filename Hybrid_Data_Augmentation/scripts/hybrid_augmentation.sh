@@ -1,6 +1,6 @@
 set -e
-#export OPENAI_API_KEY=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
-export OPENAI_API_KEY=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
+export OPENAI_API_KEY="sk-"
+
 
 # cot data
 python src/data_augmentation.py \

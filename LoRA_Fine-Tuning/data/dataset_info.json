@@ -1,0 +1,11 @@
+{
+    "bull_en_cot": {
+    "file_name": "../../Parallel_Cross_Encoder/preprocessed_data/cot_train_en.json"
+  },
+  "bull_en_skeleton": {
+    "file_name": "../../Parallel_Cross_Encoder/preprocessed_data/skeleton_train_en.json"
+  },
+  "bull_en_synonymous": {
+    "file_name": "../../Parallel_Cross_Encoder/preprocessed_data/synonymous_train_en.json"
+  }
+}
