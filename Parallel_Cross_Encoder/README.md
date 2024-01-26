@@ -1,5 +1,7 @@
 # This directory contains the code for the Parallel Cross Encoder method.
-## The process of training and testing the model is as follows:
+## The process of training and testing the model is as follows: 
+
+
 First preprocess the dataset: 
 ```shell
 bash scripts/preprocessing_finsql.sh

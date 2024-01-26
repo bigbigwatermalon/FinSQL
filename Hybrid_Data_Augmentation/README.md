@@ -1,2 +1,6 @@
 # This directory contains the code for the Hybrid Data Augmentation method. 
-coming soon... 
+After we preprossing the dataset, we perform hybrid data augmentation: 
+```shell
+bash scripts/hybrid_augmentation.sh 
+```
+
