@@ -1,5 +1,39 @@
 set -e
 
+# generate text2sql training dataset with noise_rate 0.2
+python text2sql_data_generator_finsql.py \
+    --input_dataset_path "./preprocessed_data/preprocessed_train_en.json" \
+    --output_dataset_path "./preprocessed_data/train_en_t3c7.json" \
+    --topk_table_num 3 \
+    --topk_column_num 7 \
+    --mode "train" \
+    --noise_rate 0.2 \
+    --add_fk_info \
+    --target_type "sql" \
+    --output_skeleton
+
+mkdir -p models tensorboard_log
+
+python -u schema_item_classifier_finsql.py \
+    --batch_size 16 \
+    --gradient_descent_step 2 \
+    --device "0" \
+    --learning_rate 1e-5 \
+    --gamma 2.0 \
+    --alpha 0.75 \
+    --epochs 128 \
+    --patience 16 \
+    --seed 42 \
+    --save_path "./models/text2sql_schema_item_classifier_roberta-large_ccks_english" \
+    --tensorboard_save_path "./tensorboard_log/text2sql_schema_item_classifier_roberta-large_ccks_english" \
+    --train_filepath "./preprocessed_data/preprocessed_train_en.json" \
+    --dev_filepath "./preprocessed_data/preprocessed_dev_en.json" \
+    --model_name_or_path "./pretrained/roberta-large" \
+    --use_contents \
+    --add_fk_info \
+    --mode "train" \
+    --base_model "roberta"
+
 ## train schema item classifier
 #python -u schema_item_classifier_ccks.py \
 #    --batch_size 16 \
